@@ -1,0 +1,82 @@
+﻿@model QuestionModel
+<div class="container">
+    <div class="page-title">
+        <h3>Edit</h3>
+    </div>
+    <div class="row">
+
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">Edit Question</div>
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <form class="form-horizontal" asp-action="Edit" method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group row">
+                            <label asp-for="Content" class="col-sm-2">Content</label>
+                            <div class="col-sm-10">
+                                <input asp-for="Content" type="text" class="form-control">
+                                <span asp-validation-for="Content" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="CorrectAnswer" class="col-sm-2">Correct Answer</label>
+                            <div class="col-sm-10">
+                                <input asp-for="CorrectAnswer" type="text" class="form-control">
+                                <span asp-validation-for="CorrectAnswer" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="Wrong_1" class="col-sm-2">Wrong 1</label>
+                            <div class="col-sm-10">
+                                <input asp-for="Wrong_1" type="text" class="form-control">
+                                <span asp-validation-for="Wrong_1" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="Wrong_2" class="col-sm-2">Wrong 2</label>
+                            <div class="col-sm-10">
+                                <input asp-for="Wrong_2" type="text" class="form-control">
+                                <span asp-validation-for="Wrong_2" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="Wrong_3" class="col-sm-2">Wrong 3</label>
+                            <div class="col-sm-10">
+                                <input asp-for="Wrong_3" type="text" class="form-control">
+                                <span asp-validation-for="Wrong_3" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2">Select</label>
+                            <div class="col-sm-10 select">
+                                <select asp-for="Difficulty" class="form-control">
+                                    <option value="1">Easy</option>
+                                    <option value="2">Medium</option>
+                                    <option value="3">Difficulty</option>
+                                </select>
+                                <span asp-validation-for="Difficulty" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="TopicId" class="col-sm-2">Topic</label>
+                            <div class="col-sm-10">
+                                <select asp-for="TopicId" class="form-control" asp-items="ViewBag.Topics">
+                                    <option>--Choose a Topic</option>
+                                </select>
+                                <span asp-validation-for="TopicId" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="line"></div><br>
+                        <div class="form-group row">
+                            <div class="col-sm-4 offset-sm-2">
+                                <a asp-action="Index" asp-controller="QuestionAdmin" class="btn btn-secondary mb-2"><i class="fas fa-times"></i> Cancel</a>
+                                <button type="submit" class="btn btn-primary mb-2"><i class="fas fa-save"></i> Update</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
