@@ -74,8 +74,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Views/Game/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxJbmRleC5jc2h0bWw=
+[D:/MVC/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Views/Game/EndGame.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxFbmRHYW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MVC/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Views/Game/Question.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxRdWVzdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/MVC/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Views/Home/Index.cshtml]

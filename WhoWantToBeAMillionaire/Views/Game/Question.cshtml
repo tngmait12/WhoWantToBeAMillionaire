@@ -53,10 +53,14 @@
                 @for (int i = 0; i < Model.ShuffledAnswers.Count; i++)
                 {
                     <li>
-                        <a class="select" asp-route-Id="@Model.Id" asp-route-answer="@Model.ShuffledAnswers[i]">
+                        @* <a class="select" asp-route-answer="@Model.ShuffledAnswers[i]">
                             <h1>@answerLabels[i].</h1>
                             <p>@Model.ShuffledAnswers[i]</p>
-                        </a>
+                        </a> *@
+                        <button type="submit" name="selectedAnswer" value="@Model.ShuffledAnswers[i]" class="select">
+                            <h1>@answerLabels[i].</h1>
+                            <p>@Model.ShuffledAnswers[i]</p>
+                        </button>
                     </li>
                 }
             </ol>
