@@ -37,6 +37,38 @@
       "PackagePath": "staticwebassets\\assets\\font\\Lato-Regular.woff"
     },
     {
+      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\50_50.png",
+      "PackagePath": "staticwebassets\\assets\\img\\50_50.png"
+    },
+    {
+      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\Ask.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Ask.png"
+    },
+    {
+      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\Content.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Content.png"
+    },
+    {
+      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\Phone.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Phone.png"
+    },
+    {
+      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\Vote.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Vote.png"
+    },
+    {
+      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\WWTBAM_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\WWTBAM_bg.jpg"
+    },
+    {
+      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\WWTBAM_frame.png",
+      "PackagePath": "staticwebassets\\assets\\img\\WWTBAM_frame.png"
+    },
+    {
+      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\WWTBAM_logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\WWTBAM_logo.png"
+    },
+    {
       "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\bootstraper-logo.png",
       "PackagePath": "staticwebassets\\assets\\img\\bootstraper-logo.png"
     },
@@ -47,6 +79,18 @@
     {
       "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\image-wide.svg",
       "PackagePath": "staticwebassets\\assets\\img\\image-wide.svg"
+    },
+    {
+      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\index.html",
+      "PackagePath": "staticwebassets\\assets\\img\\index.html"
+    },
+    {
+      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\play.html",
+      "PackagePath": "staticwebassets\\assets\\img\\play.html"
+    },
+    {
+      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\select.png",
+      "PackagePath": "staticwebassets\\assets\\img\\select.png"
     },
     {
       "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\charts.js",
@@ -1681,8 +1725,16 @@
       "PackagePath": "staticwebassets\\assets\\vendor\\mdtimepicker\\mdtimepicker.min.js"
     },
     {
+      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\play.css",
+      "PackagePath": "staticwebassets\\css\\play.css"
+    },
+    {
       "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\favicon.ico",

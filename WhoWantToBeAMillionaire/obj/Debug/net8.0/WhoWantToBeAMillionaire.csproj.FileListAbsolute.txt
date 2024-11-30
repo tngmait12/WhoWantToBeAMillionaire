@@ -258,3 +258,4 @@ D:\MVC\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire\obj\Debug\net8.0\WhoWantT
 D:\MVC\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire\obj\Debug\net8.0\WhoWantToBeAMillionaire.genruntimeconfig.cache
 D:\MVC\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire\obj\Debug\net8.0\ref\WhoWantToBeAMillionaire.dll
 D:\MVC\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\MVC\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire\obj\Debug\net8.0\WhoWantToBeAMillionaire.sourcelink.json

@@ -1,0 +1,66 @@
+﻿@model QuestionModel
+
+@{
+    ViewData["Title"] = "Game Play";
+
+    var answerLabels = new[] { "A", "B", "C", "D" };
+}
+
+<link rel="stylesheet" href="~/css/play.css">
+
+<section class="list_question">
+    <div class="lifelines">
+        <a href="">
+            <img src="~/assets/img/50_50.png" alt="">
+        </a>
+        <a href="">
+            <img src="~/assets/img/Ask.png" alt="">
+        </a>
+        <a href="">
+            <img src="~/assets/img/Phone.png" alt="">
+        </a>
+        <a href="">
+            <img src="~/assets/img/Vote.png" alt="">
+        </a>
+    </div>
+    <div class="list">
+        <p>15. 1,000,000$</p>
+        <p>14. 500,000$</p>
+        <p>13. 250,000$</p>
+        <p>12. 100,000$</p>
+        <p>11. 50,000$</p>
+        <p>10. 25,000$</p>
+        <p>9. 16,000$</p>
+        <p>8. 8,000$</p>
+        <p>7. 4,000$</p>
+        <p>6. 2,000$</p>
+        <p>5. 1,000$</p>
+        <p>4. 500$</p>
+        <p>3. 300$</p>
+        <p>2. 200$</p>
+        <p class="selected">1. 100$</p>
+    </div>
+</section>
+<section class="main_question">
+    <img class="logo" src="~/assets/img/WWTBAM_logo.png" alt="">
+    <div class="question">
+        <div class="content">
+            <p>@Model.Content</p>
+        </div>
+        <form method="post" action="/Game/CheckAnswer">
+            <input type="hidden" name="id" value="@Model.Id" />
+            <ol class="answer">
+                @for (int i = 0; i < Model.ShuffledAnswers.Count; i++)
+                {
+                    <li>
+                        <a class="select" asp-route-Id="@Model.Id" asp-route-answer="@Model.ShuffledAnswers[i]">
+                            <h1>@answerLabels[i].</h1>
+                            <p>@Model.ShuffledAnswers[i]</p>
+                        </a>
+                    </li>
+                }
+            </ol>
+        </form>
+        
+    </div>
+</section>

@@ -21,5 +21,16 @@ namespace WhoWantToBeAMillionaire.Models
 
         // Navigation Properties
         public TopicModel Topic { get; set; }
+
+        // Danh sách chứa câu trả lời trộn lẫn
+        [NotMapped] // Không lưu trong database
+        public List<string> ShuffledAnswers { get; set; }
+
+        public void ShuffleAnswers()
+        {
+            ShuffledAnswers = new List<string> { CorrectAnswer, Wrong_1, Wrong_2, Wrong_3 };
+            Random random = new Random();
+            ShuffledAnswers = ShuffledAnswers.OrderBy(x => random.Next()).ToList();
+        }
     }
 }
