@@ -2,7 +2,12 @@
     ViewData["Title"] = "Kết thúc Game";
 }
 
-<h2>Kết thúc trò chơi!</h2>
-<p>Điểm của bạn là: @ViewBag.Score / 15</p>
+<link rel="stylesheet" href="~/css/endgame.css">
 
-<a href="/Game/StartGame">Chơi lại</a>
+<body>
+    <div id="notice">
+        <h1 id="title">Game Over</h1>
+        <h5 id="result">Total: @ViewBag.Score/15</h5>
+        <a href="StartGame">Try again</a>
+    </div>
+</body>

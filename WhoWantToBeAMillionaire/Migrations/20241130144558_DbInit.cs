@@ -5,7 +5,7 @@
 namespace WhoWantToBeAMillionaire.Migrations
 {
     /// <inheritdoc />
-    public partial class Init : Migration
+    public partial class DbInit : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,7 +16,7 @@ namespace WhoWantToBeAMillionaire.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Status = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -31,11 +31,12 @@ namespace WhoWantToBeAMillionaire.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     TopicId = table.Column<int>(type: "int", nullable: false),
-                    Content = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CorrectAnswer = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Wrong_1 = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Wrong_2 = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Wrong_3 = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Content = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CorrectAnswer = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Wrong_1 = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Wrong_2 = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Wrong_3 = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Difficulty = table.Column<byte>(type: "tinyint", nullable: false)
                 },
                 constraints: table =>
                 {
