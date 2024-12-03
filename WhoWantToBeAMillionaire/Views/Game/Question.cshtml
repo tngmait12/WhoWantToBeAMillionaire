@@ -1,9 +1,9 @@
-﻿@model QuestionModel
+﻿@* @model QuestionModel *@
 
 @{
-    ViewData["Title"] = "Game Play";
+    // ViewData["Title"] = "Game Play";
 
-    var answerLabels = new[] { "A", "B", "C", "D" };
+    //var answerLabels = new[] { "A", "B", "C", "D" };
 }
 
 <link rel="stylesheet" href="~/css/play.css">
@@ -44,27 +44,108 @@
 <section class="main_question">
     <img class="logo" src="~/assets/img/WWTBAM_logo.png" alt="">
     <div class="question">
-        <div class="content">
-            <p>@Model.Content</p>
+        <div id="content" class="content">
+            <p>@*@Model.Content*@</p>
         </div>
-        <form method="post" action="/Game/CheckAnswer">
+        @*<form class="answer" method="post" action="/Game/CheckAnswer">
             <input type="hidden" name="id" value="@Model.Id" />
-            <ol class="answer">
-                @for (int i = 0; i < Model.ShuffledAnswers.Count; i++)
-                {
-                    <li>
-                        @* <a class="select" asp-route-answer="@Model.ShuffledAnswers[i]">
-                            <h1>@answerLabels[i].</h1>
-                            <p>@Model.ShuffledAnswers[i]</p>
-                        </a> *@
-                        <button type="submit" name="selectedAnswer" value="@Model.ShuffledAnswers[i]" class="select">
-                            <h1>@answerLabels[i].</h1>
-                            <p>@Model.ShuffledAnswers[i]</p>
-                        </button>
-                    </li>
-                }
-            </ol>
-        </form>
-        
+        <div class="answer">
+            @for (int i = 0; i < Model.ShuffledAnswers.Count; i++)
+            {
+                <li>
+                    @* <a class="select" asp-route-answer="@Model.ShuffledAnswers[i]">
+                        <h1>@answerLabels[i].</h1>
+                        <p>@Model.ShuffledAnswers[i]</p>
+                    </a> 
+                <button type="submit" name="selectedAnswer" id="@answerLabels[i]" onclick="select(@Model.Id, @Model.ShuffledAnswers[i])" class="select">
+                        <h1>@answerLabels[i].</h1>
+                        <p>@Model.ShuffledAnswers[i]</p>
+                    </button>
+                </li>
+            }
+        </div>
+        </form>*@
+        <ol class="answer">
+            <li>
+                <a id="A" onclick="getAnswer(0)" class="select">
+                    <h1>A.</h1>
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a id="B" onclick="getAnswer(1)" class="select">
+                    <h1>B.</h1>
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a id="C" onclick="getAnswer(2)" class="select">
+                    <h1>C.</h1>
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a id="D" onclick="getAnswer(3)" class="select">
+                    <h1>D.</h1>
+                    <p></p>
+                </a>
+            </li>
+        </ol>
     </div>
 </section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+    var listAns;
+
+    function loadQuestion() {
+        $.ajax({
+            url: '@Url.Action("DataQuestion", "Game")',
+            dataType: 'json',
+            success: function(data) {
+                $("#content p").text(data.content);
+                $("#A p").text(data.answer1);
+                $("#B p").text(data.answer2);
+                $("#C p").text(data.answer3);
+                $("#D p").text(data.answer4);
+
+                listAns = [data.answer1, data.answer2, data.answer3, data.answer4];
+            },
+            error: function() {
+            }
+        });
+    };
+
+    function getAnswer(select) {
+        console.log(listAns[select])
+        $.ajax({
+            url: '@Url.Action("CheckAnswer", "Game")',
+            data: {selectedAnswer: listAns[select]},
+            dataType: 'json',
+            success: function(data) {
+                if (data == true) {
+                    loadQuestion();
+                }
+                else {
+                    window.location.href = 'EndGame';
+                }
+                console.log(data)
+            }
+        })
+    }
+    
+    // function select(id, value) {
+    //     $.ajax({
+    //         url: '@Url.Action("CheckAnswer", "Game")',
+    //         data: { id: id, selectedAnswer: value },
+    //         type: 'POST',
+    //         success: function(){
+    //             console.log("success")
+    //         },
+    //         error: function(){
+    //             console.log("error")
+    //         }
+    //     });
+    // }
+    loadQuestion();
+</script>
