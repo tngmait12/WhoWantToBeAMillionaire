@@ -109,7 +109,10 @@
                     $(".answer a").each(function () {
                         var answerText = $(this).find("p").text(); // Lấy nội dung câu trả lời
                         if (data.includes(answerText)) {
-                            $(this).fadeOut(500); // Ẩn đáp án với hiệu ứng fade out
+                            $(this).css({
+                                visibility: "hidden",  // Ẩn nội dung nhưng giữ không gian
+                                opacity: 0             // Làm mờ hoàn toàn (ẩn)
+                            });
                         }
                     });
                 }
@@ -176,6 +179,10 @@
                     listAns = [data.answer1, data.answer2, data.answer3, data.answer4];
 
                     $("#content, .answer").removeClass("fade-out").addClass("fade-in");
+                    $(".answer a").css({
+                        visibility: "visible",   // Hiển thị lại nội dung
+                        opacity: 1               // Đặt lại độ trong suốt
+                    });
                     $(".answer a").show();
                     isProcessing = false; // Cho phép trả lời sau khi tải xong câu hỏi
                 },

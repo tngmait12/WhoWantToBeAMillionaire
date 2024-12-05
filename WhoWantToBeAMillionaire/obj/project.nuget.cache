@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PHYXz0PFScY=",
+  "dgSpecHash": "UDDbHFH8LkI=",
   "success": true,
-  "projectFilePath": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj",
+  "projectFilePath": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tongm\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\tongm\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
