@@ -7702,11 +7702,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj",
+      "projectUniqueName": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj",
       "projectName": "WhoWantToBeAMillionaire",
-      "projectPath": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj",
+      "projectPath": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj",
       "packagesPath": "C:\\Users\\tongm\\.nuget\\packages\\",
-      "outputPath": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\obj\\",
+      "outputPath": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tongm\\AppData\\Roaming\\NuGet\\NuGet.Config",

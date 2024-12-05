@@ -2,12 +2,34 @@
 
 <link rel="stylesheet" href="~/css/play.css">
 
+@* <div class="audience-help" style="display:none;">
+    <h3>Khán giả chọn:</h3>
+    <div id="audienceChart">
+        <div class="bar" id="barA">
+            <span>A</span><div class="progress"></div>
+        </div>
+        <div class="bar" id="barB">
+            <span>B</span><div class="progress"></div>
+        </div>
+        <div class="bar" id="barC">
+            <span>C</span><div class="progress"></div>
+        </div>
+        <div class="bar" id="barD">
+            <span>D</span><div class="progress"></div>
+        </div>
+    </div>
+</div> *@
+<div class="audience-help" style="display:none;">
+    <canvas id="audienceChart" style="width:100%;max-width:600px;"></canvas>
+</div>
+
+
 <section class="list_question">
     <div class="lifelines">
         <a href="" id="myLink">
             <img src="~/assets/img/50_50.png" alt="">
         </a>
-        <a href="">
+        <a href="#" onclick="askAudience(); return false;">
             <img src="~/assets/img/Ask.png" alt="">
         </a>
         <a href="">
@@ -71,6 +93,8 @@
 </section>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
 <script>
     var backgroundAudio = new Audio('/assets/audio/background.mp3');
     var correctAudio = new Audio('/assets/audio/right.mp3');
@@ -123,6 +147,74 @@
         });
 
     });
+
+
+    function askAudience() {
+        $(".lifelines a img[src*='Ask.png']").fadeOut(500); // Ẩn nút trợ giúp
+
+        $.ajax({
+            url: '@Url.Action("AskAudience", "Game")',
+            dataType: 'json',
+            success: function (data) {
+                $(".audience-help").fadeIn(500); // Hiển thị khu vực biểu đồ
+
+                // Lấy nội dung của từng đáp án hiện tại
+                var answers = {
+                    A: $("#A p").text(),
+                    B: $("#B p").text(),
+                    C: $("#C p").text(),
+                    D: $("#D p").text()
+                };
+
+                // Khởi tạo mảng labels và yValues theo thứ tự cố định
+                var labels = ["A: " + answers.A, "B: " + answers.B, "C: " + answers.C, "D: " + answers.D];
+                var yValues = [0, 0, 0, 0]; // Mặc định là 0%
+
+                // Lặp qua dữ liệu trả về từ AJAX và gán đúng vị trí A, B, C, D
+                data.forEach(function (item) {
+                    for (var key in answers) {
+                        if (answers[key] === item.answer) {
+                            var index = Object.keys(answers).indexOf(key); // Lấy vị trí (0 cho A, 1 cho B, ...)
+                            yValues[index] = item.percent; // Gán phần trăm vào đúng vị trí
+                            break;
+                        }
+                    }
+                });
+
+                // Tạo biểu đồ bằng Chart.js
+                new Chart("audienceChart", {
+                    type: "bar",
+                    data: {
+                        labels: labels, // Nhãn là các đáp án (A, B, C, D)
+                        datasets: [{
+                            backgroundColor: ["red", "green", "blue", "orange"], // Màu sắc cho các cột
+                            data: yValues                                       // Phần trăm khán giả chọn
+                        }]
+                    },
+                    options: {
+                        legend: { display: false }, // Ẩn phần chú thích
+                        title: {
+                            display: true,
+                            text: "Ý kiến khán giả" // Tiêu đề biểu đồ
+                        },
+                        scales: {
+                            yAxes: [{
+                                ticks: {
+                                    beginAtZero: true, // Bắt đầu trục Y từ 0
+                                    max: 100           // Giới hạn trục Y là 100%
+                                }
+                            }]
+                        }
+                    }
+                });
+            },
+            error: function () {
+                console.error("Lỗi khi gọi trợ giúp khán giả.");
+            }
+        });
+    }
+
+
 
     // Hiệu ứng khi chọn đúng
     function showCorrectEffect(selectedElement) {
@@ -179,6 +271,7 @@
                     listAns = [data.answer1, data.answer2, data.answer3, data.answer4];
 
                     $("#content, .answer").removeClass("fade-out").addClass("fade-in");
+                    $(".audience-help").fadeOut(500);//Tắt biểu đồ
                     $(".answer a").css({
                         visibility: "visible",   // Hiển thị lại nội dung
                         opacity: 1               // Đặt lại độ trong suốt

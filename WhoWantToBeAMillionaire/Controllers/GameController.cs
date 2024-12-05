@@ -149,6 +149,38 @@ namespace WhoWantToBeAMillionaire.Controllers
             return Json(wrongAnswers); // Trả về 2 đáp án sai đã chọn
         }
 
+        public IActionResult AskAudience()
+        {
+            var questions = HttpContext.Session.Get<List<QuestionModel>>("Questions");
+            var currentIndex = HttpContext.Session.GetInt32("CurrentQuestionIndex") ?? 0;
+            var currentQuestion = questions[currentIndex];
+
+            // Xác định câu trả lời đúng
+            string correctAnswer = currentQuestion.CorrectAnswer;
+
+            // Tạo phần trăm ngẫu nhiên cho các đáp án
+            Random random = new Random();
+            int correctPercent = random.Next(60, 90); // Xác suất cho đáp án đúng (60% - 90%)
+            int remainingPercent = 100 - correctPercent;
+
+            // Chia phần trăm còn lại cho các đáp án sai
+            int wrongPercent1 = random.Next(0, remainingPercent);
+            int wrongPercent2 = random.Next(0, remainingPercent - wrongPercent1);
+            int wrongPercent3 = remainingPercent - wrongPercent1 - wrongPercent2;
+
+            // Tạo danh sách kết quả
+            var results = new List<object>
+            {
+                new { Answer = currentQuestion.CorrectAnswer, Percent = correctPercent},
+                new { Answer = currentQuestion.Wrong_1, Percent = wrongPercent1 },
+                new { Answer = currentQuestion.Wrong_2, Percent = wrongPercent2 },
+                new { Answer = currentQuestion.Wrong_3, Percent = wrongPercent3}
+            };
+
+            // Trả về kết quả dưới dạng JSON
+            return Json(results); // Ngẫu nhiên hóa thứ tự
+        }
+
 
     }
 }
