@@ -181,6 +181,61 @@ namespace WhoWantToBeAMillionaire.Controllers
             return Json(results); // Ngẫu nhiên hóa thứ tự
         }
 
+        public IActionResult CallPhoneFriend()
+        {
+            var questions = HttpContext.Session.Get<List<QuestionModel>>("Questions");
+            var currentIndex = HttpContext.Session.GetInt32("CurrentQuestionIndex") ?? 0;
+            var currentQuestion = questions[currentIndex];
+            currentQuestion.ShuffleAnswers(); // Trộn câu trả lời
+
+
+            // Người thân sẽ đưa ra đáp án với xác suất ngẫu nhiên đúng/sai
+            Random rand = new Random();
+            int chance = rand.Next(100); // Xác suất từ 0 đến 99
+
+            // 70% đưa ra đáp án đúng, 30% đưa ra đáp án sai
+            string selectedAnswer;
+            if (chance < 70)
+            {
+                selectedAnswer = currentQuestion.CorrectAnswer; // Đáp án đúng
+            }
+            else
+            {
+                var wrongAnswers = currentQuestion.ShuffledAnswers
+                                                  .Where(a => a != currentQuestion.CorrectAnswer)
+                                                  .OrderBy(x => Guid.NewGuid())
+                                                  .First();
+                selectedAnswer = wrongAnswers; // Đáp án sai
+            }
+
+            // Tạo thông báo phản hồi từ người thân
+            var messages = new List<string>
+            {
+                $"Mình nghĩ đáp án đúng là {selectedAnswer}.",
+                $"Theo mình thì đáp án là {selectedAnswer}.",
+                $"Mình không chắc lắm, nhưng mình chọn {selectedAnswer}.",
+                $"Có thể là {selectedAnswer}, nhưng bạn nên cân nhắc."
+            };
+
+            string message = messages[rand.Next(messages.Count)];
+
+            return Json(new { message = message });
+        }
+
+        public IActionResult AskAdvisors()
+        {
+            // Dữ liệu giả lập
+            var advisors = new List<object>
+            {
+                new { Name = "Chuyên gia Nam", Answer = "A", Comment = "Tôi nghĩ đáp án đúng là A." },
+                new { Name = "Giáo sư Lan", Answer = "B", Comment = "Tôi không chắc lắm, nhưng có thể là B." },
+                new { Name = "Bạn Minh", Answer = "C", Comment = "Theo tôi thì đáp án là C." }
+            };
+
+            return Json(advisors); // Trả về danh sách ý kiến của tổ tư vấn
+        }
+
+
 
     }
 }

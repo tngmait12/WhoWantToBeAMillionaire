@@ -2,23 +2,6 @@
 
 <link rel="stylesheet" href="~/css/play.css">
 
-@* <div class="audience-help" style="display:none;">
-    <h3>Khán giả chọn:</h3>
-    <div id="audienceChart">
-        <div class="bar" id="barA">
-            <span>A</span><div class="progress"></div>
-        </div>
-        <div class="bar" id="barB">
-            <span>B</span><div class="progress"></div>
-        </div>
-        <div class="bar" id="barC">
-            <span>C</span><div class="progress"></div>
-        </div>
-        <div class="bar" id="barD">
-            <span>D</span><div class="progress"></div>
-        </div>
-    </div>
-</div> *@
 <div class="audience-help" style="display:none;">
     <canvas id="audienceChart" style="width:100%;max-width:600px;"></canvas>
 </div>
@@ -32,13 +15,37 @@
         <a href="#" onclick="askAudience(); return false;">
             <img src="~/assets/img/Ask.png" alt="">
         </a>
-        <a href="">
+        <a href="#" onclick="callPhoneFriend()">
             <img src="~/assets/img/Phone.png" alt="">
         </a>
-        <a href="">
+        <a href="javascript:void(0);" onclick="askAdvisors()">
             <img src="~/assets/img/Vote.png" alt="">
         </a>
     </div>
+    <div class="phone-help" style="display:none;">
+        <p id="phone-response"></p>
+    </div>
+
+
+    <div id="advisor-section">
+        <h3>Tổ Tư Vấn Tại Chỗ</h3>
+        <div class="advisor" id="advisor1">
+            <img src="/assets/images/advisor1.png" alt="Advisor 1">
+            <p class="advisor-name"></p>
+            <p class="advisor-comment"></p>
+        </div>
+        <div class="advisor" id="advisor2">
+            <img src="/assets/images/advisor2.png" alt="Advisor 2">
+            <p class="advisor-name"></p>
+            <p class="advisor-comment"></p>
+        </div>
+        <div class="advisor" id="advisor3">
+            <img src="/assets/images/advisor3.png" alt="Advisor 3">
+            <p class="advisor-name"></p>
+            <p class="advisor-comment"></p>
+        </div>
+    </div>
+
     <div class="list">
         <p>15. 1,000,000$</p>
         <p>14. 500,000$</p>
@@ -115,12 +122,12 @@
 
 
         // Áp dụng hiệu ứng mờ dần và sau 2 giây sẽ ẩn thẻ mà không ảnh hưởng đến bố cục
-        $(this).css('opacity', '0'); // Mờ dần phần tử
+        // $(this).css('opacity', '0'); // Mờ dần phần tử
 
-        // Sau 2 giây, thay đổi visibility thành hidden để ẩn thẻ mà không ảnh hưởng bố cục
-        setTimeout(() => {
-            $(this).css('visibility', 'hidden'); // Ẩn thẻ hoàn toàn
-        }, 2000); // 2 giây sau
+        // // Sau 2 giây, thay đổi visibility thành hidden để ẩn thẻ mà không ảnh hưởng bố cục
+        // setTimeout(() => {
+        //     $(this).css('visibility', 'hidden'); // Ẩn thẻ hoàn toàn
+        // }, 2000); // 2 giây sau
 
         $.ajax({
             url: '@Url.Action("FiftyFifty", "Game")', // Đảm bảo URL đúng
@@ -150,7 +157,7 @@
 
 
     function askAudience() {
-        $(".lifelines a img[src*='Ask.png']").fadeOut(500); // Ẩn nút trợ giúp
+        //$(".lifelines a img[src*='Ask.png']").fadeOut(500); // Ẩn nút trợ giúp
 
         $.ajax({
             url: '@Url.Action("AskAudience", "Game")',
@@ -215,6 +222,50 @@
     }
 
 
+    function callPhoneFriend() {
+        //$(".lifelines a img[src*='Phone.png']").fadeOut(500); // Ẩn nút trợ giúp
+
+        // Giả lập phản hồi từ người thân với xác suất đúng/sai ngẫu nhiên
+        $.ajax({
+            url: '@Url.Action("CallPhoneFriend", "Game")',
+            dataType: 'json',
+            success: function (data) {
+                console.log(data.message);
+                $(".phone-help").fadeIn(500);
+                $("#phone-response").text(data.message); // Hiển thị gợi ý của người thân
+            },
+            error: function () {
+                console.error("Lỗi khi gọi điện thoại.");
+            }
+        });
+    }
+
+    function askAdvisors() {
+        //$(".lifelines a img[src*='Vote.png']").fadeOut(500); // Ẩn nút trợ giúp
+
+        $.ajax({
+            url: '@Url.Action("AskAdvisors", "Game")',
+            dataType: 'json',
+            success: function (data) {
+                $("#advisor-section").fadeIn(500); // Hiện giao diện tổ tư vấn
+
+                // Cập nhật ý kiến từ dữ liệu trả về
+                data.forEach(function (advisor, index) {
+                    console.log("Advisor:", advisor);
+                    $("#advisor" + (index + 1) + " .advisor-name").text(advisor.name);
+                    $("#advisor" + (index + 1) + " .advisor-comment").text('"' + advisor.comment + '"');
+                });
+            },
+            error: function () {
+                console.error("Lỗi khi gọi trợ giúp Tổ Tư Vấn.");
+            }
+        });
+    }
+
+
+
+
+
 
     // Hiệu ứng khi chọn đúng
     function showCorrectEffect(selectedElement) {
@@ -272,6 +323,8 @@
 
                     $("#content, .answer").removeClass("fade-out").addClass("fade-in");
                     $(".audience-help").fadeOut(500);//Tắt biểu đồ
+                    $(".phone-help").fadeOut(500);//tắt trợ giúp người thân
+                    $("#advisor-section").fadeOut(500); // Tắt giao diện tổ tư vấn
                     $(".answer a").css({
                         visibility: "visible",   // Hiển thị lại nội dung
                         opacity: 1               // Đặt lại độ trong suốt
