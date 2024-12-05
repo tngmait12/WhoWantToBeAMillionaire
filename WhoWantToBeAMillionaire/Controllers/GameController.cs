@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.DotNet.MSIdentity.Shared;
 using Microsoft.EntityFrameworkCore;
 using WhoWantToBeAMillionaire.Data;
 using WhoWantToBeAMillionaire.Models;
@@ -14,40 +15,6 @@ namespace WhoWantToBeAMillionaire.Controllers
         {
             _dataContext = dataContext;
         }
-        public async Task<IActionResult> Index()
-        {
-            QuestionModel question = await _dataContext.Questions.Where(p=>p.Id==1).FirstOrDefaultAsync();
-            question.ShuffleAnswers();
-            return View(question);
-        }
-
-        [HttpPost]
-        public IActionResult CheckAnswer(int id, string selectedAnswer)
-        {
-            var questions = HttpContext.Session.Get<List<QuestionModel>>("Questions");
-            var currentIndex = HttpContext.Session.GetInt32("CurrentQuestionIndex") ?? 0;
-            var score = HttpContext.Session.GetInt32("Score") ?? 0;
-
-            var currentQuestion = questions[currentIndex];
-            bool isCorrect = currentQuestion.CorrectAnswer == selectedAnswer;
-
-            if (isCorrect)
-            {
-                score++;
-                HttpContext.Session.SetInt32("Score", score);
-            }
-
-            // Chuyển sang câu hỏi tiếp theo
-            HttpContext.Session.SetInt32("CurrentQuestionIndex", currentIndex + 1);
-
-            if (currentIndex + 1 >= questions.Count)
-            {
-                return RedirectToAction("EndGame"); // Kết thúc game
-            }
-
-            return RedirectToAction("Question"); // Hiển thị câu hỏi tiếp theo
-        }
-
 
         public IActionResult StartGame()
         {
@@ -60,6 +27,7 @@ namespace WhoWantToBeAMillionaire.Controllers
 
             return RedirectToAction("Question");
         }
+
         public List<QuestionModel> GetQuestionsByDifficulty()
         {
             var easyQuestions = _dataContext.Questions
@@ -88,21 +56,6 @@ namespace WhoWantToBeAMillionaire.Controllers
 
             return allQuestions;
         }
-        public IActionResult Question()
-        {
-            var questions = HttpContext.Session.Get<List<QuestionModel>>("Questions");
-            var currentIndex = HttpContext.Session.GetInt32("CurrentQuestionIndex") ?? 0;
-
-            if (currentIndex >= questions.Count)
-            {
-                return RedirectToAction("EndGame");
-            }
-
-            var currentQuestion = questions[currentIndex];
-            currentQuestion.ShuffleAnswers(); // Trộn câu trả lời
-
-            return View(currentQuestion);
-        }
 
         public IActionResult EndGame()
         {
@@ -112,7 +65,90 @@ namespace WhoWantToBeAMillionaire.Controllers
             return View();
         }
 
+        public IActionResult DataQuestion()
+        {
+            var questions = HttpContext.Session.Get<List<QuestionModel>>("Questions");
+            var currentIndex = HttpContext.Session.GetInt32("CurrentQuestionIndex") ?? 0;
+
+            //if (currentIndex >= questions.Count)
+            //{
+
+            //}
+
+            var currentQuestion = questions[currentIndex];
+            currentQuestion.ShuffleAnswers(); // Trộn câu trả lời
+
+            if (currentQuestion != null)
+            {
+                var question = new
+                {
+                    index = currentIndex,
+                    Content = currentQuestion.Content,
+                    answer1 = currentQuestion.ShuffledAnswers[0],
+                    answer2 = currentQuestion.ShuffledAnswers[1],
+                    answer3 = currentQuestion.ShuffledAnswers[2],
+                    answer4 = currentQuestion.ShuffledAnswers[3]
+                };
+
+                return Ok(question);
+            }
+            else
+            {
+                return BadRequest();
+            }
+        }
+
+        public IActionResult CheckAnswer(string selectedAnswer)
+        {
+            var questions = HttpContext.Session.Get<List<QuestionModel>>("Questions");
+            var currentIndex = HttpContext.Session.GetInt32("CurrentQuestionIndex") ?? 0;
+            var score = HttpContext.Session.GetInt32("Score") ?? 0;
+
+            var currentQuestion = questions[currentIndex];
+
+            if (currentQuestion.CorrectAnswer == selectedAnswer)
+            {
+                score++;
+                HttpContext.Session.SetInt32("Score", score);
+
+                if (currentIndex + 1 >= questions.Count)
+                {
+                    return Json(false);
+                }
+                else
+                { 
+                    currentIndex++;
+                    HttpContext.Session.SetInt32("CurrentQuestionIndex", currentIndex);
+                }
+            }
+            else return Json(false);
+
+            return Json(true); // Hiển thị câu hỏi tiếp theo
+        }
+
+        public IActionResult Question()
+        {
+
+            return View();
+        }
+
+        public IActionResult FiftyFifty()
+        {
+            var questions = HttpContext.Session.Get<List<QuestionModel>>("Questions");
+            var currentIndex = HttpContext.Session.GetInt32("CurrentQuestionIndex") ?? 0;
+            var currentQuestion = questions[currentIndex];
+            currentQuestion.ShuffleAnswers(); // Trộn câu trả lời
+
+            // Tìm hai đáp án sai
+            var wrongAnswers = currentQuestion.ShuffledAnswers
+                                              .Where(answer => answer != currentQuestion.CorrectAnswer)
+                                              .OrderBy(x => Guid.NewGuid()) // Random hóa vị trí đáp án sai
+                                              .Take(2)
+                                              .ToList();
+
+            return Json(wrongAnswers); // Trả về 2 đáp án sai đã chọn
+        }
+
 
     }
-
 }

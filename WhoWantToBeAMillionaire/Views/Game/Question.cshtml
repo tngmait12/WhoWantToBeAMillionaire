@@ -1,16 +1,10 @@
-﻿@model QuestionModel
-
-@{
-    ViewData["Title"] = "Game Play";
-
-    var answerLabels = new[] { "A", "B", "C", "D" };
-}
+﻿
 
 <link rel="stylesheet" href="~/css/play.css">
 
 <section class="list_question">
     <div class="lifelines">
-        <a href="">
+        <a href="" id="myLink">
             <img src="~/assets/img/50_50.png" alt="">
         </a>
         <a href="">
@@ -44,27 +38,269 @@
 <section class="main_question">
     <img class="logo" src="~/assets/img/WWTBAM_logo.png" alt="">
     <div class="question">
-        <div class="content">
-            <p>@Model.Content</p>
+        <div id="content" class="content">
+            <p>@*@Model.Content*@</p>
         </div>
-        <form method="post" action="/Game/CheckAnswer">
-            <input type="hidden" name="id" value="@Model.Id" />
-            <ol class="answer">
-                @for (int i = 0; i < Model.ShuffledAnswers.Count; i++)
-                {
-                    <li>
-                        @* <a class="select" asp-route-answer="@Model.ShuffledAnswers[i]">
-                            <h1>@answerLabels[i].</h1>
-                            <p>@Model.ShuffledAnswers[i]</p>
-                        </a> *@
-                        <button type="submit" name="selectedAnswer" value="@Model.ShuffledAnswers[i]" class="select">
-                            <h1>@answerLabels[i].</h1>
-                            <p>@Model.ShuffledAnswers[i]</p>
-                        </button>
-                    </li>
-                }
-            </ol>
-        </form>
-        
+        <ol class="answer">
+            <li>
+                <a id="A" onclick="getAnswer(0)" class="select">
+                    <h1>A.</h1>
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a id="B" onclick="getAnswer(1)" class="select">
+                    <h1>B.</h1>
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a id="C" onclick="getAnswer(2)" class="select">
+                    <h1>C.</h1>
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a id="D" onclick="getAnswer(3)" class="select">
+                    <h1>D.</h1>
+                    <p></p>
+                </a>
+            </li>
+        </ol>
     </div>
 </section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    var backgroundAudio = new Audio('/assets/audio/background.mp3');
+    var correctAudio = new Audio('/assets/audio/right.mp3');
+    var wrongAudio = new Audio('/assets/audio/wrong.mp3');
+
+    var isProcessing = false; // Cờ kiểm soát trạng thái hiệu ứng
+
+    backgroundAudio.loop = true;
+    backgroundAudio.volume = 0.5;
+    backgroundAudio.play();
+    var fiftyFiftyUsed = false;
+
+    $("#myLink").click(function (e) {
+
+        e.preventDefault(); // Ngừng hành động mặc định (chuyển hướng trang)
+        if (fiftyFiftyUsed) return; // Nếu đã sử dụng 50:50 thì không làm gì thêm
+        fiftyFiftyUsed = true; // Đánh dấu đã sử dụng 50:50
+
+
+        // Áp dụng hiệu ứng mờ dần và sau 2 giây sẽ ẩn thẻ mà không ảnh hưởng đến bố cục
+        $(this).css('opacity', '0'); // Mờ dần phần tử
+
+        // Sau 2 giây, thay đổi visibility thành hidden để ẩn thẻ mà không ảnh hưởng bố cục
+        setTimeout(() => {
+            $(this).css('visibility', 'hidden'); // Ẩn thẻ hoàn toàn
+        }, 2000); // 2 giây sau
+
+        $.ajax({
+            url: '@Url.Action("FiftyFifty", "Game")', // Đảm bảo URL đúng
+            dataType: 'json',
+            success: function (data) {
+                console.log(data); // Kiểm tra dữ liệu trả về, sẽ là 2 đáp án sai
+
+                if (data && data.length == 2) {
+                    // Lặp qua các đáp án và ẩn 2 đáp án sai
+                    $(".answer a").each(function () {
+                        var answerText = $(this).find("p").text(); // Lấy nội dung câu trả lời
+                        if (data.includes(answerText)) {
+                            $(this).fadeOut(500); // Ẩn đáp án với hiệu ứng fade out
+                        }
+                    });
+                }
+            },
+            error: function () {
+                console.error("Có lỗi xảy ra khi gọi 50:50.");
+            }
+        });
+
+    });
+
+    // Hiệu ứng khi chọn đúng
+    function showCorrectEffect(selectedElement) {
+        return new Promise((resolve) => {
+            selectedElement.addClass("correct-answer");
+            $(".selected").addClass("correct-answer");
+            $(".answer a").addClass("disabled").css("pointer-events", "none");
+            setTimeout(function () {
+                selectedElement.removeClass("correct-answer");
+                $(".selected").removeClass("correct-answer");
+                $(".answer a").removeClass("disabled").css("pointer-events", "auto"); // Kích hoạt lại đáp án
+                resolve();
+            }, 4000); // Kết thúc hiệu ứng sau 2 giây
+        });
+    }
+
+    // Hiệu ứng khi chọn sai
+    function showWrongEffect(selectedElement) {
+        return new Promise((resolve) => {
+            selectedElement.addClass("wrong-answer");
+            $(".selected").addClass("wrong-answer");
+
+            $(".answer a").addClass("disabled").css("pointer-events", "none");
+
+            setTimeout(function () {
+                selectedElement.removeClass("wrong-answer");
+                $(".selected").removeClass("wrong-answer");
+                $(".answer a").removeClass("disabled").css("pointer-events", "auto"); // Kích hoạt lại đáp án
+                resolve();
+            }, 4000); // Kết thúc hiệu ứng sau 2 giây
+        });
+    }
+
+    function updateIndex(index) {
+        $(".list p").removeClass("selected");
+        $(".list p").eq(-(index + 1)).addClass("selected");
+    }
+
+    function loadQuestion() {
+        $("#content, .answer").addClass("fade-out");
+
+        setTimeout(function () {
+            $.ajax({
+                url: '@Url.Action("DataQuestion", "Game")',
+                dataType: 'json',
+                success: function (data) {
+                    $("#content p").text(data.content);
+                    $("#A p").text(data.answer1);
+                    $("#B p").text(data.answer2);
+                    $("#C p").text(data.answer3);
+                    $("#D p").text(data.answer4);
+
+                    updateIndex(data.index);
+                    listAns = [data.answer1, data.answer2, data.answer3, data.answer4];
+
+                    $("#content, .answer").removeClass("fade-out").addClass("fade-in");
+                    $(".answer a").show();
+                    isProcessing = false; // Cho phép trả lời sau khi tải xong câu hỏi
+                },
+                error: function () { }
+            });
+        }, 500);
+    }
+
+    async function getAnswer(select) {
+        if (isProcessing) return; // Không cho phép trả lời nếu hiệu ứng đang diễn ra
+
+        isProcessing = true; // Đánh dấu đang xử lý
+        var selectedElement = $(".answer a").eq(select);
+
+      
+
+        $.ajax({
+            url: '@Url.Action("CheckAnswer", "Game")',
+            data: { selectedAnswer: listAns[select] },
+            dataType: 'json',
+            success: async function (data) {
+                if (data === true) {
+                    correctAudio.play(); // Phát nhạc đúng
+                    await showCorrectEffect(selectedElement); // Chờ hiệu ứng hoàn thành
+                    loadQuestion(); // Tải câu hỏi tiếp theo
+                } else {
+                    wrongAudio.play(); // Phát nhạc sai
+                    await showWrongEffect(selectedElement); // Chờ hiệu ứng hoàn thành
+                    setTimeout(function () {
+                        window.location.href = 'EndGame'; // Chuyển đến trang kết thúc
+                    }, 500);
+                }
+            },
+            complete: function () {
+                isProcessing = false; // Cho phép trả lời khi xử lý xong
+            }
+        });
+    }
+
+    loadQuestion(); // Tải câu hỏi đầu tiên
+
+</script>
+
+
+
+@* <script>
+    var backgroundAudio = new Audio('/assets/audio/background.mp3');
+    var correctAudio = new Audio('/assets/audio/right.mp3');
+    var wrongAudio = new Audio('/assets/audio/wrong.mp3');
+
+
+    backgroundAudio.loop = true; // Phát lặp lại âm thanh nền
+    backgroundAudio.volume = 0.5; // Giảm âm lượng
+    backgroundAudio.play();
+
+    // Hiệu ứng khi chọn đúng
+    function showCorrectEffect() {
+        $(".selected").addClass("correct-answer");
+        setTimeout(function () {
+            $(".selected").removeClass("correct-answer");
+        }, 2000);
+    }
+
+    // Hiệu ứng khi chọn sai
+    function showWrongEffect() {
+        $(".selected").addClass("wrong-answer");
+        setTimeout(function () {
+            $(".selected").removeClass("wrong-answer");
+        }, 2000);
+    }
+</script>
+<script type="text/javascript">
+    var listAns;
+
+    function updateIndex(index) {
+        $(".list p").removeClass("selected");
+        $(".list p").eq(- (index + 1)).addClass("selected");
+    }
+
+    function loadQuestion() {
+        $("#content, .answer").addClass("fade-out");
+
+        setTimeout(function () {
+            $.ajax({
+                url: '@Url.Action("DataQuestion", "Game")',
+                dataType: 'json',
+                success: function (data) {
+                    $("#content p").text(data.content);
+                    $("#A p").text(data.answer1);
+                    $("#B p").text(data.answer2);
+                    $("#C p").text(data.answer3);
+                    $("#D p").text(data.answer4);
+
+                    updateIndex(data.index);
+                    listAns = [data.answer1, data.answer2, data.answer3, data.answer4];
+
+                    $("#content, .answer").removeClass("fade-out").addClass("fade-in");
+                },
+                error: function () { }
+            });
+        }, 500);
+    };
+
+    function getAnswer(select) {
+        console.log(listAns[select])
+        $.ajax({
+            url: '@Url.Action("CheckAnswer", "Game")',
+            data: {selectedAnswer: listAns[select]},
+            dataType: 'json',
+            success: function(data) {
+                if (data == true) {
+                    correctAudio.play(); // Phát âm thanh đúng
+                    showCorrectEffect(); // Hiệu ứng hình ảnh khi đúng
+                    setTimeout(loadQuestion, 2000); // Tải câu hỏi tiếp theo sau 2 giây
+                }
+                else {
+                    wrongAudio.play(); // Phát âm thanh sai
+                    showWrongEffect(); // Hiệu ứng hình ảnh khi sai
+                    setTimeout(function () {
+                        window.location.href = 'EndGame';
+                    }, 2000); // Chuyển đến màn hình kết thúc sau 2 giây
+                }
+                console.log(data)
+            }
+        })
+    }
+    loadQuestion();
+</script> *@

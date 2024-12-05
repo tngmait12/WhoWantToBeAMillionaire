@@ -1,1975 +1,1991 @@
 {
   "Files": [
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WhoWantToBeAMillionaire.bundle.scp.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WhoWantToBeAMillionaire.bundle.scp.css",
       "PackagePath": "staticwebassets\\WhoWantToBeAMillionaire.bundle.scp.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\components\\navbar\\navbar-dropdowns.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\audio\\background.mp3",
+      "PackagePath": "staticwebassets\\assets\\audio\\background.mp3"
+    },
+    {
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\audio\\right.mp3",
+      "PackagePath": "staticwebassets\\assets\\audio\\right.mp3"
+    },
+    {
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\audio\\wrong.mp3",
+      "PackagePath": "staticwebassets\\assets\\audio\\wrong.mp3"
+    },
+    {
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\components\\navbar\\navbar-dropdowns.css",
       "PackagePath": "staticwebassets\\assets\\components\\navbar\\navbar-dropdowns.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\components\\sidebar\\sidebar-default.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\components\\sidebar\\sidebar-default.css",
       "PackagePath": "staticwebassets\\assets\\components\\sidebar\\sidebar-default.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\css\\auth.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\css\\auth.css",
       "PackagePath": "staticwebassets\\assets\\css\\auth.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\css\\error.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\css\\error.css",
       "PackagePath": "staticwebassets\\assets\\css\\error.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\css\\master.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\css\\master.css",
       "PackagePath": "staticwebassets\\assets\\css\\master.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\font\\Lato-Regular.eot",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\font\\Lato-Regular.eot",
       "PackagePath": "staticwebassets\\assets\\font\\Lato-Regular.eot"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\font\\Lato-Regular.ttf",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\font\\Lato-Regular.ttf",
       "PackagePath": "staticwebassets\\assets\\font\\Lato-Regular.ttf"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\font\\Lato-Regular.woff",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\font\\Lato-Regular.woff",
       "PackagePath": "staticwebassets\\assets\\font\\Lato-Regular.woff"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\50_50.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\50_50.png",
       "PackagePath": "staticwebassets\\assets\\img\\50_50.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\Ask.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\Ask.png",
       "PackagePath": "staticwebassets\\assets\\img\\Ask.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\Content.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\Content.png",
       "PackagePath": "staticwebassets\\assets\\img\\Content.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\Phone.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\Phone.png",
       "PackagePath": "staticwebassets\\assets\\img\\Phone.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\Vote.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\Vote.png",
       "PackagePath": "staticwebassets\\assets\\img\\Vote.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\WWTBAM_bg.jpg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\WWTBAM_bg.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\WWTBAM_bg.jpg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\WWTBAM_frame.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\WWTBAM_frame.png",
       "PackagePath": "staticwebassets\\assets\\img\\WWTBAM_frame.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\WWTBAM_logo.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\WWTBAM_logo.png",
       "PackagePath": "staticwebassets\\assets\\img\\WWTBAM_logo.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\bootstraper-logo.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\bootstraper-logo.png",
       "PackagePath": "staticwebassets\\assets\\img\\bootstraper-logo.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\download.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\download.svg",
       "PackagePath": "staticwebassets\\assets\\img\\download.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\image-wide.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\image-wide.svg",
       "PackagePath": "staticwebassets\\assets\\img\\image-wide.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\index.html",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\index.html",
       "PackagePath": "staticwebassets\\assets\\img\\index.html"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\play.html",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\play.html",
       "PackagePath": "staticwebassets\\assets\\img\\play.html"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\select.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\select.png",
       "PackagePath": "staticwebassets\\assets\\img\\select.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\charts.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\charts.js",
       "PackagePath": "staticwebassets\\assets\\js\\charts.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\dashboard-charts.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\dashboard-charts.js",
       "PackagePath": "staticwebassets\\assets\\js\\dashboard-charts.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\form-validator.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\form-validator.js",
       "PackagePath": "staticwebassets\\assets\\js\\form-validator.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\fullcalendar-script.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\fullcalendar-script.js",
       "PackagePath": "staticwebassets\\assets\\js\\fullcalendar-script.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\initiate-datatables.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\initiate-datatables.js",
       "PackagePath": "staticwebassets\\assets\\js\\initiate-datatables.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\initiate-summernote.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\initiate-summernote.js",
       "PackagePath": "staticwebassets\\assets\\js\\initiate-summernote.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\script.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\script.js",
       "PackagePath": "staticwebassets\\assets\\js\\script.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\LICENSE.md",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\LICENSE.md",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\LICENSE.md"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\css\\datepicker.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\css\\datepicker.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\css\\datepicker.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\datepicker.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\datepicker.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\js\\datepicker.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.cs.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.cs.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.cs.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.da.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.da.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.da.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.de.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.de.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.de.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.en.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.en.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.en.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.es.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.es.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.es.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.fi.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.fi.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.fi.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.fr.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.fr.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.fr.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.hu.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.hu.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.hu.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.nl.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.nl.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.nl.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.pl.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.pl.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.pl.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.pt-BR.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.pt-BR.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.pt-BR.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.pt.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.pt.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.pt.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.ro.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.ro.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.ro.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.sk.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.sk.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.sk.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.zh.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.zh.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\airdatepicker\\dist\\js\\i18n\\datepicker.zh.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\LICENSE.md",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\LICENSE.md",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\LICENSE.md"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\chartsjs\\Chart.bundle.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\chartsjs\\Chart.bundle.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\chartsjs\\Chart.bundle.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\chartsjs\\Chart.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\chartsjs\\Chart.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\chartsjs\\Chart.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\chartsjs\\Chart.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\chartsjs\\Chart.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\chartsjs\\Chart.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\chartsjs\\LICENSE.md",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\chartsjs\\LICENSE.md",
       "PackagePath": "staticwebassets\\assets\\vendor\\chartsjs\\LICENSE.md"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\css\\dataTables.bootstrap.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\css\\dataTables.bootstrap.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.22\\css\\dataTables.bootstrap.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\css\\dataTables.bootstrap4.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\css\\dataTables.bootstrap4.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.22\\css\\dataTables.bootstrap4.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\images\\sort_asc.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\images\\sort_asc.png",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.22\\images\\sort_asc.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\images\\sort_asc_disabled.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\images\\sort_asc_disabled.png",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.22\\images\\sort_asc_disabled.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\images\\sort_both.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\images\\sort_both.png",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.22\\images\\sort_both.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\images\\sort_desc.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\images\\sort_desc.png",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.22\\images\\sort_desc.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\images\\sort_desc_disabled.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\images\\sort_desc_disabled.png",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.22\\images\\sort_desc_disabled.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\js\\dataTables.bootstrap.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\js\\dataTables.bootstrap.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.22\\js\\dataTables.bootstrap.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\js\\dataTables.bootstrap4.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.22\\js\\dataTables.bootstrap4.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.22\\js\\dataTables.bootstrap4.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.bootstrap.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.bootstrap.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.bootstrap.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.bootstrap.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.bootstrap.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.bootstrap.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.bootstrap4.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.bootstrap4.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.bootstrap4.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.bootstrap4.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.bootstrap4.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.bootstrap4.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.foundation.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.foundation.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.foundation.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.foundation.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.foundation.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.foundation.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.jqueryui.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.jqueryui.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.jqueryui.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.jqueryui.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.jqueryui.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.jqueryui.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.semanticui.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.semanticui.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.semanticui.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.semanticui.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.semanticui.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\dataTables.semanticui.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\jquery.dataTables.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\jquery.dataTables.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\jquery.dataTables.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\jquery.dataTables.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\jquery.dataTables.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\css\\jquery.dataTables.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\images\\sort_asc.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\images\\sort_asc.png",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\images\\sort_asc.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\images\\sort_asc_disabled.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\images\\sort_asc_disabled.png",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\images\\sort_asc_disabled.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\images\\sort_both.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\images\\sort_both.png",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\images\\sort_both.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\images\\sort_desc.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\images\\sort_desc.png",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\images\\sort_desc.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\images\\sort_desc_disabled.png",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\images\\sort_desc_disabled.png",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\images\\sort_desc_disabled.png"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.bootstrap.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.bootstrap.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.bootstrap.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.bootstrap.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.bootstrap.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.bootstrap.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.bootstrap4.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.bootstrap4.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.bootstrap4.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.bootstrap4.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.bootstrap4.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.bootstrap4.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.foundation.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.foundation.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.foundation.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.foundation.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.foundation.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.foundation.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.jqueryui.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.jqueryui.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.jqueryui.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.jqueryui.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.jqueryui.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.jqueryui.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.semanticui.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.semanticui.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.semanticui.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.semanticui.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.semanticui.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\dataTables.semanticui.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\jquery.dataTables.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\jquery.dataTables.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\jquery.dataTables.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\jquery.dataTables.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\jquery.dataTables.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\DataTables-1.10.23\\js\\jquery.dataTables.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\LICENSE.md",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\LICENSE.md",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\LICENSE.md"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.6\\css\\responsive.bootstrap.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.6\\css\\responsive.bootstrap.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.6\\css\\responsive.bootstrap.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.6\\css\\responsive.bootstrap4.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.6\\css\\responsive.bootstrap4.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.6\\css\\responsive.bootstrap4.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.6\\css\\responsive.dataTables.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.6\\css\\responsive.dataTables.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.6\\css\\responsive.dataTables.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.6\\js\\dataTables.responsive.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.6\\js\\dataTables.responsive.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.6\\js\\dataTables.responsive.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.6\\js\\responsive.bootstrap.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.6\\js\\responsive.bootstrap.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.6\\js\\responsive.bootstrap.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.6\\js\\responsive.bootstrap4.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.6\\js\\responsive.bootstrap4.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.6\\js\\responsive.bootstrap4.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.bootstrap.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.bootstrap.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.bootstrap.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.bootstrap.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.bootstrap.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.bootstrap.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.bootstrap4.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.bootstrap4.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.bootstrap4.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.bootstrap4.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.bootstrap4.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.bootstrap4.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.dataTables.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.dataTables.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.dataTables.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.dataTables.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.dataTables.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.dataTables.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.foundation.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.foundation.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.foundation.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.foundation.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.foundation.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.foundation.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.jqueryui.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.jqueryui.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.jqueryui.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.jqueryui.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.jqueryui.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.jqueryui.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.semanticui.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.semanticui.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.semanticui.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.semanticui.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.semanticui.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\css\\responsive.semanticui.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\dataTables.responsive.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\dataTables.responsive.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\dataTables.responsive.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\dataTables.responsive.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\dataTables.responsive.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\dataTables.responsive.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.bootstrap.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.bootstrap.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.bootstrap.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.bootstrap.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.bootstrap.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.bootstrap.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.bootstrap4.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.bootstrap4.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.bootstrap4.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.bootstrap4.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.bootstrap4.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.bootstrap4.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.foundation.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.foundation.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.foundation.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.foundation.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.foundation.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.foundation.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.jqueryui.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.jqueryui.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.jqueryui.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.jqueryui.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.jqueryui.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.jqueryui.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.semanticui.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.semanticui.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.semanticui.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.semanticui.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.semanticui.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\Responsive-2.2.7\\js\\responsive.semanticui.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\datatables.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\datatables.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\datatables.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\datatables.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\datatables.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\datatables.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\datatables.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\datatables.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\datatables.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\datatables.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\datatables\\datatables.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\datatables\\datatables.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\LICENSE.md",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\LICENSE.md",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\LICENSE.md"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\css\\flag-icon.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\css\\flag-icon.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\css\\flag-icon.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ad.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ad.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ad.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ae.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ae.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ae.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\af.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\af.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\af.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ag.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ag.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ag.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ai.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ai.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ai.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\al.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\al.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\al.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\am.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\am.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\am.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ao.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ao.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ao.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\aq.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\aq.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\aq.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ar.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ar.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ar.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\as.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\as.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\as.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\at.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\at.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\at.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\au.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\au.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\au.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\aw.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\aw.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\aw.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ax.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ax.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ax.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\az.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\az.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\az.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ba.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ba.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ba.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bb.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bb.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bb.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bd.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bd.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bd.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\be.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\be.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\be.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bf.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bf.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bf.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bg.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bg.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bg.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bh.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bh.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bh.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bi.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bi.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bi.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bj.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bj.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bj.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bl.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bl.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bl.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bm.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bm.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bm.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bn.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bn.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bn.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bo.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bo.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bo.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bq.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bq.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bq.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\br.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\br.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\br.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bs.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bs.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bs.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bt.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bt.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bt.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bv.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bv.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bv.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bw.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bw.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bw.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\by.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\by.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\by.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bz.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\bz.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\bz.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ca.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ca.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ca.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cc.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cc.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\cc.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cd.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cd.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\cd.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cf.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cf.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\cf.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cg.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cg.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\cg.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ch.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ch.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ch.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ci.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ci.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ci.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ck.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ck.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ck.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cl.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cl.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\cl.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cm.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cm.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\cm.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cn.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cn.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\cn.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\co.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\co.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\co.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cr.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cr.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\cr.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cu.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cu.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\cu.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cv.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cv.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\cv.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cw.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cw.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\cw.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cx.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cx.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\cx.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cy.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cy.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\cy.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cz.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\cz.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\cz.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\de.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\de.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\de.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\dj.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\dj.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\dj.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\dk.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\dk.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\dk.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\dm.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\dm.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\dm.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\do.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\do.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\do.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\dz.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\dz.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\dz.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ec.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ec.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ec.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ee.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ee.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ee.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\eg.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\eg.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\eg.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\eh.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\eh.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\eh.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\er.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\er.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\er.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\es-ca.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\es-ca.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\es-ca.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\es-ga.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\es-ga.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\es-ga.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\es.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\es.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\es.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\et.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\et.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\et.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\eu.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\eu.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\eu.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\fi.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\fi.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\fi.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\fj.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\fj.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\fj.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\fk.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\fk.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\fk.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\fm.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\fm.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\fm.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\fo.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\fo.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\fo.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\fr.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\fr.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\fr.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ga.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ga.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ga.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gb-eng.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gb-eng.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gb-eng.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gb-nir.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gb-nir.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gb-nir.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gb-sct.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gb-sct.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gb-sct.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gb-wls.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gb-wls.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gb-wls.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gb.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gb.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gb.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gd.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gd.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gd.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ge.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ge.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ge.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gf.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gf.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gf.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gg.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gg.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gg.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gh.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gh.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gh.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gi.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gi.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gi.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gl.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gl.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gl.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gm.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gm.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gm.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gn.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gn.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gn.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gp.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gp.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gp.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gq.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gq.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gq.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gr.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gr.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gr.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gs.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gs.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gs.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gt.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gt.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gt.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gu.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gu.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gu.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gw.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gw.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gw.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gy.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\gy.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\gy.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\hk.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\hk.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\hk.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\hm.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\hm.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\hm.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\hn.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\hn.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\hn.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\hr.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\hr.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\hr.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ht.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ht.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ht.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\hu.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\hu.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\hu.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\id.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\id.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\id.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ie.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ie.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ie.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\il.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\il.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\il.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\im.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\im.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\im.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\in.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\in.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\in.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\io.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\io.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\io.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\iq.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\iq.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\iq.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ir.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ir.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ir.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\is.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\is.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\is.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\it.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\it.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\it.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\je.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\je.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\je.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\jm.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\jm.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\jm.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\jo.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\jo.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\jo.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\jp.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\jp.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\jp.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ke.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ke.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ke.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\kg.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\kg.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\kg.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\kh.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\kh.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\kh.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ki.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ki.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ki.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\km.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\km.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\km.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\kn.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\kn.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\kn.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\kp.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\kp.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\kp.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\kr.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\kr.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\kr.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\kw.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\kw.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\kw.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ky.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ky.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ky.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\kz.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\kz.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\kz.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\la.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\la.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\la.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\lb.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\lb.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\lb.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\lc.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\lc.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\lc.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\li.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\li.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\li.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\lk.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\lk.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\lk.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\lr.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\lr.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\lr.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ls.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ls.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ls.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\lt.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\lt.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\lt.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\lu.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\lu.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\lu.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\lv.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\lv.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\lv.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ly.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ly.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ly.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ma.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ma.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ma.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mc.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mc.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mc.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\md.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\md.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\md.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\me.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\me.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\me.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mf.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mf.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mf.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mg.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mg.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mg.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mh.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mh.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mh.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mk.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mk.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mk.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ml.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ml.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ml.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mm.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mm.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mm.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mn.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mn.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mn.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mo.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mo.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mo.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mp.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mp.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mp.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mq.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mq.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mq.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mr.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mr.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mr.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ms.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ms.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ms.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mt.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mt.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mt.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mu.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mu.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mu.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mv.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mv.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mv.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mw.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mw.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mw.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mx.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mx.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mx.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\my.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\my.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\my.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mz.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\mz.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\mz.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\na.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\na.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\na.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\nc.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\nc.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\nc.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ne.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ne.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ne.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\nf.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\nf.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\nf.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ng.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ng.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ng.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ni.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ni.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ni.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\nl.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\nl.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\nl.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\no.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\no.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\no.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\np.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\np.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\np.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\nr.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\nr.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\nr.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\nu.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\nu.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\nu.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\nz.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\nz.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\nz.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\om.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\om.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\om.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pa.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pa.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\pa.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pe.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pe.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\pe.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pf.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pf.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\pf.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pg.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pg.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\pg.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ph.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ph.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ph.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pk.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pk.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\pk.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pl.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pl.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\pl.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pm.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pm.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\pm.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pn.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pn.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\pn.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pr.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pr.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\pr.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ps.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ps.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ps.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pt.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pt.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\pt.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pw.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\pw.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\pw.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\py.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\py.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\py.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\qa.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\qa.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\qa.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\re.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\re.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\re.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ro.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ro.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ro.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\rs.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\rs.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\rs.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ru.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ru.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ru.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\rw.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\rw.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\rw.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sa.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sa.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\sa.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sb.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sb.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\sb.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sc.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sc.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\sc.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sd.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sd.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\sd.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\se.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\se.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\se.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sg.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sg.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\sg.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sh.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sh.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\sh.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\si.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\si.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\si.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sj.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sj.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\sj.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sk.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sk.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\sk.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sl.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sl.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\sl.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sm.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sm.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\sm.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sn.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sn.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\sn.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\so.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\so.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\so.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sr.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sr.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\sr.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ss.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ss.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ss.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\st.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\st.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\st.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sv.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sv.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\sv.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sx.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sx.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\sx.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sy.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sy.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\sy.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sz.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\sz.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\sz.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tc.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tc.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\tc.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\td.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\td.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\td.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tf.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tf.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\tf.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tg.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tg.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\tg.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\th.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\th.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\th.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tj.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tj.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\tj.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tk.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tk.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\tk.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tl.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tl.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\tl.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tm.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tm.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\tm.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tn.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tn.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\tn.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\to.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\to.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\to.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tr.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tr.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\tr.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tt.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tt.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\tt.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tv.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tv.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\tv.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tw.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tw.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\tw.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tz.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\tz.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\tz.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ua.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ua.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ua.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ug.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ug.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ug.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\um.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\um.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\um.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\un.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\un.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\un.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\us.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\us.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\us.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\uy.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\uy.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\uy.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\uz.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\uz.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\uz.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\va.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\va.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\va.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\vc.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\vc.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\vc.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ve.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ve.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ve.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\vg.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\vg.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\vg.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\vi.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\vi.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\vi.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\vn.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\vn.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\vn.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\vu.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\vu.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\vu.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\wf.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\wf.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\wf.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ws.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ws.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ws.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\xk.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\xk.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\xk.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ye.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\ye.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\ye.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\yt.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\yt.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\yt.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\za.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\za.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\za.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\zm.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\zm.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\zm.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\zw.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\flagiconcss\\flags\\4x3\\zw.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\flagiconcss\\flags\\4x3\\zw.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\LICENSE.md",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\LICENSE.md",
       "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome\\LICENSE.md"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\css\\brands.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\css\\brands.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome\\css\\brands.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\css\\fontawesome.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\css\\fontawesome.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome\\css\\fontawesome.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\css\\solid.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\css\\solid.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome\\css\\solid.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\sprites\\brands.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\sprites\\brands.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome\\sprites\\brands.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\sprites\\solid.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\sprites\\solid.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome\\sprites\\solid.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-brands-400.eot",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-brands-400.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-brands-400.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome\\webfonts\\fa-brands-400.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-brands-400.ttf",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-brands-400.woff",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-brands-400.woff",
       "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-brands-400.woff2",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-solid-900.eot",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-solid-900.eot",
       "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-solid-900.svg",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-solid-900.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome\\webfonts\\fa-solid-900.svg"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-solid-900.ttf",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-solid-900.woff",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-solid-900.woff",
       "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-solid-900.woff2",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\fontawesome\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\jquery\\LICENSE.md",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\jquery\\LICENSE.md",
       "PackagePath": "staticwebassets\\assets\\vendor\\jquery\\LICENSE.md"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\jquery\\jquery.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\jquery\\jquery.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\jquery\\jquery.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\jquery\\jquery.min.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\jquery\\jquery.min.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\jquery\\jquery.min.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\jquery\\jquery.slim.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\jquery\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\jquery\\jquery.slim.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\jquery\\jquery.slim.min.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\jquery\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\mdtimepicker\\LICENSE.md",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\mdtimepicker\\LICENSE.md",
       "PackagePath": "staticwebassets\\assets\\vendor\\mdtimepicker\\LICENSE.md"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\mdtimepicker\\mdtimepicker-theme.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\mdtimepicker\\mdtimepicker-theme.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\mdtimepicker\\mdtimepicker-theme.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\mdtimepicker\\mdtimepicker.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\mdtimepicker\\mdtimepicker.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\mdtimepicker\\mdtimepicker.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\mdtimepicker\\mdtimepicker.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\vendor\\mdtimepicker\\mdtimepicker.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\mdtimepicker\\mdtimepicker.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\play.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\endgame.css",
+      "PackagePath": "staticwebassets\\css\\endgame.css"
+    },
+    {
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\play.css",
       "PackagePath": "staticwebassets\\css\\play.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\site.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\style.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\favicon.ico",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\js\\site.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
