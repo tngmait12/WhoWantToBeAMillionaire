@@ -1,31 +1,17 @@
-﻿
+﻿<head>
+    <link rel="stylesheet" href="~/css/play.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
 
-<link rel="stylesheet" href="~/css/play.css">
-
-<div class="audience-help" style="display:none;">
-    <canvas id="audienceChart" style="width:100%;max-width:600px;"></canvas>
-</div>
-
-
-<section class="list_question">
-    <div class="lifelines">
-        <a href="" id="myLink">
-            <img src="~/assets/img/50_50.png" alt="">
-        </a>
-        <a href="#" onclick="askAudience(); return false;">
-            <img src="~/assets/img/Ask.png" alt="">
-        </a>
-        <a href="#" onclick="callPhoneFriend()">
-            <img src="~/assets/img/Phone.png" alt="">
-        </a>
-        <a href="javascript:void(0);" onclick="askAdvisors()">
-            <img src="~/assets/img/Vote.png" alt="">
-        </a>
+<div id="lifelines-res">
+    <div class="audience-help" style="display:none;">
+        <canvas id="audienceChart" style="width:100%;max-width:300px;"></canvas>
     </div>
+
     <div class="phone-help" style="display:none;">
+        <strong>Gọi điện cho người thân:</strong>
         <p id="phone-response"></p>
     </div>
-
 
     <div id="advisor-section">
         <h3>Tổ Tư Vấn Tại Chỗ</h3>
@@ -45,24 +31,46 @@
             <p class="advisor-comment"></p>
         </div>
     </div>
+</div>
 
-    <div class="list">
-        <p>15. 1,000,000$</p>
+
+<section id="menu">
+    <div class="lifelines">
+        <a id="50_50" onclick="fiftyFifty()">
+            <img src="~/assets/img/50_50.png" alt="">
+        </a>
+        <a id="Ask" onclick="askAdvisors()">
+            <img src="~/assets/img/Ask.png" alt="">
+        </a>
+        <a id="Phone" onclick="callPhoneFriend()">
+            <img src="~/assets/img/Phone.png" alt="">
+        </a>
+        <a id="Vote" onclick="askAudience(); return false;">
+            <img src="~/assets/img/Vote.png" alt="">
+        </a>
+    </div>
+
+    <div class="list level">
+        <p class="imp">15. 1,000,000$</p>
         <p>14. 500,000$</p>
         <p>13. 250,000$</p>
         <p>12. 100,000$</p>
         <p>11. 50,000$</p>
-        <p>10. 25,000$</p>
+        <p class="imp">10. 25,000$</p>
         <p>9. 16,000$</p>
         <p>8. 8,000$</p>
         <p>7. 4,000$</p>
         <p>6. 2,000$</p>
-        <p>5. 1,000$</p>
+        <p class="imp">5. 1,000$</p>
         <p>4. 500$</p>
         <p>3. 300$</p>
         <p>2. 200$</p>
         <p class="selected">1. 100$</p>
     </div>
+
+    <a id="giveUp">
+        <i class="fa-solid fa-right-from-bracket"></i>
+    </a>
 </section>
 <section class="main_question">
     <img class="logo" src="~/assets/img/WWTBAM_logo.png" alt="">
@@ -103,6 +111,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
 </script>
 <script>
+    //khởi tạo
     var backgroundAudio = new Audio('/assets/audio/background.mp3');
     var correctAudio = new Audio('/assets/audio/right.mp3');
     var wrongAudio = new Audio('/assets/audio/wrong.mp3');
@@ -113,13 +122,18 @@
     backgroundAudio.volume = 0.5;
     backgroundAudio.play();
     var fiftyFiftyUsed = false;
+    var askAdvisorsUsed = false;
+    var callPhoneFriendUsed = false;
+    var askAudienceUsed = false;
+    //function
+    $("#giveUp").click(function() {
+        window.location.href = "EndGame";
+    });
 
-    $("#myLink").click(function (e) {
-
-        e.preventDefault(); // Ngừng hành động mặc định (chuyển hướng trang)
+    function fiftyFifty() {
         if (fiftyFiftyUsed) return; // Nếu đã sử dụng 50:50 thì không làm gì thêm
         fiftyFiftyUsed = true; // Đánh dấu đã sử dụng 50:50
-
+        if (fiftyFiftyUsed) $("#50_50").css("opacity", "50%");
 
         // Áp dụng hiệu ứng mờ dần và sau 2 giây sẽ ẩn thẻ mà không ảnh hưởng đến bố cục
         // $(this).css('opacity', '0'); // Mờ dần phần tử
@@ -152,12 +166,12 @@
                 console.error("Có lỗi xảy ra khi gọi 50:50.");
             }
         });
-
-    });
-
+    }
 
     function askAudience() {
-        //$(".lifelines a img[src*='Ask.png']").fadeOut(500); // Ẩn nút trợ giúp
+        if (askAudienceUsed) return;
+        askAudienceUsed = true;
+        if (askAudienceUsed) $("#Vote").css("opacity", "50%");
 
         $.ajax({
             url: '@Url.Action("AskAudience", "Game")',
@@ -174,7 +188,7 @@
                 };
 
                 // Khởi tạo mảng labels và yValues theo thứ tự cố định
-                var labels = ["A: " + answers.A, "B: " + answers.B, "C: " + answers.C, "D: " + answers.D];
+                var labels = ["A", "B", "C", "D"];
                 var yValues = [0, 0, 0, 0]; // Mặc định là 0%
 
                 // Lặp qua dữ liệu trả về từ AJAX và gán đúng vị trí A, B, C, D
@@ -221,9 +235,10 @@
         });
     }
 
-
     function callPhoneFriend() {
-        //$(".lifelines a img[src*='Phone.png']").fadeOut(500); // Ẩn nút trợ giúp
+        if (callPhoneFriendUsed) return;
+        callPhoneFriendUsed = true;
+        if (callPhoneFriendUsed) $("#Phone").css("opacity", "50%");
 
         // Giả lập phản hồi từ người thân với xác suất đúng/sai ngẫu nhiên
         $.ajax({
@@ -238,10 +253,13 @@
                 console.error("Lỗi khi gọi điện thoại.");
             }
         });
+        hiddenLifelines();
     }
 
     function askAdvisors() {
-        //$(".lifelines a img[src*='Vote.png']").fadeOut(500); // Ẩn nút trợ giúp
+        if (askAdvisorsUsed) return;
+        askAdvisorsUsed = true;
+        if (askAdvisorsUsed) $("#Ask").css("opacity", "50%");
 
         $.ajax({
             url: '@Url.Action("AskAdvisors", "Game")',
@@ -260,12 +278,8 @@
                 console.error("Lỗi khi gọi trợ giúp Tổ Tư Vấn.");
             }
         });
+        hiddenLifelines();
     }
-
-
-
-
-
 
     // Hiệu ứng khi chọn đúng
     function showCorrectEffect(selectedElement) {
@@ -369,7 +383,6 @@
     }
 
     loadQuestion(); // Tải câu hỏi đầu tiên
-
 </script>
 
 

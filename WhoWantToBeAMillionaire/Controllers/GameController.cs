@@ -142,7 +142,6 @@ namespace WhoWantToBeAMillionaire.Controllers
             // Tìm hai đáp án sai
             var wrongAnswers = currentQuestion.ShuffledAnswers
                                               .Where(answer => answer != currentQuestion.CorrectAnswer)
-                                              .OrderBy(x => Guid.NewGuid()) // Random hóa vị trí đáp án sai
                                               .Take(2)
                                               .ToList();
 

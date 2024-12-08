@@ -1116,3 +1116,4 @@ D:\MVC\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire\bin\Debug\net8.0\tr\Micro
 D:\MVC\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\MVC\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\MVC\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\nguye\source\repos\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire\obj\Debug\net8.0\WhoWantToBeAMillionaire.sourcelink.json

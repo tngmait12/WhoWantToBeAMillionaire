@@ -1,3 +1,6 @@
+wwwroot\assets\audio\background.mp3
+wwwroot\assets\audio\right.mp3
+wwwroot\assets\audio\wrong.mp3
 wwwroot\assets\components\navbar\navbar-dropdowns.css
 wwwroot\assets\components\sidebar\sidebar-default.css
 wwwroot\assets\css\auth.css
@@ -491,3 +494,6 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\sound\background.mp3
+wwwroot\sound\right.mp3
+wwwroot\sound\wrong.mp3
