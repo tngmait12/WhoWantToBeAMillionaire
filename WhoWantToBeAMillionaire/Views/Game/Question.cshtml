@@ -353,27 +353,30 @@
 
     async function getAnswer(select) {
         if (isProcessing) return; // Không cho phép trả lời nếu hiệu ứng đang diễn ra
-
         isProcessing = true; // Đánh dấu đang xử lý
         var selectedElement = $(".answer a").eq(select);
-
-      
 
         $.ajax({
             url: '@Url.Action("CheckAnswer", "Game")',
             data: { selectedAnswer: listAns[select] },
             dataType: 'json',
             success: async function (data) {
-                if (data === true) {
+                if (data === "Correct") {
                     correctAudio.play(); // Phát nhạc đúng
                     await showCorrectEffect(selectedElement); // Chờ hiệu ứng hoàn thành
                     loadQuestion(); // Tải câu hỏi tiếp theo
-                } else {
+                } 
+                else if (data === "Wrong") {
                     wrongAudio.play(); // Phát nhạc sai
                     await showWrongEffect(selectedElement); // Chờ hiệu ứng hoàn thành
                     setTimeout(function () {
                         window.location.href = 'EndGame'; // Chuyển đến trang kết thúc
                     }, 500);
+                }
+                else {
+                    correctAudio.play(); // Phát nhạc đúng
+                    await showCorrectEffect(selectedElement); // Chờ hiệu ứng hoàn thành
+                    window.location.href = 'EndGame';
                 }
             },
             complete: function () {

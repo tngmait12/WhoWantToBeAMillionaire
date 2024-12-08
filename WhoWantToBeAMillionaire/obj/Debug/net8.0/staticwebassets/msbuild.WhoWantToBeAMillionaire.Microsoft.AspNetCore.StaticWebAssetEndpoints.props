@@ -5208,17 +5208,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-v8J4mIVtfVzQtotnNDph4REhNH0yJDPGucKdO\u002BG5O5k="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1304"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022v8J4mIVtfVzQtotnNDph4REhNH0yJDPGucKdO\u002BG5O5k=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 08:18:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WhoWantToBeAMillionaire/css/play.aw88lkt1fj.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\play.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"aw88lkt1fj"},{"Name":"integrity","Value":"sha256-9gvtsBXCPjP3c3g6fzG7sTdHC14m13xE0uh72nEBDTE="},{"Name":"label","Value":"_content/WhoWantToBeAMillionaire/css/play.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6156"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229gvtsBXCPjP3c3g6fzG7sTdHC14m13xE0uh72nEBDTE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 07:13:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WhoWantToBeAMillionaire/css/play.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\play.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zCi4fX8J/1NhUPLh9XSdxv8NiLpxcULa5w5xfx/ruMo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6123"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zCi4fX8J/1NhUPLh9XSdxv8NiLpxcULa5w5xfx/ruMo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 07:06:40 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WhoWantToBeAMillionaire/css/play.wfpkb0wqr8.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\play.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wfpkb0wqr8"},{"Name":"integrity","Value":"sha256-zCi4fX8J/1NhUPLh9XSdxv8NiLpxcULa5w5xfx/ruMo="},{"Name":"label","Value":"_content/WhoWantToBeAMillionaire/css/play.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6123"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zCi4fX8J/1NhUPLh9XSdxv8NiLpxcULa5w5xfx/ruMo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 07:06:40 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9gvtsBXCPjP3c3g6fzG7sTdHC14m13xE0uh72nEBDTE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6156"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229gvtsBXCPjP3c3g6fzG7sTdHC14m13xE0uh72nEBDTE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 07:13:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WhoWantToBeAMillionaire/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
