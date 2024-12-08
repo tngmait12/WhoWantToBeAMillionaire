@@ -7824,8 +7824,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wfpkb0wqr8</Fingerprint>
-      <Integrity>zCi4fX8J/1NhUPLh9XSdxv8NiLpxcULa5w5xfx/ruMo=</Integrity>
+      <Fingerprint>aw88lkt1fj</Fingerprint>
+      <Integrity>9gvtsBXCPjP3c3g6fzG7sTdHC14m13xE0uh72nEBDTE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\play.css'))</OriginalItemSpec>

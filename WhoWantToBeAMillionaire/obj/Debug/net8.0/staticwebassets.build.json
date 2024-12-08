@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GSvxiS+DkGnsXhOlmwW67R4S9WH3oF7a09ZgckOP3Vw=",
+  "Hash": "JtARsxESt/R4Owp47RgmNKMrylXFAAM1r5TUs0esujU=",
   "Source": "WhoWantToBeAMillionaire",
   "BasePath": "_content/WhoWantToBeAMillionaire",
   "Mode": "Default",
@@ -9187,8 +9187,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wfpkb0wqr8",
-      "Integrity": "zCi4fX8J/1NhUPLh9XSdxv8NiLpxcULa5w5xfx/ruMo=",
+      "Fingerprint": "aw88lkt1fj",
+      "Integrity": "9gvtsBXCPjP3c3g6fzG7sTdHC14m13xE0uh72nEBDTE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\play.css"
@@ -46128,6 +46128,51 @@
       ]
     },
     {
+      "Route": "css/play.aw88lkt1fj.css",
+      "AssetFile": "C:\\Users\\nguye\\Source\\Repos\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\play.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6156"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9gvtsBXCPjP3c3g6fzG7sTdHC14m13xE0uh72nEBDTE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 07:13:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aw88lkt1fj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/play.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9gvtsBXCPjP3c3g6fzG7sTdHC14m13xE0uh72nEBDTE="
+        }
+      ]
+    },
+    {
       "Route": "css/play.css",
       "AssetFile": "C:\\Users\\nguye\\Source\\Repos\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\play.css",
       "Selectors": [],
@@ -46138,7 +46183,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6123"
+          "Value": "6156"
         },
         {
           "Name": "Content-Type",
@@ -46146,11 +46191,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zCi4fX8J/1NhUPLh9XSdxv8NiLpxcULa5w5xfx/ruMo=\""
+          "Value": "\"9gvtsBXCPjP3c3g6fzG7sTdHC14m13xE0uh72nEBDTE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 07:06:40 GMT"
+          "Value": "Sun, 08 Dec 2024 07:13:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46160,52 +46205,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zCi4fX8J/1NhUPLh9XSdxv8NiLpxcULa5w5xfx/ruMo="
-        }
-      ]
-    },
-    {
-      "Route": "css/play.wfpkb0wqr8.css",
-      "AssetFile": "C:\\Users\\nguye\\Source\\Repos\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\play.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6123"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zCi4fX8J/1NhUPLh9XSdxv8NiLpxcULa5w5xfx/ruMo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 07:06:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wfpkb0wqr8"
-        },
-        {
-          "Name": "label",
-          "Value": "css/play.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zCi4fX8J/1NhUPLh9XSdxv8NiLpxcULa5w5xfx/ruMo="
+          "Value": "sha256-9gvtsBXCPjP3c3g6fzG7sTdHC14m13xE0uh72nEBDTE="
         }
       ]
     },

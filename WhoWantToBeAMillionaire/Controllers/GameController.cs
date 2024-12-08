@@ -113,7 +113,7 @@ namespace WhoWantToBeAMillionaire.Controllers
 
                 if (currentIndex + 1 >= questions.Count)
                 {
-                    return Json(false);
+                    return Json("End");
                 }
                 else
                 { 
@@ -121,9 +121,9 @@ namespace WhoWantToBeAMillionaire.Controllers
                     HttpContext.Session.SetInt32("CurrentQuestionIndex", currentIndex);
                 }
             }
-            else return Json(false);
+            else return Json("Wrong");
 
-            return Json(true); // Hiển thị câu hỏi tiếp theo
+            return Json("Correct"); // Hiển thị câu hỏi tiếp theo
         }
 
         public IActionResult Question()
