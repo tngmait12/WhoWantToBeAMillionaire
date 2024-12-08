@@ -1,5 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using WhoWantToBeAMillionaire.Data;
+using WhoWantToBeAMillionaire.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +23,20 @@ builder.Services.AddSession(options =>
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+//Identity
+builder.Services.AddIdentity<AppUserModel, IdentityRole>()
+    .AddEntityFrameworkStores<DataContext>().AddDefaultTokenProviders();
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    // Password settings.
+    options.Password.RequireDigit = true;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequiredLength = 4;
+
+    options.User.RequireUniqueEmail = true;
+});
 
 var app = builder.Build();
 app.UseSession();
@@ -38,6 +54,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();//Dang nhap
 app.UseAuthorization();
 
 app.MapControllerRoute(
@@ -47,5 +64,12 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+//Seeding Data
+
+var scope = app.Services.CreateScope();
+
+var service = scope.ServiceProvider;
+await UserRoleInitializer.InitializeAsync(service);
 
 app.Run();

@@ -6,5 +6,16 @@
 <div class="menu">
     <a class="help button" href="">Your Room</a>
     <a class="play button" asp-action="StartGame" asp-controller="Game">Play</a>
+    @if (User.Identity?.IsAuthenticated ?? false)
+    {
+        <a class="play button" asp-action="Logout" asp-controller="Account"><span>Hi, @User.Identity.Name! Logout</span></a>
+    }
+    else
+    {
+        <a class="play button" asp-action="Login" asp-controller="Account">Sign In</a>
+        <a class="play button" asp-action="Register" asp-controller="Account">Sign Up</a>
+    }
+    
+    
     <a class="play button" asp-action="Index" asp-controller="Admin">Admin</a>
 </div>
