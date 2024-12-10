@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
 using System.Security.Claims;
@@ -57,6 +58,9 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
             {
                 return NotFound();
             }
+
+            var questions = await _dataContext.Questions.Include(p=>p.Topic).Where(p => p.RoomId == id).ToListAsync();
+            ViewBag.Questions = questions;
             return View(room);
         }
 
