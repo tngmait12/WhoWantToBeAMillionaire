@@ -12,8 +12,8 @@ using WhoWantToBeAMillionaire.Data;
 namespace WhoWantToBeAMillionaire.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20241208081023_identity")]
-    partial class identity
+    [Migration("20241210055341_UpdateModelRooms")]
+    partial class UpdateModelRooms
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -226,6 +226,33 @@ namespace WhoWantToBeAMillionaire.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("WhoWantToBeAMillionaire.Models.PlayerModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("RoomModelId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Score")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RoomModelId");
+
+                    b.ToTable("Players");
+                });
+
             modelBuilder.Entity("WhoWantToBeAMillionaire.Models.QuestionModel", b =>
                 {
                     b.Property<int>("Id")
@@ -243,6 +270,9 @@ namespace WhoWantToBeAMillionaire.Migrations
                     b.Property<byte>("Difficulty")
                         .HasColumnType("tinyint");
 
+                    b.Property<int?>("RoomId")
+                        .HasColumnType("int");
+
                     b.Property<int>("TopicId")
                         .HasColumnType("int");
 
@@ -257,9 +287,39 @@ namespace WhoWantToBeAMillionaire.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("RoomId");
+
                     b.HasIndex("TopicId");
 
                     b.ToTable("Questions");
+                });
+
+            modelBuilder.Entity("WhoWantToBeAMillionaire.Models.RoomModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("HostPlayerId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RoomCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Rooms");
                 });
 
             modelBuilder.Entity("WhoWantToBeAMillionaire.Models.TopicModel", b =>
@@ -332,15 +392,36 @@ namespace WhoWantToBeAMillionaire.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("WhoWantToBeAMillionaire.Models.PlayerModel", b =>
+                {
+                    b.HasOne("WhoWantToBeAMillionaire.Models.RoomModel", null)
+                        .WithMany("Players")
+                        .HasForeignKey("RoomModelId");
+                });
+
             modelBuilder.Entity("WhoWantToBeAMillionaire.Models.QuestionModel", b =>
                 {
+                    b.HasOne("WhoWantToBeAMillionaire.Models.RoomModel", "Room")
+                        .WithMany("Questions")
+                        .HasForeignKey("RoomId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
                     b.HasOne("WhoWantToBeAMillionaire.Models.TopicModel", "Topic")
                         .WithMany()
                         .HasForeignKey("TopicId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("Room");
+
                     b.Navigation("Topic");
+                });
+
+            modelBuilder.Entity("WhoWantToBeAMillionaire.Models.RoomModel", b =>
+                {
+                    b.Navigation("Players");
+
+                    b.Navigation("Questions");
                 });
 #pragma warning restore 612, 618
         }

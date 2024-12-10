@@ -19,18 +19,28 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
         {
             return View(await _dataContext.Questions.OrderByDescending(p => p.Id).Include(p=>p.Topic).ToListAsync());
         }
-        public IActionResult Create()
+        public IActionResult Create(int? roomId)
         {
             ViewBag.Topics = new SelectList(_dataContext.Topics, "Id", "Name");
+            //ViewBag.Rooms = new SelectList(_dataContext.Rooms, "Id", "Name");
+            if (roomId.HasValue)
+            {
+                ViewBag.RoomId = roomId.Value;
+            }
             return View();
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(QuestionModel question)
+        public async Task<IActionResult> Create(QuestionModel question, int? roomId)
         {
             ViewBag.Topics = new SelectList(_dataContext.Topics, "Id", "Name", question.TopicId);
+            //ViewBag.Rooms = new SelectList(_dataContext.Rooms, "Id", "Name", question.RoomId);
             if (ModelState.IsValid)
             {
+                if (roomId.HasValue)
+                {
+                    question.RoomId = roomId.Value;
+                }
 
                 _dataContext.Add(question);
                 await _dataContext.SaveChangesAsync();

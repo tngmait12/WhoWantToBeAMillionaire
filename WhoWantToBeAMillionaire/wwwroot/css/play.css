@@ -68,10 +68,10 @@ body {
             border-radius: 999px;
         }
 
-        p.selected {
-            background-color: #ffff1a;
-            color: black;
-        }
+p.selected {
+    background-color: #ffff1a;
+    color: black !important;
+}
 
         p.imp {
             font-size: 1.4rem;
@@ -139,7 +139,7 @@ body {
         height: calc(100% - 8rem);
 
         list-style: none;
-
+        
         display: grid;
         grid-template-columns: repeat(2, 1fr);
 
@@ -168,7 +168,6 @@ body {
 
 .answer a {
     display: block;
-    margin: 10px 0;
     transition: opacity 0.5s ease;
 }
 

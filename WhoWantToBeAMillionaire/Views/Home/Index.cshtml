@@ -9,6 +9,7 @@
     @if (User.Identity?.IsAuthenticated ?? false)
     {
         <a class="play button" asp-action="Logout" asp-controller="Account"><span>Hi, @User.Identity.Name! Logout</span></a>
+        <a class="play button" asp-action="Index" asp-controller="Room">Create</a>
     }
     else
     {

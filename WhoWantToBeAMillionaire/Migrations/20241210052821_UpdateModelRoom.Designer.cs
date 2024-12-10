@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WhoWantToBeAMillionaire.Data;
 
@@ -11,9 +12,11 @@ using WhoWantToBeAMillionaire.Data;
 namespace WhoWantToBeAMillionaire.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20241210052821_UpdateModelRoom")]
+    partial class UpdateModelRoom
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -267,9 +270,6 @@ namespace WhoWantToBeAMillionaire.Migrations
                     b.Property<byte>("Difficulty")
                         .HasColumnType("tinyint");
 
-                    b.Property<int?>("RoomId")
-                        .HasColumnType("int");
-
                     b.Property<int>("TopicId")
                         .HasColumnType("int");
 
@@ -283,8 +283,6 @@ namespace WhoWantToBeAMillionaire.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("RoomId");
 
                     b.HasIndex("TopicId");
 
@@ -398,18 +396,11 @@ namespace WhoWantToBeAMillionaire.Migrations
 
             modelBuilder.Entity("WhoWantToBeAMillionaire.Models.QuestionModel", b =>
                 {
-                    b.HasOne("WhoWantToBeAMillionaire.Models.RoomModel", "Room")
-                        .WithMany("Questions")
-                        .HasForeignKey("RoomId")
-                        .OnDelete(DeleteBehavior.SetNull);
-
                     b.HasOne("WhoWantToBeAMillionaire.Models.TopicModel", "Topic")
                         .WithMany()
                         .HasForeignKey("TopicId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Room");
 
                     b.Navigation("Topic");
                 });
@@ -417,8 +408,6 @@ namespace WhoWantToBeAMillionaire.Migrations
             modelBuilder.Entity("WhoWantToBeAMillionaire.Models.RoomModel", b =>
                 {
                     b.Navigation("Players");
-
-                    b.Navigation("Questions");
                 });
 #pragma warning restore 612, 618
         }

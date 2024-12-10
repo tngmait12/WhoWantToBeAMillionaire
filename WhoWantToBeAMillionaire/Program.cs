@@ -65,6 +65,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+
 //Seeding Data
 
 var scope = app.Services.CreateScope();

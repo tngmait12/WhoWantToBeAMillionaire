@@ -21,6 +21,8 @@ namespace WhoWantToBeAMillionaire.Models
 
         // Navigation Properties
         public TopicModel Topic { get; set; }
+        public int? RoomId { get; set; } // Liên kết với phòng (có thể null nếu không thuộc phòng nào)
+        public virtual RoomModel Room { get; set; }
 
         // Danh sách chứa câu trả lời trộn lẫn
         [NotMapped] // Không lưu trong database

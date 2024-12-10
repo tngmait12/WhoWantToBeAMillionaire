@@ -12,6 +12,19 @@ namespace WhoWantToBeAMillionaire.Data
         }
         public DbSet<TopicModel> Topics { get; set; }
         public DbSet<QuestionModel> Questions { get; set; }
+        public DbSet<RoomModel> Rooms { get; set; }
+        public DbSet<PlayerModel> Players { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<QuestionModel>()
+                .HasOne(q => q.Room)
+                .WithMany(r => r.Questions)
+                .HasForeignKey(q => q.RoomId)
+                .OnDelete(DeleteBehavior.SetNull);
+        }
 
     }
 }

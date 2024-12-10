@@ -1,0 +1,11 @@
+﻿@model RoomModel
+
+<h2>Chi Tiết Phòng</h2>
+
+<div>
+    <h4>@Model.Name</h4>
+    <p><strong>Mã Phòng:</strong> @Model.RoomCode</p>
+    <p><strong>Thời Gian Tạo:</strong> @Model.CreatedAt.ToString("g")</p>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary">Quay Lại</a>

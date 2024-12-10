@@ -108,8 +108,8 @@
 </section>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
     //khởi tạo
     var backgroundAudio = new Audio('/assets/audio/background.mp3');
@@ -125,6 +125,13 @@
     var askAdvisorsUsed = false;
     var callPhoneFriendUsed = false;
     var askAudienceUsed = false;
+
+    $(function () {
+        var message = '@TempData["success"]';
+        if (message != '')
+            Swal.fire(message)
+    });
+
     //function
     $("#giveUp").click(function() {
         window.location.href = "EndGame";
@@ -364,6 +371,7 @@
                 if (data === "Correct") {
                     correctAudio.play(); // Phát nhạc đúng
                     await showCorrectEffect(selectedElement); // Chờ hiệu ứng hoàn thành
+                    
                     loadQuestion(); // Tải câu hỏi tiếp theo
                 } 
                 else if (data === "Wrong") {
