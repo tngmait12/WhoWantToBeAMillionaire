@@ -38,6 +38,12 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.User.RequireUniqueEmail = true;
 });
 
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Admin/AccountAdmin/Login"; // Đường dẫn đến trang đăng nhập của bạn
+    options.AccessDeniedPath = "/Admin/AccountAdmin/AccessDenied"; // Đường dẫn khi bị từ chối truy cập
+});
+
 var app = builder.Build();
 app.UseSession();
 

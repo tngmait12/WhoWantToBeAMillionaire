@@ -73,5 +73,84 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-12 col-lg-12">
+            <div class="card">
+                <div class="card-header">
+                    History
+                </div>
+                <div class="card-body">
+                    <p class="card-title"></p>
+                    <table class="table table-hover" id="dataTables-example" width="100%">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>User</th>
+                                <th>Room Code</th>
+                                <th>Played At</th>
+                                <th>Score</th>
+                                <th>Duration</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in ViewBag.Historys)
+                            {
+                                <tr>
+                                    <td>@item.Id</td>
+                                    <td>@item.User.Name</td>
+                                    <td>@item.Room.RoomCode</td>
+                                    <td>@item.PlayedAt</td>
+                                    <td>@item.Score</td>
+                                    <td>@item.Duration</td>
+                                    <td>
+                                        <a asp-action="Edit" class="btn btn-warning btn-sm" asp-controller="QuestionAdmin" asp-route-Id="@item.Id">Edit</a>
+                                        <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-danger btn-sm confirmDeletion" asp-controller="QuestionAdmin" asp-route-Id="@item.Id">Delete</a>
+                                    </td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-12">
+            <div class="card">
+                <div class="card-header">
+                    Leader board
+                </div>
+                <div class="card-body">
+                    <p class="card-title"></p>
+                    <table class="table table-hover" id="dataTables-example" width="100%">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Player Name</th>
+                                <th>High Score</th>
+                                <th>Best Duration</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (ViewBag.Leaderboard != null)
+                            {
+                                int rank = 1;
+                                foreach (var player in ViewBag.Leaderboard)
+                                {
+                                    <tr>
+                                        <td>@rank</td>
+                                        <td>@player.UserName</td>
+                                        <td>@player.MaxScore</td>
+                                        <td>@player.BestDuration.ToString("hh\\:mm\\:ss")</td>
+                                    </tr>
+                                    rank++;
+                                }
+                            }
+                            
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

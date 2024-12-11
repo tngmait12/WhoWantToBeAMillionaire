@@ -1757,6 +1757,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\images\\users\\9d7e1e3a-f772-4111-a18f-4e514a594b37_Screenshot 2024-12-09 222619.png",
+      "PackagePath": "staticwebassets\\images\\users\\9d7e1e3a-f772-4111-a18f-4e514a594b37_Screenshot 2024-12-09 222619.png"
+    },
+    {
+      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\images\\users\\e3b53848-4e86-45ae-8d71-db0b67521824_Screenshot 2024-12-02 211018.png",
+      "PackagePath": "staticwebassets\\images\\users\\e3b53848-4e86-45ae-8d71-db0b67521824_Screenshot 2024-12-02 211018.png"
+    },
+    {
+      "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\images\\users\\e62e64e5-052d-4226-8cc3-6a52950e7dbe_Screenshot 2024-12-03 222629.png",
+      "PackagePath": "staticwebassets\\images\\users\\e62e64e5-052d-4226-8cc3-6a52950e7dbe_Screenshot 2024-12-03 222629.png"
+    },
+    {
       "Id": "D:\\MVC\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

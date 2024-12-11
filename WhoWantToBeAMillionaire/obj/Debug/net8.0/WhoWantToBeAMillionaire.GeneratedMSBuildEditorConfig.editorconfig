@@ -26,6 +26,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\MVC\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/MVC/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Areas/Admin/Views/AccountAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudEFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MVC/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Areas/Admin/Views/AccountAdmin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudEFkbWluXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MVC/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Areas/Admin/Views/AccountAdmin/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudEFkbWluXFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MVC/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Areas/Admin/Views/AccountAdmin/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudEFkbWluXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/MVC/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Areas/Admin/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -84,14 +100,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/MVC/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/MVC/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Views/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/MVC/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Views/Account/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/MVC/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Views/Game/EndGame.cshtml]

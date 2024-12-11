@@ -8,15 +8,22 @@
     <a class="play button" asp-action="StartGame" asp-controller="Game">Play</a>
     @if (User.Identity?.IsAuthenticated ?? false)
     {
-        <a class="play button" asp-action="Logout" asp-controller="Account"><span>Hi, @User.Identity.Name! Logout</span></a>
+        <a class="play button" asp-area="admin" asp-action="Logout" asp-controller="AccountAdmin"><span>Hi, @User.Identity.Name! Logout</span></a>
         <a class="play button" asp-action="Index" asp-controller="Room">Create</a>
     }
     else
     {
-        <a class="play button" asp-action="Login" asp-controller="Account">Sign In</a>
-        <a class="play button" asp-action="Register" asp-controller="Account">Sign Up</a>
+        <a class="play button" asp-area="admin" asp-action="Login" asp-controller="AccountAdmin">Sign In</a>
+        <a class="play button" asp-area="admin" asp-action="Register" asp-controller="AccountAdmin">Sign Up</a>
     }
     
-    
+    <h2>Nhập Mã Phòng</h2>
+    <form asp-controller="Game" asp-action="JoinRoom">
+        <div class="form-group">
+            <label for="roomCode">Mã phòng:</label>
+            <input type="text" id="roomCode" name="roomCode" class="form-control" placeholder="Nhập mã phòng" required />
+        </div>
+        <button class="btn btn-primary mt-2">Tham gia</button>
+    </form>
     <a class="play button" asp-action="Index" asp-controller="Admin">Admin</a>
 </div>

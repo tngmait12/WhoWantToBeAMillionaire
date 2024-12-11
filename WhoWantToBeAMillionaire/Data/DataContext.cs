@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using WhoWantToBeAMillionaire.Models;
 
@@ -14,6 +15,7 @@ namespace WhoWantToBeAMillionaire.Data
         public DbSet<QuestionModel> Questions { get; set; }
         public DbSet<RoomModel> Rooms { get; set; }
         public DbSet<PlayerModel> Players { get; set; }
+        public DbSet<HistoryModel> Histories { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -24,6 +26,9 @@ namespace WhoWantToBeAMillionaire.Data
                 .WithMany(r => r.Questions)
                 .HasForeignKey(q => q.RoomId)
                 .OnDelete(DeleteBehavior.SetNull);
+            modelBuilder.Entity<AppUserModel>().ToTable("User");
+            modelBuilder.Entity<IdentityRole>().ToTable("Role");
+            modelBuilder.Entity<IdentityUserRole<string>>().ToTable("UserRole");
         }
 
     }

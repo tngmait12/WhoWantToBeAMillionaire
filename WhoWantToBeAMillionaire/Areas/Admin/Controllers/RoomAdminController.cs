@@ -61,6 +61,29 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
 
             var questions = await _dataContext.Questions.Include(p=>p.Topic).Where(p => p.RoomId == id).ToListAsync();
             ViewBag.Questions = questions;
+
+            var history = await _dataContext.Histories.Include(p=>p.Room).Include(p=>p.User).Where(p => p.RoomId == id).ToListAsync();
+            ViewBag.Historys = history;
+
+            var leaderboard = await _dataContext.Histories
+                .Where(p=>p.RoomId == id)
+                .GroupBy(h => h.UserId)
+                .Select(g => new
+                {
+                    UserId = g.Key,
+                    UserName = g.FirstOrDefault().User.Name,
+                    MaxScore = g.Max(h => h.Score), // Lấy điểm cao nhất
+                    BestDuration = g.Where(h => h.Score == g.Max(h2 => h2.Score)) // Lấy danh sách có điểm cao nhất
+                                    .OrderBy(h => h.Duration) // Sắp xếp theo thời gian hoàn thành
+                                    .FirstOrDefault().Duration // Lấy thời gian tốt nhất
+                })
+                .OrderByDescending(x => x.MaxScore) // Sắp xếp theo điểm số
+                .ThenBy(x => x.BestDuration) // Nếu điểm bằng nhau, sắp xếp theo thời gian hoàn thành
+                .Take(10) // Giới hạn Top 10
+                .ToListAsync();
+
+            ViewBag.Leaderboard = leaderboard;
+
             return View(room);
         }
 
@@ -85,8 +108,6 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
             // Chuyển hướng về danh sách phòng
             return RedirectToAction(nameof(Index));
         }
-
-
         private string GenerateRoomCode()
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";

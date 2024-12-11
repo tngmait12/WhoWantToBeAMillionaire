@@ -1,0 +1,121 @@
+﻿@model AppUserModel
+
+<div class="container-fluid">
+    <section style="background-color: #eee;">
+        <div class="container py-5">
+            <!-- <div class="row">
+              <div class="col">
+                <nav aria-label="breadcrumb" class="bg-body-tertiary rounded-3 p-3 mb-4">
+                  <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">User</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">User Profile</li>
+                  </ol>
+                </nav>
+              </div>
+            </div> -->
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <img src="~/images//users/@Model.Image" alt="avatar"
+                                 class="rounded-circle img-fluid" style="width: 150px;">
+                            <h5 class="my-3">@Model.Name</h5>
+                            <p class="text-muted mb-1">Full Stack Developer</p>
+                            <p class="text-muted mb-4">Bay Area, San Francisco, CA</p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary">Follow</button>
+                                <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-primary ms-1">Message</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4 mb-lg-0">
+                        <div class="card-body p-0">
+                            <ul class="list-group list-group-flush rounded-3">
+                                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                                    <i class="fas fa-globe fa-lg text-warning"></i>
+                                    <p class="mb-0">https://mdbootstrap.com</p>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                                    <i class="fab fa-github fa-lg text-body"></i>
+                                    <p class="mb-0">mdbootstrap</p>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                                    <i class="fab fa-twitter fa-lg" style="color: #55acee;"></i>
+                                    <p class="mb-0">mdbootstrap</p>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                                    <i class="fab fa-instagram fa-lg" style="color: #ac2bac;"></i>
+                                    <p class="mb-0">mdbootstrap</p>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                                    <i class="fab fa-facebook-f fa-lg" style="color: #3b5998;"></i>
+                                    <p class="mb-0">mdbootstrap</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="col-lg-8">
+                    <div class="card">
+                        <div class="card-header">Info personal</div>
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <form asp-action="Profile" asp-controller="AccountAdmin" method="post" enctype="multipart/form-data" class="form-horizontal">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="form-group row">
+                                    <label class="col-sm-2">Fullname</label>
+                                    <div class="col-sm-10">
+                                        <input asp-for=Name type="text" class="form-control">
+                                        <span asp-validation-for="Name" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-2">Email</label>
+                                    <div class="col-sm-10">
+                                        <input readonly asp-for="Email" type="text" class="form-control">
+                                        <span asp-validation-for="Email" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-2">Phone</label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="PhoneNumber" type="text" class="form-control">
+                                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-2">Image</label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="ImageUpload" type="file" class="form-control" />
+                                        <span asp-validation-for="ImageUpload" class="text-danger"></span>
+                                        <img src="~/images/users/@Model.Image" width="100" height="80" />
+                                    </div>
+                                </div>
+                                <div class="line"></div><br>
+                                <div class="form-group row">
+                                    <div class="col-sm-4 offset-sm-2">
+                                        <button type="submit" class="btn btn-primary mb-2"><i class="fas fa-save"></i> Save</button>
+                                        <a asp-action="Index" class="btn btn-danger mb-2"><i class="fas fa-save"></i> Cancel</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+@section Scripts{
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $('#imgpreview').change(function () {
+            readURL(this);
+        })
+    </script>
+}

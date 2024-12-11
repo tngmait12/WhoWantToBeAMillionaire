@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.DotNet.MSIdentity.Shared;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 using WhoWantToBeAMillionaire.Data;
 using WhoWantToBeAMillionaire.Models;
 
@@ -29,7 +30,10 @@ namespace WhoWantToBeAMillionaire.Controllers
             HttpContext.Session.Set("Questions", questions);
             HttpContext.Session.SetInt32("CurrentQuestionIndex", 0);
             HttpContext.Session.SetInt32("Score", 0);
-            //HttpContext.Session.SetInt32("RoomId", roomId);
+            HttpContext.Session.SetInt32("RoomId", roomId);
+
+            // Lưu thời gian bắt đầu
+            HttpContext.Session.Set("StartTime", DateTime.Now);
 
             return RedirectToAction("Question");
         }
@@ -37,19 +41,19 @@ namespace WhoWantToBeAMillionaire.Controllers
         public List<QuestionModel> GetQuestionsByDifficulty(int roomId)
         {
             var easyQuestions = _dataContext.Questions
-                                        .Where(q =>  q.Difficulty == 1) // Mức độ dễ
+                                        .Where(q => q.Difficulty == 1 && q.RoomId==roomId) // Mức độ dễ
                                         .OrderBy(q => Guid.NewGuid()) // Random
                                         .Take(5) // Lấy 5 câu
                                         .ToList();
 
             var mediumQuestions = _dataContext.Questions
-                                          .Where(q =>  q.Difficulty == 2) // Mức độ trung bình
+                                          .Where(q =>  q.Difficulty == 2 && q.RoomId == roomId) // Mức độ trung bình
                                           .OrderBy(q => Guid.NewGuid())
                                           .Take(5)
                                           .ToList();
 
             var hardQuestions = _dataContext.Questions
-                                        .Where(q =>  q.Difficulty == 3) // Mức độ khó
+                                        .Where(q =>  q.Difficulty == 3 && q.RoomId == roomId) // Mức độ khó
                                         .OrderBy(q => Guid.NewGuid())
                                         .Take(5)
                                         .ToList();
@@ -63,9 +67,34 @@ namespace WhoWantToBeAMillionaire.Controllers
             return allQuestions;
         }
 
-        public IActionResult EndGame()
+        public async Task<IActionResult> EndGame()
         {
+            // Lấy dữ liệu từ Session
             var score = HttpContext.Session.GetInt32("Score") ?? 0;
+            var roomId = HttpContext.Session.GetInt32("RoomId") ?? 0;
+            var startTime = HttpContext.Session.Get<DateTime>("StartTime");
+            var endTime = DateTime.Now;
+
+            // Tính toán thời gian hoàn thành
+            var duration = endTime - startTime;
+
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if(userId != null)
+            {
+                var gameHistory = new HistoryModel
+                {
+                    UserId = userId,
+                    RoomId = roomId,
+                    PlayedAt = startTime,
+                    Score = score,
+                    Completed = true,
+                    Duration = duration
+                };
+
+                _dataContext.Histories.Add(gameHistory);
+                await _dataContext.SaveChangesAsync();
+            }
+
             ViewBag.Score = score;
 
             return View();
@@ -237,6 +266,29 @@ namespace WhoWantToBeAMillionaire.Controllers
             };
 
             return Json(advisors); // Trả về danh sách ý kiến của tổ tư vấn
+        }
+
+
+        //[HttpPost]
+        public IActionResult JoinRoom(string roomCode)
+        {
+            // Tìm phòng dựa trên mã phòng
+            var room = _dataContext.Rooms
+                                   .Include(r => r.Questions)
+                                   .FirstOrDefault(r => r.RoomCode == roomCode);
+
+            if (room == null)
+            {
+                TempData["success"] = "Mã phòng không hợp lệ.";
+                return RedirectToAction("Index","Home");
+            }
+
+            // Lưu thông tin cần thiết vào Session (nếu muốn dùng ở các bước sau)
+            HttpContext.Session.SetString("RoomCode", room.RoomCode);
+            HttpContext.Session.SetInt32("RoomId", room.Id);
+
+            // Redirect to StartGame with roomId
+            return RedirectToAction("StartGame", new { roomId = room.Id });
         }
 
 

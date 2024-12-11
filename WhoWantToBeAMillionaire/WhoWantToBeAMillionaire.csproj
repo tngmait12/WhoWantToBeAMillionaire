@@ -24,6 +24,7 @@
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="wwwroot\assets\audio\" />
+    <Folder Include="wwwroot\images\users\" />
   </ItemGroup>
 
 </Project>
