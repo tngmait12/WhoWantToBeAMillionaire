@@ -107,6 +107,14 @@
     </div>
 </section>
 
+<section id="notice">
+    <h1>Bạn muốn bỏ cuộc!</h1>
+    <div>
+        <a id="no">Không</a>
+        <a id="yes" href="EndGame">Đồng ý</a>
+    </div>
+</section>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -126,6 +134,14 @@
     var callPhoneFriendUsed = false;
     var askAudienceUsed = false;
 
+    $("#giveUp").click(function() {
+        $("#notice").addClass("show");
+    });
+
+    $("#no").click(function() {
+        $("#notice").removeClass("show");
+    });
+
     $(function () {
         var message = '@TempData["success"]';
         if (message != '')
@@ -133,10 +149,6 @@
     });
 
     //function
-    $("#giveUp").click(function() {
-        window.location.href = "EndGame";
-    });
-
     function fiftyFifty() {
         if (fiftyFiftyUsed) return; // Nếu đã sử dụng 50:50 thì không làm gì thêm
         fiftyFiftyUsed = true; // Đánh dấu đã sử dụng 50:50

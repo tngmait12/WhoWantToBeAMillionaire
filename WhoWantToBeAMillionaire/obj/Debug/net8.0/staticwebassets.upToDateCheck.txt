@@ -434,8 +434,12 @@ wwwroot\assets\vendor\mdtimepicker\mdtimepicker-theme.css
 wwwroot\css\endgame.css
 wwwroot\css\play.css
 wwwroot\css\site.css
+wwwroot\css\startgame.css
 wwwroot\css\style.css
 wwwroot\favicon.ico
+wwwroot\images\users\9d7e1e3a-f772-4111-a18f-4e514a594b37_Screenshot 2024-12-09 222619.png
+wwwroot\images\users\c9bb3121-81f6-4a09-a4d1-6d8a833126a0_Screenshot 2024-12-06 231631.png
+wwwroot\images\users\e62e64e5-052d-4226-8cc3-6a52950e7dbe_Screenshot 2024-12-03 222629.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

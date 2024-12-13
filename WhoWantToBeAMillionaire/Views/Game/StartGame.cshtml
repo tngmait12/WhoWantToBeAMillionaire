@@ -1,0 +1,38 @@
+﻿<head>
+    <link href="~/css/startgame.css" rel="stylesheet" />
+</head>
+
+<div id="logo">
+    <img src="~/assets/img/WWTBAM_logo.png" />
+</div>
+
+<form id="start-form" asp-controller="Game" asp-action="StartGame">
+    <section class="option">
+        <input type="radio" id="rand" class="play" name="play" value="rand" checked />
+        <label for="rand">Phòng ngẫu nhiên</label>
+    </section>
+    <section class="option">
+        <input type="radio" id="room" class="play" name="play" value="room" />
+        <label for="room">Phòng đã tạo</label>
+        <div id="code-form">
+            <label for="roomCode">Mã phòng</label>
+            <input type="text" id="roomCode" name="roomCode" class="form-control" placeholder="Nhập mã phòng" value="" disabled />
+            <p style="color: red; font-size: 0.8em;">@TempData["notice"]</p>
+        </div>
+    </section>
+    <button type="submit" id="btn">Tham gia</button>
+</form>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+            $(".play").change(function() {
+                if ($("#room").is(":checked")) {
+               $("#roomCode").prop("disabled", false);
+            }
+            else {
+                $("#roomCode").prop("disabled", true);
+            }
+        });
+    });
+</script>
