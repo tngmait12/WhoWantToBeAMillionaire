@@ -12,6 +12,7 @@
                     <h5 class="card-title"></h5>
                     <form class="form-horizontal" asp-action="Edit" method="post" enctype="multipart/form-data">
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" name="roomId" value="@ViewBag.RoomId" />
                         <div class="form-group row">
                             <label asp-for="Content" class="col-sm-2">Content</label>
                             <div class="col-sm-10">
@@ -70,7 +71,7 @@
                         <div class="line"></div><br>
                         <div class="form-group row">
                             <div class="col-sm-4 offset-sm-2">
-                                <a asp-action="Index" asp-controller="QuestionAdmin" class="btn btn-secondary mb-2"><i class="fas fa-times"></i> Cancel</a>
+                                <a asp-action="Details" asp-controller="RoomAdmin" asp-route-Id="@ViewBag.RoomId" class="btn btn-secondary mb-2"><i class="fas fa-times"></i> Cancel</a>
                                 <button type="submit" class="btn btn-primary mb-2"><i class="fas fa-save"></i> Update</button>
                             </div>
                         </div>

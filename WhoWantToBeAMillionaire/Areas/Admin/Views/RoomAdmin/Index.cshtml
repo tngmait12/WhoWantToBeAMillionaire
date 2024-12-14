@@ -47,7 +47,6 @@
                                         }
                                     </td> *@
                                     <td>
-                                        <a asp-action="Create" class="btn btn-warning btn-sm" asp-controller="QuestionAdmin" asp-route-roomId="@item.Id">AddQuestion</a>
                                         <a asp-action="Details" class="btn btn-warning btn-sm" asp-controller="RoomAdmin" asp-route-Id="@item.Id">Manage</a>
                                         <a asp-area="default" asp-controller="Game" asp-action="StartGame" asp-route-roomId="@item.Id" class="btn btn-primary">Start Game</a>
                                         <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-danger btn-sm confirmDeletion" asp-controller="RoomAdmin" asp-route-Id="@item.Id">Delete</a>

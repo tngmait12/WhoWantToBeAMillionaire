@@ -16,7 +16,7 @@
             <div class="card">
                 <div class="card-header">
                     Questions
-                    <a asp-action="Create" asp-controller="QuestionAdmin" class="btn btn-success">Create Question</a>
+                    <a asp-action="Create" asp-controller="QuestionAdmin" asp-route-roomId="@Model.Id" class="btn btn-success">Create Question</a>
                 </div>
                 <div class="card-body">
                     <p class="card-title"></p>
@@ -62,8 +62,8 @@
                                         @item.Topic.Name
                                     </td>
                                     <td>
-                                        <a asp-action="Edit" class="btn btn-warning btn-sm" asp-controller="QuestionAdmin" asp-route-Id="@item.Id">Edit</a>
-                                        <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-danger btn-sm confirmDeletion" asp-controller="QuestionAdmin" asp-route-Id="@item.Id">Delete</a>
+                                        <a asp-action="Edit" class="btn btn-warning btn-sm" asp-controller="QuestionAdmin" asp-route-roomId="@Model.Id" asp-route-Id="@item.Id">Edit</a>
+                                        <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-danger btn-sm confirmDeletion" asp-controller="QuestionAdmin" asp-route-roomId="@Model.Id" asp-route-Id="@item.Id">Delete</a>
                                     </td>
                                 </tr>
                             }
@@ -103,8 +103,8 @@
                                     <td>@item.Score</td>
                                     <td>@item.Duration</td>
                                     <td>
-                                        <a asp-action="Edit" class="btn btn-warning btn-sm" asp-controller="QuestionAdmin" asp-route-Id="@item.Id">Edit</a>
-                                        <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-danger btn-sm confirmDeletion" asp-controller="QuestionAdmin" asp-route-Id="@item.Id">Delete</a>
+                                        @* <a asp-action="Edit" class="btn btn-warning btn-sm" asp-controller="QuestionAdmin" asp-route-Id="@item.Id">Edit</a>
+                                        <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-danger btn-sm confirmDeletion" asp-controller="QuestionAdmin" asp-route-Id="@item.Id">Delete</a> *@
                                     </td>
                                 </tr>
                             }

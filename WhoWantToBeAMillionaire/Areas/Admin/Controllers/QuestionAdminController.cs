@@ -22,7 +22,6 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
         public IActionResult Create(int? roomId)
         {
             ViewBag.Topics = new SelectList(_dataContext.Topics, "Id", "Name");
-            //ViewBag.Rooms = new SelectList(_dataContext.Rooms, "Id", "Name");
             if (roomId.HasValue)
             {
                 ViewBag.RoomId = roomId.Value;
@@ -34,7 +33,6 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
         public async Task<IActionResult> Create(QuestionModel question, int? roomId)
         {
             ViewBag.Topics = new SelectList(_dataContext.Topics, "Id", "Name", question.TopicId);
-            //ViewBag.Rooms = new SelectList(_dataContext.Rooms, "Id", "Name", question.RoomId);
             if (ModelState.IsValid)
             {
                 if (roomId.HasValue)
@@ -45,7 +43,7 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
                 _dataContext.Add(question);
                 await _dataContext.SaveChangesAsync();
                 TempData["success"] = "Add Question Success!";
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Details", "RoomAdmin", new { id = roomId });
             }
             else
             {
@@ -65,21 +63,24 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
             return View(question);
         }
 
-        public async Task<IActionResult> Edit(int Id)
+        public async Task<IActionResult> Edit(int Id, int? roomId)
         {
             QuestionModel question = await _dataContext.Questions.FirstOrDefaultAsync(p => p.Id == Id);
             ViewBag.Topics = new SelectList(_dataContext.Topics, "Id", "Name");
-
+            if (roomId.HasValue)
+            {
+                ViewBag.RoomId = roomId.Value;
+            }
             return View(question);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int Id, QuestionModel question)
+        public async Task<IActionResult> Edit(int Id, QuestionModel question, int? roomId)
         {
             ViewBag.Topics = new SelectList(_dataContext.Topics, "Id", "Name", question.TopicId);
 
-            var existed_question = _dataContext.Questions.Find(question.Id);
+            var existed_question = _dataContext.Questions.Find(Id);
             if (ModelState.IsValid)
             {
                 //Update
@@ -95,7 +96,8 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
                 _dataContext.Update(existed_question);
                 await _dataContext.SaveChangesAsync();
                 TempData["success"] = "Update Question Success!";
-                return RedirectToAction("Index");
+                return RedirectToAction("Details", "RoomAdmin", new { id = roomId });
+                
             }
             else
             {
@@ -115,7 +117,7 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
             return View(question);
         }
 
-        public async Task<IActionResult> Delete(int Id)
+        public async Task<IActionResult> Delete(int Id, int? roomId)
         {
             QuestionModel question = await _dataContext.Questions.FirstOrDefaultAsync(p => p.Id == Id);
 
@@ -127,8 +129,7 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
             _dataContext.Questions.Remove(question);
             await _dataContext.SaveChangesAsync();
             TempData["success"] = "Delete Question Success";
-
-            return RedirectToAction("Index");
+            return RedirectToAction("Details", "RoomAdmin", new { id = roomId });
         }
     }
 }
