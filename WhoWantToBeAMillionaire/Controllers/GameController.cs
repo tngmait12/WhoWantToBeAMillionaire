@@ -24,6 +24,7 @@ namespace WhoWantToBeAMillionaire.Controllers
             {
                 questions = _dataContext.Questions
                                         .ToList();
+                return questions;
             }
             else
             {

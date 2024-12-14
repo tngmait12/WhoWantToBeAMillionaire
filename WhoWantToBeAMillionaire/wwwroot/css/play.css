@@ -171,6 +171,7 @@ p.selected {
     transition: opacity 0.5s ease;
 }
 
+/*animation datalist level*/
 .correct-answer {
     background-color: #28a745; /* Màu xanh lá */
     animation: correctBlink 0.5s infinite alternate;
@@ -200,6 +201,36 @@ p.selected {
         background-color: #f28b8b;
     }
 }
+/*animation datalist level*/
+
+/*animation answer*/
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.correct{
+    background-image: url('../assets/img/rightanswer-removebg-preview.png');
+    background-size: 100% 100%;
+    background-position: center;
+    color: #fff; /* Đổi màu chữ nếu cần để nổi bật */
+    animation: blink 0.5s linear 4;
+}
+
+.wrong{
+    background-image: url('../assets/img/wronganswer-removebg-preview.png');
+    background-size: 100% 100%;
+    background-position: center;
+    color: #fff; /* Đổi màu chữ nếu cần để nổi bật */
+    animation: blink 0.5s linear 4;
+}
+/*animation answer*/
+
 
 .fade-out {
     opacity: 0;

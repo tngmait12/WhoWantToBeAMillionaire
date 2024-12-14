@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -22,6 +23,7 @@ namespace WhoWantToBeAMillionaire.Models
         // Navigation Properties
         public TopicModel Topic { get; set; }
         public int? RoomId { get; set; } // Liên kết với phòng (có thể null nếu không thuộc phòng nào)
+        [JsonIgnore]
         public virtual RoomModel Room { get; set; }
 
         // Danh sách chứa câu trả lời trộn lẫn

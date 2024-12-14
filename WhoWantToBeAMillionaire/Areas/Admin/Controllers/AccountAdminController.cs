@@ -83,7 +83,7 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
                 if (result.Succeeded)
                 {
                     TempData["Success"] = "Đăng ký tài khoản thành công!";
-                    return Redirect("/accountadmin/login");
+                    return RedirectToAction("login");
                 }
                 foreach (IdentityError error in result.Errors)
                 {

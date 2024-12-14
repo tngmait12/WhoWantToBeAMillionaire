@@ -303,11 +303,11 @@
     // Hiệu ứng khi chọn đúng
     function showCorrectEffect(selectedElement) {
         return new Promise((resolve) => {
-            selectedElement.addClass("correct-answer");
+            selectedElement.addClass("correct");
             $(".selected").addClass("correct-answer");
             $(".answer a").addClass("disabled").css("pointer-events", "none");
             setTimeout(function () {
-                selectedElement.removeClass("correct-answer");
+                selectedElement.removeClass("correct");
                 $(".selected").removeClass("correct-answer");
                 $(".answer a").removeClass("disabled").css("pointer-events", "auto"); // Kích hoạt lại đáp án
                 resolve();
@@ -318,13 +318,13 @@
     // Hiệu ứng khi chọn sai
     function showWrongEffect(selectedElement) {
         return new Promise((resolve) => {
-            selectedElement.addClass("wrong-answer");
+            selectedElement.addClass("wrong");
             $(".selected").addClass("wrong-answer");
 
             $(".answer a").addClass("disabled").css("pointer-events", "none");
 
             setTimeout(function () {
-                selectedElement.removeClass("wrong-answer");
+                selectedElement.removeClass("wrong");
                 $(".selected").removeClass("wrong-answer");
                 $(".answer a").removeClass("disabled").css("pointer-events", "auto"); // Kích hoạt lại đáp án
                 resolve();
