@@ -5,7 +5,7 @@
         <div class="col-md-12 col-lg-12">
             <div class="card">
                 <div class="card-header">
-                    Rooms
+                    Your Rooms
                     <a asp-action="Create" asp-controller="RoomAdmin" class="btn btn-success">Create Room</a>
                 </div>
                 <div class="card-body">
@@ -14,9 +14,68 @@
                         <thead>
                             <tr>
                                 <th>ID</th>
-                                <th>Name</th>
+                                <th>Host Name</th>
+                                <th>Room Name</th>
                                 <th>RoomCode</th>
-                                <th>HostPlayerId</th>
+
+                                <th>CreatedAt</th>
+                                <th>IsActive</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in ViewBag.UserRooms)
+                            {
+                                <tr>
+                                    <td>@item.Id</td>
+                                    <td>@item.HostPlayer.Name</td>
+                                    <td>@item.Name</td>
+                                    <td>@item.RoomCode</td>
+                                    <td>@item.CreatedAt.ToString("g")</td>
+                                    <td>@item.IsActive</td>
+                                    @*  <td>
+                                @if (item.Difficulty == 1)
+                                {
+                                <span class="text text-success">Easy</span>
+                                }
+                                else if (item.Difficulty == 2)
+                                {
+                                <span class="text text-warning">Medium</span>
+                                }
+                                else
+                                {
+                                <span class="text text-danger">Difficulty</span>
+                                }
+                                </td> *@
+                                    <td>
+                                        <a asp-action="Details" class="btn btn-warning btn-sm" asp-controller="RoomAdmin" asp-route-Id="@item.Id">Manage</a>
+                                        <a asp-area="default" asp-controller="Game" asp-action="StartGame" asp-route-roomId="@item.Id" class="btn btn-primary">Start Game</a>
+                                        <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-danger btn-sm confirmDeletion" asp-controller="RoomAdmin" asp-route-Id="@item.Id">Delete</a>
+                                    </td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 col-lg-12">
+            <div class="card">
+                <div class="card-header">
+                    All Rooms
+                </div>
+                <div class="card-body">
+                    <p class="card-title"></p>
+                    <table class="table table-hover" id="dataTables-example" width="100%">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Host Name</th>
+                                <th>Room Name</th>
+                                <th>RoomCode</th>
                                 <th>CreatedAt</th>
                                 <th>IsActive</th>
                                 <th>Action</th>
@@ -27,9 +86,9 @@
                             {
                                 <tr>
                                     <td>@item.Id</td>
+                                    <td>@item.HostPlayer.Name</td>
                                     <td>@item.Name</td>
                                     <td>@item.RoomCode</td>
-                                    <td>@item.HostPlayerId</td>
                                     <td>@item.CreatedAt.ToString("g")</td>
                                     <td>@item.IsActive</td>
                                    @*  <td>
@@ -49,7 +108,6 @@
                                     <td>
                                         <a asp-action="Details" class="btn btn-warning btn-sm" asp-controller="RoomAdmin" asp-route-Id="@item.Id">Manage</a>
                                         <a asp-area="default" asp-controller="Game" asp-action="StartGame" asp-route-roomId="@item.Id" class="btn btn-primary">Start Game</a>
-                                        <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-danger btn-sm confirmDeletion" asp-controller="RoomAdmin" asp-route-Id="@item.Id">Delete</a>
                                     </td>
                                 </tr>
                             }

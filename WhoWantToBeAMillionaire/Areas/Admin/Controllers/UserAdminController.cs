@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -9,6 +10,7 @@ using WhoWantToBeAMillionaire.Models;
 namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class UserAdminController : Controller
     {
         private readonly UserManager<AppUserModel> _userManager;

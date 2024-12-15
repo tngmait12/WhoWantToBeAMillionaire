@@ -11,6 +11,8 @@ namespace WhoWantToBeAMillionaire.Models
         public string HostPlayerId { get; set; }
         public bool IsActive { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        public virtual AppUserModel HostPlayer { get; set; }
         public virtual ICollection<PlayerModel> Players { get; set; } = new List<PlayerModel>();
 
         // Quan hệ với Question

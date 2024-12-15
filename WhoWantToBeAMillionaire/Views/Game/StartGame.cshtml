@@ -22,7 +22,6 @@
     </section>
     <button type="submit" id="btn">Tham gia</button>
 </form>
-
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function() {
@@ -34,5 +33,16 @@
                 $("#roomCode").prop("disabled", true);
             }
         });
+        $("#start-form").submit(function(event) {
+            resetGame();
+        });
+
+        function resetGame() {
+            sessionStorage.removeItem("fiftyFiftyUsed");
+            sessionStorage.removeItem("askAudienceUsed");
+            sessionStorage.removeItem("callPhoneFriendUsed");
+            sessionStorage.removeItem("askAdvisorsUsed");
+            location.reload(); // Tải lại trang để cập nhật trạng thái
+        }
     });
 </script>

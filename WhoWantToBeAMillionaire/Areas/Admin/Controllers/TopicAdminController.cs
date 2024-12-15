@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WhoWantToBeAMillionaire.Data;
 using WhoWantToBeAMillionaire.Models;
@@ -6,6 +7,7 @@ using WhoWantToBeAMillionaire.Models;
 namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class TopicAdminController : Controller
     {
         private readonly DataContext _dataContext;

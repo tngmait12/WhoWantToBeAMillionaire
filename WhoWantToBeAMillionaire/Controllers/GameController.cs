@@ -95,35 +95,6 @@ namespace WhoWantToBeAMillionaire.Controllers
             return RedirectToAction("Question");
         }
 
-        //public List<QuestionModel> GetQuestionsByDifficulty(int roomId)
-        //{
-        //    var easyQuestions = _dataContext.Questions
-        //                                .Where(q => q.Difficulty == 1 && q.RoomId==roomId) // Mức độ dễ
-        //                                .OrderBy(q => Guid.NewGuid()) // Random
-        //                                .Take(5) // Lấy 5 câu
-        //                                .ToList();
-
-        //    var mediumQuestions = _dataContext.Questions
-        //                                  .Where(q =>  q.Difficulty == 2 && q.RoomId == roomId) // Mức độ trung bình
-        //                                  .OrderBy(q => Guid.NewGuid())
-        //                                  .Take(5)
-        //                                  .ToList();
-
-        //    var hardQuestions = _dataContext.Questions
-        //                                .Where(q =>  q.Difficulty == 3 && q.RoomId == roomId) // Mức độ khó
-        //                                .OrderBy(q => Guid.NewGuid())
-        //                                .Take(5)
-        //                                .ToList();
-
-        //    // Kết hợp tất cả các câu hỏi thành một danh sách
-        //    var allQuestions = easyQuestions
-        //                       .Concat(mediumQuestions)
-        //                       .Concat(hardQuestions)
-        //                       .ToList();
-
-        //    return allQuestions;
-        //}
-
         public async Task<IActionResult> EndGame()
         {
             // Lấy dữ liệu từ Session
@@ -324,72 +295,6 @@ namespace WhoWantToBeAMillionaire.Controllers
 
             return Json(advisors); // Trả về danh sách ý kiến của tổ tư vấn
         }
-
-
-        //[HttpPost]
-        public IActionResult JoinRoom(string roomCode)
-        {
-            // Tìm phòng dựa trên mã phòng
-            var room = _dataContext.Rooms
-                                   .Include(r => r.Questions)
-                                   .FirstOrDefault(r => r.RoomCode == roomCode);
-
-            if (room == null)
-            {
-                TempData["success"] = "Mã phòng không hợp lệ.";
-                return RedirectToAction("Index","Home");
-            }
-
-            // Lưu thông tin cần thiết vào Session (nếu muốn dùng ở các bước sau)
-            HttpContext.Session.SetString("RoomCode", room.RoomCode);
-            HttpContext.Session.SetInt32("RoomId", room.Id);
-
-            // Redirect to StartGame with roomId
-            return RedirectToAction("StartGame", new { roomId = room.Id });
-        }
-
-
-        //public IActionResult StartGameTest()
-        //{
-        //    var questions = GetQuestionsByDifficultyTest();
-
-        //    // Lưu danh sách câu hỏi vào Session
-        //    HttpContext.Session.Set("Questions", questions);
-        //    HttpContext.Session.SetInt32("CurrentQuestionIndex", 0);
-        //    HttpContext.Session.SetInt32("Score", 0);
-        //    //HttpContext.Session.SetInt32("RoomId", roomId);
-
-        //    return RedirectToAction("Question");
-        //}
-
-        //public List<QuestionModel> GetQuestionsByDifficultyTest()
-        //{
-        //    var easyQuestions = _dataContext.Questions
-        //                                .Where(q =>  q.Difficulty == 1) // Mức độ dễ
-        //                                .OrderBy(q => Guid.NewGuid()) // Random
-        //                                .Take(5) // Lấy 5 câu
-        //                                .ToList();
-
-        //    var mediumQuestions = _dataContext.Questions
-        //                                  .Where(q =>  q.Difficulty == 2) // Mức độ trung bình
-        //                                  .OrderBy(q => Guid.NewGuid())
-        //                                  .Take(5)
-        //                                  .ToList();
-
-        //    var hardQuestions = _dataContext.Questions
-        //                                .Where(q =>  q.Difficulty == 3) // Mức độ khó
-        //                                .OrderBy(q => Guid.NewGuid())
-        //                                .Take(5)
-        //                                .ToList();
-
-        //    // Kết hợp tất cả các câu hỏi thành một danh sách
-        //    var allQuestions = easyQuestions
-        //                       .Concat(mediumQuestions)
-        //                       .Concat(hardQuestions)
-        //                       .ToList();
-
-        //    return allQuestions;
-        //}
 
     }
 }

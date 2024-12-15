@@ -126,6 +126,8 @@
 
     var isProcessing = false; // Cờ kiểm soát trạng thái hiệu ứng
 
+    console.log(sessionStorage.getItem("fiftyFiftyUsed"));
+
     backgroundAudio.loop = true;
     backgroundAudio.volume = 0.5;
     backgroundAudio.play();
@@ -148,19 +150,36 @@
             Swal.fire(message)
     });
 
+    //localStorage các quyền trợ giúp
+
+    if (sessionStorage.getItem("fiftyFiftyUsed") === "true") {
+        $("#50_50").css("opacity", "50%").prop("disabled", true);
+    } else {
+        $("#50_50").css("opacity", "100%").prop("disabled", false); // Đảm bảo trạng thái ban đầu
+    }
+
+
+    if (sessionStorage.getItem("askAdvisorsUsed") === "true") {
+        $("#Ask").css("opacity", "50%").prop("disabled", true);
+    } else {
+        $("#Ask").css("opacity", "100%").prop("disabled", false); // Đảm bảo trạng thái ban đầu
+    }
+
+    if (sessionStorage.getItem("callPhoneFriendUsed") === "true") {
+        $("#Phone").css("opacity", "50%").prop("disabled", true);
+    } else {
+        $("#Phone").css("opacity", "100%").prop("disabled", false); // Đảm bảo trạng thái ban đầu
+    }
+
+    if (sessionStorage.getItem("askAudienceUsed") === "true") {
+        $("#Vote").css("opacity", "50%").prop("disabled", true);
+    }
+    else {
+        $("#Vote").css("opacity", "100%").prop("disabled", false); // Đảm bảo trạng thái ban đầu
+    }
     //function
     function fiftyFifty() {
-        if (fiftyFiftyUsed) return; // Nếu đã sử dụng 50:50 thì không làm gì thêm
-        fiftyFiftyUsed = true; // Đánh dấu đã sử dụng 50:50
-        if (fiftyFiftyUsed) $("#50_50").css("opacity", "50%");
-
-        // Áp dụng hiệu ứng mờ dần và sau 2 giây sẽ ẩn thẻ mà không ảnh hưởng đến bố cục
-        // $(this).css('opacity', '0'); // Mờ dần phần tử
-
-        // // Sau 2 giây, thay đổi visibility thành hidden để ẩn thẻ mà không ảnh hưởng bố cục
-        // setTimeout(() => {
-        //     $(this).css('visibility', 'hidden'); // Ẩn thẻ hoàn toàn
-        // }, 2000); // 2 giây sau
+        if (sessionStorage.getItem("fiftyFiftyUsed") === "true") return;
 
         $.ajax({
             url: '@Url.Action("FiftyFifty", "Game")', // Đảm bảo URL đúng
@@ -179,6 +198,8 @@
                             });
                         }
                     });
+                    sessionStorage.setItem("fiftyFiftyUsed", "true");
+                    $("#50_50").css("opacity", "50%").prop("disabled", true);
                 }
             },
             error: function () {
@@ -187,10 +208,9 @@
         });
     }
 
+
     function askAudience() {
-        if (askAudienceUsed) return;
-        askAudienceUsed = true;
-        if (askAudienceUsed) $("#Vote").css("opacity", "50%");
+        if (sessionStorage.getItem("askAudienceUsed") === "true") return;
 
         $.ajax({
             url: '@Url.Action("AskAudience", "Game")',
@@ -247,6 +267,9 @@
                         }
                     }
                 });
+
+                sessionStorage.setItem("askAudienceUsed", "true");
+                $("#Vote").css("opacity", "50%").prop("disabled", true);
             },
             error: function () {
                 console.error("Lỗi khi gọi trợ giúp khán giả.");
@@ -255,9 +278,7 @@
     }
 
     function callPhoneFriend() {
-        if (callPhoneFriendUsed) return;
-        callPhoneFriendUsed = true;
-        if (callPhoneFriendUsed) $("#Phone").css("opacity", "50%");
+        if (sessionStorage.getItem("callPhoneFriendUsed") === "true") return;
 
         // Giả lập phản hồi từ người thân với xác suất đúng/sai ngẫu nhiên
         $.ajax({
@@ -267,6 +288,9 @@
                 console.log(data.message);
                 $(".phone-help").fadeIn(500);
                 $("#phone-response").text(data.message); // Hiển thị gợi ý của người thân
+
+                sessionStorage.setItem("callPhoneFriendUsed", "true");
+                $("#Phone").css("opacity", "50%").prop("disabled", true);
             },
             error: function () {
                 console.error("Lỗi khi gọi điện thoại.");
@@ -276,9 +300,7 @@
     }
 
     function askAdvisors() {
-        if (askAdvisorsUsed) return;
-        askAdvisorsUsed = true;
-        if (askAdvisorsUsed) $("#Ask").css("opacity", "50%");
+        if (sessionStorage.getItem("askAdvisorsUsed") === "true") return;
 
         $.ajax({
             url: '@Url.Action("AskAdvisors", "Game")',
@@ -291,6 +313,9 @@
                     console.log("Advisor:", advisor);
                     $("#advisor" + (index + 1) + " .advisor-name").text(advisor.name);
                     $("#advisor" + (index + 1) + " .advisor-comment").text('"' + advisor.comment + '"');
+
+                    sessionStorage.setItem("askAdvisorsUsed", "true");
+                    $("#Ask").css("opacity", "50%").prop("disabled", true);
                 });
             },
             error: function () {
@@ -407,89 +432,3 @@
 
     loadQuestion(); // Tải câu hỏi đầu tiên
 </script>
-
-
-
-@* <script>
-    var backgroundAudio = new Audio('/assets/audio/background.mp3');
-    var correctAudio = new Audio('/assets/audio/right.mp3');
-    var wrongAudio = new Audio('/assets/audio/wrong.mp3');
-
-
-    backgroundAudio.loop = true; // Phát lặp lại âm thanh nền
-    backgroundAudio.volume = 0.5; // Giảm âm lượng
-    backgroundAudio.play();
-
-    // Hiệu ứng khi chọn đúng
-    function showCorrectEffect() {
-        $(".selected").addClass("correct-answer");
-        setTimeout(function () {
-            $(".selected").removeClass("correct-answer");
-        }, 2000);
-    }
-
-    // Hiệu ứng khi chọn sai
-    function showWrongEffect() {
-        $(".selected").addClass("wrong-answer");
-        setTimeout(function () {
-            $(".selected").removeClass("wrong-answer");
-        }, 2000);
-    }
-</script>
-<script type="text/javascript">
-    var listAns;
-
-    function updateIndex(index) {
-        $(".list p").removeClass("selected");
-        $(".list p").eq(- (index + 1)).addClass("selected");
-    }
-
-    function loadQuestion() {
-        $("#content, .answer").addClass("fade-out");
-
-        setTimeout(function () {
-            $.ajax({
-                url: '@Url.Action("DataQuestion", "Game")',
-                dataType: 'json',
-                success: function (data) {
-                    $("#content p").text(data.content);
-                    $("#A p").text(data.answer1);
-                    $("#B p").text(data.answer2);
-                    $("#C p").text(data.answer3);
-                    $("#D p").text(data.answer4);
-
-                    updateIndex(data.index);
-                    listAns = [data.answer1, data.answer2, data.answer3, data.answer4];
-
-                    $("#content, .answer").removeClass("fade-out").addClass("fade-in");
-                },
-                error: function () { }
-            });
-        }, 500);
-    };
-
-    function getAnswer(select) {
-        console.log(listAns[select])
-        $.ajax({
-            url: '@Url.Action("CheckAnswer", "Game")',
-            data: {selectedAnswer: listAns[select]},
-            dataType: 'json',
-            success: function(data) {
-                if (data == true) {
-                    correctAudio.play(); // Phát âm thanh đúng
-                    showCorrectEffect(); // Hiệu ứng hình ảnh khi đúng
-                    setTimeout(loadQuestion, 2000); // Tải câu hỏi tiếp theo sau 2 giây
-                }
-                else {
-                    wrongAudio.play(); // Phát âm thanh sai
-                    showWrongEffect(); // Hiệu ứng hình ảnh khi sai
-                    setTimeout(function () {
-                        window.location.href = 'EndGame';
-                    }, 2000); // Chuyển đến màn hình kết thúc sau 2 giây
-                }
-                console.log(data)
-            }
-        })
-    }
-    loadQuestion();
-</script> *@
