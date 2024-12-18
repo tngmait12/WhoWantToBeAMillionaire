@@ -1,4 +1,6 @@
 ﻿<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="~/css/play.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -124,7 +126,8 @@
     var correctAudio = new Audio('/assets/audio/right.mp3');
     var wrongAudio = new Audio('/assets/audio/wrong.mp3');
 
-    var isProcessing = false; // Cờ kiểm soát trạng thái hiệu ứng
+    let isProcessing = false; // Cờ chống spam
+    let debounceTimeout; // Cơ chế debounce
 
     console.log(sessionStorage.getItem("fiftyFiftyUsed"));
 
@@ -431,4 +434,17 @@
     }
 
     loadQuestion(); // Tải câu hỏi đầu tiên
+
+    $(document).on("keydown", function (event) {
+        if (isProcessing || debounceTimeout) return;
+        const key = event.key.toUpperCase(); // Lấy ký tự phím và chuyển về viết hoa
+        const validKeys = ["A", "B", "C", "D"]; // Các phím hợp lệ
+        const index = validKeys.indexOf(key); // Tìm vị trí của phím trong danh sách
+
+        if (index !== -1) {
+            debounceTimeout = setTimeout(() => (debounceTimeout = null), 4000);
+            getAnswer(index); // Gọi hàm getAnswer với chỉ số tương ứng
+        }
+    });
+
 </script>

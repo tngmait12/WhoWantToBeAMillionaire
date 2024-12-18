@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\views\\game\\startgame.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\views\\game\\startgame.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\views\\game\\question.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\views\\game\\question.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\views\\game\\endgame.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\views\\game\\endgame.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\wwwroot\\css\\play.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\wwwroot\\css\\play.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\views\\game\\startgame.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\views\\game\\startgame.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedHeight": 189,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "play.css",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\play.css",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\wwwroot\\css\\play.css",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\play.css",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\wwwroot\\css\\play.css",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAUwKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-18T09:26:43.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EndGame.cshtml",
               "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Views\\Game\\EndGame.cshtml",
               "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Views\\Game\\EndGame.cshtml",
@@ -39,26 +56,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "StartGame.cshtml",
               "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Views\\Game\\StartGame.cshtml",
               "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Views\\Game\\StartGame.cshtml",
               "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Views\\Game\\StartGame.cshtml",
               "RelativeToolTip": "WhoWantToBeAMillionaire\\Views\\Game\\StartGame.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-15T08:27:05.883Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Question.cshtml",
               "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Views\\Game\\Question.cshtml",
               "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Views\\Game\\Question.cshtml",
               "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Views\\Game\\Question.cshtml",
               "RelativeToolTip": "WhoWantToBeAMillionaire\\Views\\Game\\Question.cshtml",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIAAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAK8BAAAAAAAAAAAAALwBAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-15T07:03:34.276Z",
               "EditorCaption": ""
@@ -69,6 +86,10 @@
           "DockedHeight": 103,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
