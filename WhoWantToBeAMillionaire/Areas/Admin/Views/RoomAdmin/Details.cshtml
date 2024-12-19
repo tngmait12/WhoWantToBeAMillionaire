@@ -10,7 +10,24 @@
 </div>
 
 <a asp-action="Index" class="btn btn-secondary">Quay Lại</a>
-
+@if (ViewBag.IsHost || ViewBag.IsAdmin)
+{
+    @if (Model.IsActive)
+    {
+        <span class="badge bg-success">Công khai</span>
+    }
+    else
+    {
+        <span class="badge bg-secondary">Riêng tư</span>
+    }
+    <form asp-action="ToggleRoomStatus" method="post">
+        <input type="hidden" name="id" value="@Model.Id" />
+        <button type="submit" class="btn btn-sm @(!Model.IsActive ? "btn-success" : "btn-secondary")">
+            @(!Model.IsActive ? "Convert to Public" : "Convert to Private")
+        </button>
+    </form>
+    <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-danger btn-sm confirmDeletion" asp-controller="RoomAdmin" asp-route-Id="@Model.Id">Xóa phòng</a>
+}
 <div class="container">
     <div class="row">
         @if (ViewBag.IsHost || ViewBag.IsAdmin)

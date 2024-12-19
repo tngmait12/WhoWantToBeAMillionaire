@@ -81,7 +81,7 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
             }
 
             // Kiểm tra nếu người dùng hiện tại là chủ phòng hoặc admin
-            var isHost = User.Identity.Name == room.HostPlayer.Email; // Email hoặc UserName
+            var isHost = User.Identity.Name == room.HostPlayer.UserName; // Email hoặc UserName
             var isAdmin = User.IsInRole("Admin");
 
             ViewBag.IsHost = isHost;
@@ -130,12 +130,35 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
                 return NotFound();
             }
 
+            var questions = _dataContext.Questions.Where(r => r.RoomId == id);
+            _dataContext.Questions.RemoveRange(questions);
+
             // Xóa phòng khỏi cơ sở dữ liệu
             _dataContext.Rooms.Remove(room);
             await _dataContext.SaveChangesAsync();
             TempData["success"] = "Delete Room Success.";
             // Chuyển hướng về danh sách phòng
             return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ToggleRoomStatus(int id)
+        {
+            var room = await _dataContext.Rooms.FindAsync(id);
+            if (room == null)
+            {
+                return NotFound();
+            }
+
+            // Đổi trạng thái IsActive
+            room.IsActive = !room.IsActive;
+
+            // Lưu thay đổi
+            _dataContext.Rooms.Update(room);
+            await _dataContext.SaveChangesAsync();
+
+            // Trả về danh sách phòng hoặc trang quản lý
+            return RedirectToAction("Details", "RoomAdmin", new { id = id });
         }
         private string GenerateRoomCode()
         {

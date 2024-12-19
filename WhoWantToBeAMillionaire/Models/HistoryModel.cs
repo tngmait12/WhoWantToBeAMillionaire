@@ -7,6 +7,9 @@
         public int RoomId { get; set; } // ID của phòng
         public DateTime PlayedAt { get; set; } // Thời điểm chơi
         public int Score { get; set; } // Điểm số đạt được
+
+        public decimal Reward { get; set; } // Tiền thưởng đạt được
+
         public bool Completed { get; set; } // Trạng thái hoàn thành game
         public TimeSpan Duration { get; set; } // Thời gian hoàn thành
 

@@ -88,6 +88,7 @@ namespace WhoWantToBeAMillionaire.Controllers
             HttpContext.Session.Set("Questions", questions);
             HttpContext.Session.SetInt32("CurrentQuestionIndex", 0);
             HttpContext.Session.SetInt32("Score", 0);
+            HttpContext.Session.SetInt32("Reward", 0);
             HttpContext.Session.SetInt32("RoomId", roomId);
             // Lưu thời gian bắt đầu
             HttpContext.Session.Set("StartTime", DateTime.Now);
@@ -99,7 +100,9 @@ namespace WhoWantToBeAMillionaire.Controllers
         {
             // Lấy dữ liệu từ Session
             var score = HttpContext.Session.GetInt32("Score") ?? 0;
+            var reward = HttpContext.Session.GetInt32("Reward") ?? 0;
             var roomId = HttpContext.Session.GetInt32("RoomId") ?? 0;
+            var currentLevel = HttpContext.Session.GetInt32("CurrentQuestionIndex") ?? 1;
             var startTime = HttpContext.Session.Get<DateTime>("StartTime");
             var endTime = DateTime.Now;
 
@@ -107,14 +110,16 @@ namespace WhoWantToBeAMillionaire.Controllers
             var duration = endTime - startTime;
 
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            if(userId != null)
+            if(userId != null && roomId != 1)
             {
+
                 var gameHistory = new HistoryModel
                 {
                     UserId = userId,
                     RoomId = roomId,
                     PlayedAt = startTime,
                     Score = score,
+                    Reward = reward,
                     Completed = true,
                     Duration = duration
                 };
@@ -124,6 +129,7 @@ namespace WhoWantToBeAMillionaire.Controllers
             }
 
             ViewBag.Score = score;
+            ViewBag.Reward = reward;
 
             return View();
         }
@@ -166,6 +172,7 @@ namespace WhoWantToBeAMillionaire.Controllers
             var questions = HttpContext.Session.Get<List<QuestionModel>>("Questions");
             var currentIndex = HttpContext.Session.GetInt32("CurrentQuestionIndex") ?? 0;
             var score = HttpContext.Session.GetInt32("Score") ?? 0;
+            var reward = HttpContext.Session.GetInt32("Reward") ?? 0;
 
             var currentQuestion = questions[currentIndex];
 
@@ -173,6 +180,17 @@ namespace WhoWantToBeAMillionaire.Controllers
             {
                 score++;
                 HttpContext.Session.SetInt32("Score", score);
+                //Tinh tien thuong
+                if (currentIndex > 10)
+                {
+                    reward += CalculateReward(currentIndex);
+                }
+                else
+                {
+                    reward = CalculateReward(currentIndex);
+                }
+                HttpContext.Session.SetInt32("Reward", reward);
+
                 if (currentIndex + 1 >= questions.Count)
                 {
                     return Json("End");
@@ -183,7 +201,27 @@ namespace WhoWantToBeAMillionaire.Controllers
                     HttpContext.Session.SetInt32("CurrentQuestionIndex", currentIndex);
                 }
             }
-            else return Json("Wrong");
+            else
+            {
+                if (currentIndex > 5)
+                {
+                    if (currentIndex > 10)
+                        // Nếu trên mức 10, tính thưởng dựa trên câu cuối cùng trả lời đúng
+                        score = currentIndex-1;
+                    else
+                        score = 5;
+                        reward = CalculateReward(5);
+                }
+                else
+                {
+                    // Nếu chưa qua mức 10, lấy điểm của mốc an toàn
+                    score = 0;
+                    reward = 0;
+                }
+                HttpContext.Session.SetInt32("Reward", reward);
+                HttpContext.Session.SetInt32("Score", score);
+                return Json("Wrong");
+            }
 
             return Json("Correct"); // Hiển thị câu hỏi tiếp theo
         }
@@ -296,5 +334,28 @@ namespace WhoWantToBeAMillionaire.Controllers
             return Json(advisors); // Trả về danh sách ý kiến của tổ tư vấn
         }
 
+        private int CalculateReward(int level)
+        {
+            var rewardLevels = new Dictionary<int, int>
+            {
+                { 1, 100 },
+                { 2, 200 },
+                { 3, 300 },
+                { 4, 500 },
+                { 5, 1000 },
+                { 6, 2000 },
+                { 7, 4000 },
+                { 8, 8000 },
+                { 9, 16000 },
+                { 10, 25000 },
+                { 11, 50000 },
+                { 12, 100000 },
+                { 13, 250000 },
+                { 14, 500000 },
+                { 15, 1000000 }
+            };
+
+            return rewardLevels.TryGetValue(level, out var reward) ? reward : 0;
+        }
     }
 }
