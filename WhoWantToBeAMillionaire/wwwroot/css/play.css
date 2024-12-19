@@ -345,7 +345,7 @@ p.selected {
       }
 }
 
-#notice {
+.notice {
     width: 20rem;
     height: 10rem;
     background-color: blueviolet;
@@ -357,11 +357,12 @@ p.selected {
     gap: 1.5rem;
     position: absolute;
     top: calc(100% / 2 - 10rem / 2);
-    left: calc(100% / 2 -  7rem / 2);
+    left: calc(100% / 2 - 7rem / 2);
     box-shadow: 0 0 0 200rem rgba(0, 0, 0, 0.5);
-    display: none;
+    z-index: 100;
+    h1
 
-    h1 {
+    {
         color: yellow;
         font-size: 2rem;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -370,8 +371,9 @@ p.selected {
     div {
         display: flex;
         gap: 3rem;
+        a
 
-        a {
+        {
             padding: 0.7rem;
             background-color: yellow;
             border-radius: 1rem;
@@ -381,9 +383,36 @@ p.selected {
             text-decoration: none;
             cursor: pointer;
         }
+
     }
 }
 
-#notice.show {
+
+div:has( .notice) {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 80;
+    display: none;
+}
+
+div:has( .notice.show) {
     display: flex;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#countdown {
+    margin-left: 1rem;
+    width: 3rem;
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    top: calc(80vh / 2 - 3rem / 2);
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
 }

@@ -13,7 +13,7 @@ namespace WhoWantToBeAMillionaire.Models
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         public virtual AppUserModel HostPlayer { get; set; }
-        public virtual ICollection<PlayerModel> Players { get; set; } = new List<PlayerModel>();
+        //public virtual ICollection<AppUserModel> Players { get; set; } = new List<AppUserModel>();
 
         // Quan hệ với Question
         [JsonIgnore]

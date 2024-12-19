@@ -14,7 +14,7 @@ namespace WhoWantToBeAMillionaire.Data
         public DbSet<TopicModel> Topics { get; set; }
         public DbSet<QuestionModel> Questions { get; set; }
         public DbSet<RoomModel> Rooms { get; set; }
-        public DbSet<PlayerModel> Players { get; set; }
+        //public DbSet<PlayerModel> Players { get; set; }
         public DbSet<HistoryModel> Histories { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

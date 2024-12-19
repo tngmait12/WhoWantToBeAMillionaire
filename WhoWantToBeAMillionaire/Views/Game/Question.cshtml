@@ -76,6 +76,7 @@
 </section>
 <section class="main_question">
     <img class="logo" src="~/assets/img/WWTBAM_logo.png" alt="">
+    <h1 id="cd"></h1>
     <div class="question">
         <div id="content" class="content">
             <p>@*@Model.Content*@</p>
@@ -109,12 +110,29 @@
     </div>
 </section>
 
-<section id="notice">
-    <h1>Bạn muốn bỏ cuộc!</h1>
-    <div>
-        <a id="no">Không</a>
-        <a id="yes" href="EndGame">Đồng ý</a>
-    </div>
+<div>
+    <section id="giveUpNotice" class="notice">
+        <h1>Bạn muốn bỏ cuộc!</h1>
+        <div>
+            <a id="no" class="pointer">Không</a>
+            <a id="yes" href="EndGame">Đồng ý</a>
+        </div>
+    </section>
+</div>
+
+
+<div>
+    <section id="endNotice" class="notice">
+        <h1>Trò chơi kết thúc!</h1>
+        <div>
+            <a id="end" href="EndGame">Kết thúc</a>
+        </div>
+    </section>
+</div>
+
+
+<section id="countdown">
+    <h1>60</h1>
 </section>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -139,12 +157,14 @@
     var callPhoneFriendUsed = false;
     var askAudienceUsed = false;
 
+    var curQues = 0;
+
     $("#giveUp").click(function() {
-        $("#notice").addClass("show");
+        $("#giveUpNotice").addClass("show");
     });
 
     $("#no").click(function() {
-        $("#notice").removeClass("show");
+        $("#giveUpNotice").removeClass("show");
     });
 
     $(function () {
@@ -446,5 +466,21 @@
             getAnswer(index); // Gọi hàm getAnswer với chỉ số tương ứng
         }
     });
+
+    // đếm ngược
+    let countdown
+    function countDown(time) {
+        $("#countdown h1").text(time);
+        countdown = setInterval(function () {
+            time--;
+            $("#countdown h1").text(time);
+            if (time <= 0) {
+                $("#endNotice").addClass("show");
+                clearInterval(countdown);
+            }
+        }, 1000);
+    }
+    loadQuestion(); // Tải câu hỏi đầu tiên
+    countDown(30); //bắt đầu đếm ngược
 
 </script>
