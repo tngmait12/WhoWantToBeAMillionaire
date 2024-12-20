@@ -23,7 +23,9 @@ namespace WhoWantToBeAMillionaire.Controllers
             if (roomId == null)
             {
                 questions = _dataContext.Questions
+                                        .Take(15)
                                         .ToList();
+                                        
                 return questions;
             }
             else
@@ -138,11 +140,6 @@ namespace WhoWantToBeAMillionaire.Controllers
         {
             var questions = HttpContext.Session.Get<List<QuestionModel>>("Questions");
             var currentIndex = HttpContext.Session.GetInt32("CurrentQuestionIndex") ?? 0;
-
-            //if (currentIndex >= questions.Count)
-            //{
-
-            //}
 
             var currentQuestion = questions[currentIndex];
             currentQuestion.ShuffleAnswers(); // Trộn câu trả lời

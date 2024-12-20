@@ -132,7 +132,7 @@
 
 
 <section id="countdown">
-    <h1>60</h1>
+    <h1>30</h1>
 </section>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -411,6 +411,13 @@
                         opacity: 1               // Đặt lại độ trong suốt
                     });
                     $(".answer a").show();
+
+                    clearInterval(countdown); // Dừng bộ đếm hiện tại
+                    if(data.index>=10)
+                        countDown(60); // Bắt đầu bộ đếm mới
+                    else
+                        countDown(30);
+
                     isProcessing = false; // Cho phép trả lời sau khi tải xong câu hỏi
                 },
                 error: function () { }
@@ -453,7 +460,7 @@
         });
     }
 
-    loadQuestion(); // Tải câu hỏi đầu tiên
+    //loadQuestion(); // Tải câu hỏi đầu tiên
 
     $(document).on("keydown", function (event) {
         if (isProcessing || debounceTimeout) return;
@@ -481,6 +488,6 @@
         }, 1000);
     }
     loadQuestion(); // Tải câu hỏi đầu tiên
-    countDown(30); //bắt đầu đếm ngược
+    //countDown(30); //bắt đầu đếm ngược
 
 </script>
