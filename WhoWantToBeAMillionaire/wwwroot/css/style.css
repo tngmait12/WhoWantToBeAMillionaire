@@ -47,12 +47,15 @@ body {
 .menu {
     margin: 2rem;
 
-    display: flex;
-    justify-content: space-around;
+/*    display: flex;
+    justify-content: space-around;*/
     gap: 2rem;
 
     .button {
-        width: 7rem;
+        margin: 5%;
+        white-space: nowrap;
+
+        width: 12rem;
         height: 3rem;
 
         border-radius: 1rem;

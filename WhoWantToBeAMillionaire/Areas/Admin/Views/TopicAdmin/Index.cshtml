@@ -36,8 +36,8 @@
                                         }
                                     </td>
                                     <td>
-                                        <a asp-action="Edit" class="btn btn-warning btn-sm" asp-controller="TopicAdmin" asp-route-Id="@item.Id">Edit</a>
-                                        <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-danger btn-sm confirmDeletion" asp-controller="TopicAdmin" asp-route-Id="@item.Id">Delete</a>
+                                        <a asp-action="Edit" class="btn btn-outline-info btn-rounded" asp-controller="TopicAdmin" asp-route-Id="@item.Id"><i class="fas fa-pen"></i></a>
+                                        <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-outline-danger btn-rounded confirmDeletion" asp-controller="TopicAdmin" asp-route-Id="@item.Id"><i class="fas fa-trash"></i></a>
                                     </td>
                                 </tr>
                             }

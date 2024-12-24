@@ -184,7 +184,7 @@ namespace WhoWantToBeAMillionaire.Controllers
                 }
                 else
                 {
-                    reward = CalculateReward(currentIndex);
+                    reward = CalculateReward(currentIndex+1);
                 }
                 HttpContext.Session.SetInt32("Reward", reward);
 

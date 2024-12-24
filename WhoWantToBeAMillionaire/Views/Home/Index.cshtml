@@ -4,7 +4,7 @@
 
 <img class="logo" src="~/assets/img/WWTBAM_logo.png" alt="" style="width: 20rem;">
 <div class="menu">
-    <a class="help button" href="">Your Room</a>
+    @* <a class="help button" href="">Your Room</a> *@
     <a class="play button" asp-action="StartGame" asp-controller="Game">Play</a>
     @if (User.Identity?.IsAuthenticated ?? false)
     {
@@ -16,5 +16,5 @@
         <a class="play button" asp-area="admin" asp-action="Login" asp-controller="AccountAdmin">Sign In</a>
         <a class="play button" asp-area="admin" asp-action="Register" asp-controller="AccountAdmin">Sign Up</a>
     }
-    <a class="play button" asp-action="Index" asp-controller="Admin">Admin</a>
+    <a class="play button" asp-action="Index" asp-controller="Admin">Dashboard</a>
 </div>

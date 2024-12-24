@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8h5gcYTUIAKA7gLlfHNl0FtHdbjN5X1QnPU37v9UfvY=",
+  "Hash": "Dfaqfn+4mhxVMX90nzQ4KI4sM2r68qEWBWQ7KoKBIos=",
   "Source": "WhoWantToBeAMillionaire",
   "BasePath": "_content/WhoWantToBeAMillionaire",
   "Mode": "Default",
@@ -9591,6 +9591,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\users\\9d7e1e3a-f772-4111-a18f-4e514a594b37_Screenshot 2024-12-09 222619.png"
+    },
+    {
+      "Identity": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\images\\users\\ac73a7e1-8366-4add-8ae6-44048592ca30_Screenshot 2024-12-17 193812.png",
+      "SourceId": "WhoWantToBeAMillionaire",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\",
+      "BasePath": "_content/WhoWantToBeAMillionaire",
+      "RelativePath": "images/users/ac73a7e1-8366-4add-8ae6-44048592ca30_Screenshot 2024-12-17 193812.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\users\\ac73a7e1-8366-4add-8ae6-44048592ca30_Screenshot 2024-12-17 193812.png"
     },
     {
       "Identity": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\images\\users\\afb79176-0bda-4555-95bd-fa18539dddca_Screenshot 2024-12-17 192018.png",

@@ -430,6 +430,8 @@
         isProcessing = true; // Đánh dấu đang xử lý
         var selectedElement = $(".answer a").eq(select);
 
+        clearInterval(countdown);
+
         $.ajax({
             url: '@Url.Action("CheckAnswer", "Game")',
             data: { selectedAnswer: listAns[select] },

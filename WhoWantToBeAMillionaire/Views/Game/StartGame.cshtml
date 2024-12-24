@@ -6,7 +6,7 @@
     <img src="~/assets/img/WWTBAM_logo.png" />
 </div>
 
-<form id="start-form" asp-controller="Game" asp-action="StartGame">
+<form id="start-form" asp-controller="Game" asp-action="StartGame" style="height: max-content;">
     <section class="option">
         <input type="radio" id="rand" class="play" name="play" value="rand" checked />
         <label for="rand">Phòng ngẫu nhiên</label>
@@ -20,7 +20,15 @@
             <p style="color: red; font-size: 0.8em;">@TempData["notice"]</p>
         </div>
     </section>
-    <button type="submit" id="btn">Tham gia</button>
+    <div style="    display: flex
+;
+    width: 100%;
+    justify-content: space-evenly;">
+        <a asp-action="Index" asp-controller="Home" class="btn" style="color: yellow; text-decoration:none;">Quay lại</a>
+        <button type="submit" class="btn">Tham gia</button>
+    </div>
+    
+    
 </form>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
