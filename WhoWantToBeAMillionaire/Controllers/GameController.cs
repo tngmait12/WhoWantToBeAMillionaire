@@ -83,6 +83,11 @@ namespace WhoWantToBeAMillionaire.Controllers
                     TempData["notice"] = "*mã phòng không đúng!";
                     return View();
                 }
+                if (room.IsActive==false)
+                {
+                    TempData["notice"] = "*phòng hiện không khả dụng!";
+                    return View();
+                }
                 questions = GetQuestions(room.Id);
                 roomId = room.Id;
             }
@@ -130,6 +135,8 @@ namespace WhoWantToBeAMillionaire.Controllers
                 await _dataContext.SaveChangesAsync();
             }
 
+            await UpdateDailyAccessCount();//Update Statisticals
+
             ViewBag.Score = score;
             ViewBag.Reward = reward;
 
@@ -148,7 +155,7 @@ namespace WhoWantToBeAMillionaire.Controllers
             {
                 var question = new
                 {
-                    index = currentIndex,
+                    index = currentIndex+1,
                     Content = currentQuestion.Content,
                     answer1 = currentQuestion.ShuffledAnswers[0],
                     answer2 = currentQuestion.ShuffledAnswers[1],
@@ -353,6 +360,33 @@ namespace WhoWantToBeAMillionaire.Controllers
             };
 
             return rewardLevels.TryGetValue(level, out var reward) ? reward : 0;
+        }
+
+        private async Task UpdateDailyAccessCount()
+        {
+            var today = DateTime.UtcNow.Date;
+
+            // Tìm bản ghi cho ngày hôm nay
+            var statistic = _dataContext.Statisticals.FirstOrDefault(s => s.DateAccess == today);
+
+            if (statistic != null)
+            {
+                // Tăng số lượt truy cập
+                statistic.CountAccess++;
+            }
+            else
+            {
+                // Tạo bản ghi mới
+                statistic = new StatisticalModel
+                {
+                    DateAccess = today,
+                    CountAccess = 1
+                };
+                _dataContext.Statisticals.Add(statistic);
+            }
+
+            // Lưu thay đổi vào cơ sở dữ liệu
+            await _dataContext.SaveChangesAsync();
         }
     }
 }

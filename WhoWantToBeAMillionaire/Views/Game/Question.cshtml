@@ -79,31 +79,31 @@
     <h1 id="cd"></h1>
     <div class="question">
         <div id="content" class="content">
-            <p>@*@Model.Content*@</p>
+            <p class="responsive-text">@*@Model.Content*@</p>
         </div>
         <ol class="answer">
             <li>
                 <a id="A" onclick="getAnswer(0)" class="select">
                     <h1>A.</h1>
-                    <p></p>
+                    <p class="responsive-text"></p>
                 </a>
             </li>
             <li>
                 <a id="B" onclick="getAnswer(1)" class="select">
                     <h1>B.</h1>
-                    <p></p>
+                    <p class="responsive-text"></p>
                 </a>
             </li>
             <li>
                 <a id="C" onclick="getAnswer(2)" class="select">
                     <h1>C.</h1>
-                    <p></p>
+                    <p class="responsive-text"></p>
                 </a>
             </li>
             <li>
                 <a id="D" onclick="getAnswer(3)" class="select">
                     <h1>D.</h1>
-                    <p></p>
+                    <p class="responsive-text"></p>
                 </a>
             </li>
         </ol>
@@ -382,7 +382,7 @@
 
     function updateIndex(index) {
         $(".list p").removeClass("selected");
-        $(".list p").eq(-(index + 1)).addClass("selected");
+        $(".list p").eq(-(index)).addClass("selected");
     }
 
     function loadQuestion() {
@@ -393,7 +393,7 @@
                 url: '@Url.Action("DataQuestion", "Game")',
                 dataType: 'json',
                 success: function (data) {
-                    $("#content p").text(data.content);
+                    $("#content p").text("Câu " + data.index +": " + data.content);
                     $("#A p").text(data.answer1);
                     $("#B p").text(data.answer2);
                     $("#C p").text(data.answer3);

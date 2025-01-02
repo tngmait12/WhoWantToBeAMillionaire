@@ -29,7 +29,7 @@
             <div class="card">
                 <div class="card-body text-center">
                     <div class="mb-4">
-                        <img class="brand" src="~/assets/img/bootstraper-logo.png" alt="bootstraper logo">
+                        <img class="brand" src="~/assets/img/wwtbam_logo.png" style="width:30%;" alt="bootstraper logo">
                     </div>
                     <h6 class="mb-4 text-muted">Login to your account</h6>
                     <form method="post">
@@ -52,8 +52,9 @@
                         <button type="submit" class="btn btn-primary shadow-2 mb-4">Login</button>
                     </form>
                     <p class="mb-2 text-muted">Return to Game page <a asp-action ="Index" asp-controller="Home" asp-area="default">Return</a></p>
-                    <p class="mb-2 text-muted">Forgot password? <a href="forgot-password.html">Reset</a></p>
+                    <p class="mb-2 text-muted">Forgot password? <a asp-area="admin" asp-action="ForgotPassword" asp-controller="AccountAdmin">Reset</a></p>
                     <p class="mb-0 text-muted">Don't have account yet? <a asp-area="admin" asp-action="Register" asp-controller="AccountAdmin">Signup</a></p>
+                    <p class="mb-0 text-muted">You already have account Google? <a asp-area="admin" asp-action="LoginGoogle" asp-controller="AccountAdmin">Signin with Google</a></p>
                 </div>
             </div>
         </div>

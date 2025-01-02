@@ -9,12 +9,16 @@
     @if (User.Identity?.IsAuthenticated ?? false)
     {
         <a class="play button" asp-area="admin" asp-action="Logout" asp-controller="AccountAdmin"><span>Hi, @User.Identity.Name! Logout</span></a>
-        <a class="play button" asp-action="Index" asp-controller="Room">Create</a>
+        <a class="play button" asp-area="admin" asp-action="Index" asp-controller="RoomAdmin">Your Room</a>
     }
     else
     {
         <a class="play button" asp-area="admin" asp-action="Login" asp-controller="AccountAdmin">Sign In</a>
         <a class="play button" asp-area="admin" asp-action="Register" asp-controller="AccountAdmin">Sign Up</a>
     }
-    <a class="play button" asp-action="Index" asp-controller="Admin">Dashboard</a>
+    @if (User.IsInRole("Admin"))
+    {
+        <a class="play button" asp-action="Index" asp-controller="Admin">Trang quản trị</a>
+    }
+    
 </div>

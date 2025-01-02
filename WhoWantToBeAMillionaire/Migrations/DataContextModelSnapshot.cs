@@ -209,6 +209,9 @@ namespace WhoWantToBeAMillionaire.Migrations
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Token")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");
 
@@ -265,33 +268,6 @@ namespace WhoWantToBeAMillionaire.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Histories");
-                });
-
-            modelBuilder.Entity("WhoWantToBeAMillionaire.Models.PlayerModel", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("RoomModelId")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("Score")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("RoomModelId");
-
-                    b.ToTable("Players");
                 });
 
             modelBuilder.Entity("WhoWantToBeAMillionaire.Models.QuestionModel", b =>
@@ -363,6 +339,27 @@ namespace WhoWantToBeAMillionaire.Migrations
                     b.HasIndex("HostPlayerId");
 
                     b.ToTable("Rooms");
+                });
+
+            modelBuilder.Entity("WhoWantToBeAMillionaire.Models.StatisticalModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<long>("CountAccess")
+                        .HasColumnType("bigint")
+                        .HasColumnName("PlayerRounds");
+
+                    b.Property<DateTime>("DateAccess")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DateTime");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Statisticals");
                 });
 
             modelBuilder.Entity("WhoWantToBeAMillionaire.Models.TopicModel", b =>
@@ -452,13 +449,6 @@ namespace WhoWantToBeAMillionaire.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("WhoWantToBeAMillionaire.Models.PlayerModel", b =>
-                {
-                    b.HasOne("WhoWantToBeAMillionaire.Models.RoomModel", null)
-                        .WithMany("Players")
-                        .HasForeignKey("RoomModelId");
-                });
-
             modelBuilder.Entity("WhoWantToBeAMillionaire.Models.QuestionModel", b =>
                 {
                     b.HasOne("WhoWantToBeAMillionaire.Models.RoomModel", "Room")
@@ -488,8 +478,6 @@ namespace WhoWantToBeAMillionaire.Migrations
 
             modelBuilder.Entity("WhoWantToBeAMillionaire.Models.RoomModel", b =>
                 {
-                    b.Navigation("Players");
-
                     b.Navigation("Questions");
                 });
 #pragma warning restore 612, 618

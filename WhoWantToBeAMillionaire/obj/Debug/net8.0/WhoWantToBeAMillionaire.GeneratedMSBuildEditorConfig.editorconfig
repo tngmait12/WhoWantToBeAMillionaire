@@ -26,12 +26,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\MVC\ALTP\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/MVC/ALTP/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Areas/Admin/Views/AccountAdmin/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudEFkbWluXEZvcmdvdFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/MVC/ALTP/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Areas/Admin/Views/AccountAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudEFkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/MVC/ALTP/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Areas/Admin/Views/AccountAdmin/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudEFkbWluXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MVC/ALTP/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Areas/Admin/Views/AccountAdmin/NewPass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudEFkbWluXE5ld1Bhc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/MVC/ALTP/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Areas/Admin/Views/AccountAdmin/Profile.cshtml]
@@ -126,8 +134,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxTdGFydEdhbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/MVC/ALTP/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Views/Home/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/MVC/ALTP/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MVC/ALTP/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Views/Home/PageNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWdlTm90Rm91bmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/MVC/ALTP/WhoWantToBeAMillionaire/WhoWantToBeAMillionaire/Views/Home/Privacy.cshtml]

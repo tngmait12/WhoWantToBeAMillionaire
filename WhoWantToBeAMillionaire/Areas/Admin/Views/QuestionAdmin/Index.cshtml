@@ -1,12 +1,16 @@
 ﻿@model IEnumerable<QuestionModel>
 
+
+@* <a asp-action="Details" asp-controller="RoomAdmin" asp-route-Id="@ViewBag.RoomId" class="btn btn-secondary"><i class="fas fa-arrow-circle-left"></i></a> *@
+<a asp-action="Details" asp-controller="RoomAdmin" asp-route-Id="@ViewBag.RoomId" class="btn btn-sm btn-outline-info float-left mr-1"><i class="fas fa-angle-left"></i> <span class="btn-header">Return</span></a>
 <div class="container">
     <div class="row">
         <div class="col-md-12 col-lg-12">
             <div class="card">
-                <div class="card-header">
+                <div class="card-header d-flex align-items-center">
                     Questions
-                    <a asp-action="Create" asp-controller="QuestionAdmin" class="btn btn-success">Create Question</a>
+                    @* <a asp-action="Create" asp-controller="QuestionAdmin" asp-route-roomId="@ViewBag.RoomId" class="btn btn-success ml-auto">Create Question</a> *@
+                    <a asp-action="Create" asp-controller="QuestionAdmin" asp-route-roomId="@ViewBag.RoomId" class="btn btn-sm btn-outline-primary ml-auto"><i class="fas fa-plus-circle"></i> Create Question</a>
                 </div>
                 <div class="card-body">
                     <p class="card-title"></p>
@@ -52,8 +56,8 @@
                                         @item.Topic.Name
                                     </td>
                                     <td>
-                                        <a asp-action="Edit" class="btn btn-warning btn-sm" asp-controller="QuestionAdmin" asp-route-Id="@item.Id">Edit</a>
-                                        <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-danger btn-sm confirmDeletion" asp-controller="QuestionAdmin" asp-route-Id="@item.Id">Delete</a>
+                                        <a asp-action="Edit" class="btn btn-outline-info btn-rounded" asp-controller="QuestionAdmin" asp-route-roomId="@ViewBag.RoomId" asp-route-Id="@item.Id"><i class="fas fa-pen"></i></a>
+                                        <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-outline-danger btn-rounded confirmDeletion" asp-controller="QuestionAdmin" asp-route-roomId="@ViewBag.RoomId" asp-route-Id="@item.Id"><i class="fas fa-trash"></i></a>
                                     </td>
                                 </tr>
                             }

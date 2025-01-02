@@ -6,7 +6,15 @@
 
 <body>
     <div id="notice">
-        <h1 id="title">Game Over!</h1>
+        @if (ViewBag.Score == 15)
+        {
+            <h1 id="title">Congratulation!</h1>
+        }
+        else
+        {
+            <h1 id="title">Game Over!</h1>
+        }
+        
         <h5 id="result">Score: @ViewBag.Score/15</h5>
         <h5 id="result">Reward: $@ViewBag.Reward</h5>
         <section id="menu">

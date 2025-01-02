@@ -10,7 +10,7 @@ using WhoWantToBeAMillionaire.Models;
 namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public class UserAdminController : Controller
     {
         private readonly UserManager<AppUserModel> _userManager;

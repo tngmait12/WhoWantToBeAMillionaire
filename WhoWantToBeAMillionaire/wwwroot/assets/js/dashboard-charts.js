@@ -1,42 +1,42 @@
-var trafficchart = document.getElementById("trafficflow");
+﻿//var trafficchart = document.getElementById("trafficflow");
 var saleschart = document.getElementById("sales");
 
-var myChart1 = new Chart(trafficchart, {
-    type: 'line',
-    data: {
-        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-        datasets: [{
-            backgroundColor: "rgba(48, 164, 255, 0.5)",
-            borderColor: "rgba(48, 164, 255, 0.8)",
-            data: ['1135', '1135', '1140', '1168', '1150', '1145', '1155', '1155', '1150', '1160', '1185', '1190'],
-            label: '',
-            fill: true
-        }]
-    },
-    options: {
-        responsive: true,
-        title: { display: false, text: 'Chart' },
-        legend: { position: 'top', display: false, },
-        tooltips: { mode: 'index', intersect: false, },
-        hover: { mode: 'nearest', intersect: true },
-        scales: {
-            xAxes: [{
-                display: true,
-                scaleLabel: {
-                    display: true,
-                    labelString: 'Months'
-                }
-            }],
-            yAxes: [{
-                display: true,
-                scaleLabel: {
-                    display: true,
-                    labelString: 'Number of Visitors'
-                }
-            }]
-        }
-    }
-});
+//var myChart1 = new Chart(trafficchart, {
+//    type: 'line',
+//    data: {
+//        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+//        datasets: [{
+//            backgroundColor: "rgba(48, 164, 255, 0.5)",
+//            borderColor: "rgba(48, 164, 255, 0.8)",
+//            data: ['1135', '1135', '1140', '1168', '1150', '1145', '1155', '1155', '1150', '1160', '1185', '1190'],
+//            label: '',
+//            fill: true
+//        }]
+//    },
+//    options: {
+//        responsive: true,
+//        title: { display: false, text: 'Chart' },
+//        legend: { position: 'top', display: false, },
+//        tooltips: { mode: 'index', intersect: false, },
+//        hover: { mode: 'nearest', intersect: true },
+//        scales: {
+//            xAxes: [{
+//                display: true,
+//                scaleLabel: {
+//                    display: true,
+//                    labelString: 'Months'
+//                }
+//            }],
+//            yAxes: [{
+//                display: true,
+//                scaleLabel: {
+//                    display: true,
+//                    labelString: 'Number of Visitors'
+//                }
+//            }]
+//        }
+//    }
+//});
 
 var myChart2 = new Chart(saleschart, {
     type: 'bar',

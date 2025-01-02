@@ -76,7 +76,12 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
             var user = _dataContext.Users.FirstOrDefault(u => u.Id == room.HostPlayerId);
             if (user != null)
             {
-                string hostName = user.Name; // Hoặc user.UserName
+                string hostName; // Hoặc user.UserName
+                if (string.IsNullOrEmpty(user.Name))
+                {
+                    hostName = user.UserName;
+                }else
+                    hostName = user.Name;
                 ViewBag.HostName = hostName;
             }
 
@@ -90,6 +95,7 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
 
             var questions = await _dataContext.Questions.Include(p=>p.Topic).Where(p => p.RoomId == id).ToListAsync();
             ViewBag.Questions = questions;
+            ViewBag.QuantityQuestions = questions.Count();
 
             var history = await _dataContext.Histories.Include(p=>p.Room).Include(p=>p.User).Where(p => p.RoomId == id).ToListAsync();
             ViewBag.Historys = history;
@@ -102,6 +108,7 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
                     UserId = g.Key,
                     UserName = g.FirstOrDefault().User.Name,
                     MaxScore = g.Max(h => h.Score), // Lấy điểm cao nhất
+                    MaxReward = g.Max(h => h.Reward),
                     BestDuration = g.Where(h => h.Score == g.Max(h2 => h2.Score)) // Lấy danh sách có điểm cao nhất
                                     .OrderBy(h => h.Duration) // Sắp xếp theo thời gian hoàn thành
                                     .FirstOrDefault().Duration // Lấy thời gian tốt nhất

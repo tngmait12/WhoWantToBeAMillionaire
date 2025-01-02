@@ -1372,3 +1372,4 @@ D:\MVC\ALTP\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire\obj\Debug\net8.0\ref
 D:\MVC\ALTP\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire\obj\Debug\net8.0\WhoWantToBeAMillionaire.pdb
 D:\MVC\ALTP\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire\obj\Debug\net8.0\WhoWantToBeAMillionaire.genruntimeconfig.cache
 D:\MVC\ALTP\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire\obj\Debug\net8.0\ref\WhoWantToBeAMillionaire.dll
+D:\MVC\ALTP\WhoWantToBeAMillionaire\WhoWantToBeAMillionaire\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll

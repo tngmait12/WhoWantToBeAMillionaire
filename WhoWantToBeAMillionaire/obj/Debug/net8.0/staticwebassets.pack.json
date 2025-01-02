@@ -81,6 +81,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\WWTBAM_logo.png"
     },
     {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\accessdenied.png",
+      "PackagePath": "staticwebassets\\assets\\img\\accessdenied.png"
+    },
+    {
       "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\img\\bootstraper-logo.png",
       "PackagePath": "staticwebassets\\assets\\img\\bootstraper-logo.png"
     },
@@ -2019,6 +2023,842 @@
     {
       "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\browser\\signalr.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\browser\\signalr.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\browser\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\browser\\signalr.min.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\abortcontroller.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\abortcontroller.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\abortcontroller.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\abortcontroller.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\accesstokenhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\accesstokenhttpclient.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\accesstokenhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\accesstokenhttpclient.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\browser-index.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\browser-index.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\browser-index.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\browser-index.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\defaulthttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\defaulthttpclient.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\defaulthttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\defaulthttpclient.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\defaultreconnectpolicy.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\defaultreconnectpolicy.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\defaultreconnectpolicy.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\defaultreconnectpolicy.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\errors.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\errors.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\errors.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\errors.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\fetchhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\fetchhttpclient.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\fetchhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\fetchhttpclient.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\handshakeprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\handshakeprotocol.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\handshakeprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\handshakeprotocol.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\headernames.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\headernames.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\headernames.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\headernames.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\httpclient.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\httpclient.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\httpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\httpclient.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\httpconnection.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\httpconnection.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\httpconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\httpconnection.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\hubconnection.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\hubconnection.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\hubconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\hubconnection.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\hubconnectionbuilder.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\hubconnectionbuilder.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\hubconnectionbuilder.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\hubconnectionbuilder.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\iconnection.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\iconnection.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\iconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\iconnection.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\ihttpconnectionoptions.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\ihttpconnectionoptions.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\ihttpconnectionoptions.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\ihttpconnectionoptions.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\ihubprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\ihubprotocol.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\ihubprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\ihubprotocol.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\ilogger.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\ilogger.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\ilogger.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\ilogger.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\index.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\index.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\index.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\index.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\iretrypolicy.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\iretrypolicy.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\iretrypolicy.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\iretrypolicy.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\istatefulreconnectoptions.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\istatefulreconnectoptions.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\istatefulreconnectoptions.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\istatefulreconnectoptions.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\itransport.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\itransport.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\itransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\itransport.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\jsonhubprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\jsonhubprotocol.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\jsonhubprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\jsonhubprotocol.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\loggers.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\loggers.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\loggers.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\loggers.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\longpollingtransport.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\longpollingtransport.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\longpollingtransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\longpollingtransport.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\messagebuffer.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\messagebuffer.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\messagebuffer.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\messagebuffer.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\polyfills.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\polyfills.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\polyfills.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\polyfills.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\serversenteventstransport.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\serversenteventstransport.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\serversenteventstransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\serversenteventstransport.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\stream.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\stream.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\stream.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\stream.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\subject.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\subject.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\subject.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\subject.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\textmessageformat.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\textmessageformat.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\textmessageformat.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\textmessageformat.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\utils.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\utils.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\utils.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\utils.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\websockettransport.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\websockettransport.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\websockettransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\websockettransport.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\xhrhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\xhrhttpclient.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\cjs\\xhrhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\cjs\\xhrhttpclient.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\abortcontroller.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\abortcontroller.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\abortcontroller.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\abortcontroller.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\abortcontroller.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\abortcontroller.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\accesstokenhttpclient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\accesstokenhttpclient.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\accesstokenhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\accesstokenhttpclient.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\accesstokenhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\accesstokenhttpclient.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\browser-index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\browser-index.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\browser-index.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\browser-index.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\browser-index.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\browser-index.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\defaulthttpclient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\defaulthttpclient.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\defaulthttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\defaulthttpclient.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\defaulthttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\defaulthttpclient.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\defaultreconnectpolicy.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\defaultreconnectpolicy.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\defaultreconnectpolicy.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\defaultreconnectpolicy.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\defaultreconnectpolicy.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\defaultreconnectpolicy.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\errors.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\errors.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\errors.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\errors.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\errors.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\errors.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\fetchhttpclient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\fetchhttpclient.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\fetchhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\fetchhttpclient.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\fetchhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\fetchhttpclient.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\handshakeprotocol.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\handshakeprotocol.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\handshakeprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\handshakeprotocol.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\handshakeprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\handshakeprotocol.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\headernames.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\headernames.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\headernames.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\headernames.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\headernames.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\headernames.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\httpclient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\httpclient.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\httpclient.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\httpclient.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\httpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\httpclient.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\httpconnection.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\httpconnection.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\httpconnection.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\httpconnection.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\httpconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\httpconnection.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\hubconnection.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\hubconnection.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\hubconnection.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\hubconnection.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\hubconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\hubconnection.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\hubconnectionbuilder.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\hubconnectionbuilder.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\hubconnectionbuilder.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\hubconnectionbuilder.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\hubconnectionbuilder.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\hubconnectionbuilder.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\iconnection.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\iconnection.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\iconnection.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\iconnection.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\iconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\iconnection.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\ihttpconnectionoptions.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\ihttpconnectionoptions.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\ihttpconnectionoptions.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\ihttpconnectionoptions.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\ihttpconnectionoptions.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\ihttpconnectionoptions.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\ihubprotocol.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\ihubprotocol.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\ihubprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\ihubprotocol.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\ihubprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\ihubprotocol.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\ilogger.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\ilogger.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\ilogger.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\ilogger.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\ilogger.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\ilogger.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\index.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\index.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\index.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\index.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\index.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\iretrypolicy.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\iretrypolicy.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\iretrypolicy.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\iretrypolicy.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\iretrypolicy.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\iretrypolicy.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\istatefulreconnectoptions.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\istatefulreconnectoptions.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\istatefulreconnectoptions.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\istatefulreconnectoptions.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\istatefulreconnectoptions.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\istatefulreconnectoptions.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\itransport.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\itransport.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\itransport.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\itransport.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\itransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\itransport.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\jsonhubprotocol.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\jsonhubprotocol.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\jsonhubprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\jsonhubprotocol.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\jsonhubprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\jsonhubprotocol.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\loggers.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\loggers.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\loggers.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\loggers.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\loggers.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\loggers.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\longpollingtransport.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\longpollingtransport.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\longpollingtransport.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\longpollingtransport.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\longpollingtransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\longpollingtransport.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\messagebuffer.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\messagebuffer.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\messagebuffer.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\messagebuffer.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\messagebuffer.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\messagebuffer.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\polyfills.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\polyfills.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\polyfills.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\polyfills.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\polyfills.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\polyfills.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\serversenteventstransport.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\serversenteventstransport.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\serversenteventstransport.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\serversenteventstransport.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\serversenteventstransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\serversenteventstransport.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\stream.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\stream.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\stream.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\stream.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\stream.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\stream.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\subject.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\subject.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\subject.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\subject.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\subject.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\subject.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\textmessageformat.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\textmessageformat.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\textmessageformat.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\textmessageformat.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\textmessageformat.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\textmessageformat.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\utils.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\utils.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\utils.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\utils.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\utils.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\utils.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\websockettransport.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\websockettransport.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\websockettransport.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\websockettransport.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\websockettransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\websockettransport.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\xhrhttpclient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\xhrhttpclient.d.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\xhrhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\xhrhttpclient.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\esm\\xhrhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\esm\\xhrhttpclient.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\webworker\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\webworker\\signalr.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\webworker\\signalr.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\webworker\\signalr.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\webworker\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\webworker\\signalr.min.js"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\dist\\webworker\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\webworker\\signalr.min.js.map"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\package.json",
+      "PackagePath": "staticwebassets\\lib\\signalr\\package.json"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\readme.md",
+      "PackagePath": "staticwebassets\\lib\\signalr\\readme.md"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\abortcontroller.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\abortcontroller.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\accesstokenhttpclient.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\accesstokenhttpclient.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\browser-index.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\browser-index.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\defaulthttpclient.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\defaulthttpclient.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\defaultreconnectpolicy.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\defaultreconnectpolicy.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\errors.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\errors.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\fetchhttpclient.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\fetchhttpclient.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\handshakeprotocol.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\handshakeprotocol.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\headernames.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\headernames.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\httpclient.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\httpclient.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\httpconnection.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\httpconnection.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\hubconnection.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\hubconnection.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\hubconnectionbuilder.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\hubconnectionbuilder.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\iconnection.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\iconnection.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\ihttpconnectionoptions.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\ihttpconnectionoptions.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\ihubprotocol.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\ihubprotocol.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\ilogger.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\ilogger.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\index.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\index.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\iretrypolicy.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\iretrypolicy.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\istatefulreconnectoptions.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\istatefulreconnectoptions.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\itransport.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\itransport.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\jsonhubprotocol.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\jsonhubprotocol.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\loggers.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\loggers.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\longpollingtransport.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\longpollingtransport.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\messagebuffer.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\messagebuffer.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\polyfills.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\polyfills.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\serversenteventstransport.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\serversenteventstransport.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\stream.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\stream.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\subject.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\subject.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\textmessageformat.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\textmessageformat.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\third-party-notices.txt",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\third-party-notices.txt"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\utils.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\utils.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\websockettransport.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\websockettransport.ts"
+    },
+    {
+      "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\lib\\signalr\\src\\xhrhttpclient.ts",
+      "PackagePath": "staticwebassets\\lib\\signalr\\src\\xhrhttpclient.ts"
     },
     {
       "Id": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\sound\\background.mp3",

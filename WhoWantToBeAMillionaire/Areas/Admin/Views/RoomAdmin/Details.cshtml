@@ -1,42 +1,107 @@
 ﻿@model RoomModel
 
-<h2>Chi Tiết Phòng</h2>
 
-<div>
-    <h4>Tên phòng: @Model.Name</h4>
-    <h4>Chủ phòng: @ViewBag.HostName</h4>
-    <p><strong>Mã Phòng:</strong> @Model.RoomCode</p>
-    <p><strong>Thời Gian Tạo:</strong> @Model.CreatedAt.ToString("g")</p>
+<div class="d-flex">
+    @* <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-circle-left"></i></a> *@
+    <a asp-action ="Index" class="btn btn-sm btn-outline-info float-left mr-1"><i class="fas fa-angle-left"></i> <span class="btn-header">Return</span></a>
+
+    <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" asp-route-Id="@Model.Id" class="btn btn-sm btn-outline-info confirmDeletion ml-auto"><i class="fas fa-trash"></i> <span class="btn-header">Delete Room</span></a>
+    @* <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-danger confirmDeletion" asp-controller="RoomAdmin" style="margin-left: auto;" asp-route-Id="@Model.Id"><i class="fas fa-trash"></i></a> *@
 </div>
 
-<a asp-action="Index" class="btn btn-secondary">Quay Lại</a>
-@if (ViewBag.IsHost || ViewBag.IsAdmin)
-{
-    @if (Model.IsActive)
-    {
-        <span class="badge bg-success">Công khai</span>
-    }
-    else
-    {
-        <span class="badge bg-secondary">Riêng tư</span>
-    }
-    <form asp-action="ToggleRoomStatus" method="post">
-        <input type="hidden" name="id" value="@Model.Id" />
-        <button type="submit" class="btn btn-sm @(!Model.IsActive ? "btn-success" : "btn-secondary")">
-            @(!Model.IsActive ? "Convert to Public" : "Convert to Private")
-        </button>
-    </form>
-    <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-danger btn-sm confirmDeletion" asp-controller="RoomAdmin" asp-route-Id="@Model.Id">Xóa phòng</a>
-}
 <div class="container">
-    <div class="row">
-        @if (ViewBag.IsHost || ViewBag.IsAdmin)
-        {
+    <div class="content">
+        <div class="page-title">
+            <h3>Chi Tiết Phòng</h3>
+        </div>
+        <div class="col-lg-8">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="mb-0">Room Name</p>
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="text-muted mb-0">@Model.Name</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="mb-0">Host Name</p>
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="text-muted mb-0">@ViewBag.HostName</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="mb-0">RoomCode</p>
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="text-muted mb-0">@Model.RoomCode</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="mb-0">Status Room</p>
+                        </div>
+                        @if (Model.IsActive)
+                        {
+                            <div class="col-sm-5">
+                                <span class="badge bg-success">Online</span>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="col-sm-5">
+                                <span class="badge bg-secondary">Off</span>
+                            </div>
+                        }
+                        <div class="col-sm-4">
+                            <form asp-action="ToggleRoomStatus" method="post">
+                                <input type="hidden" name="id" value="@Model.Id" />
+                                <button type="submit" class="btn btn-sm @(!Model.IsActive ? "btn-success" : "btn-secondary")">
+                                    @* @(!Model.IsActive ? "Convert to Public" : "Convert to Private") *@
+                                    @if (!Model.IsActive)
+                                    {
+                                        <i class="fas fa-toggle-off"></i>
+                                        <span class="btn-header">Off</span>
+                                    }
+                                    else
+                                    {
+                                        <i class="fas fa-toggle-on"></i> 
+                                        <span class="btn-header">On</span>
+                                    }
+
+                                </button>
+                            </form>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="mb-0">Questions</p>
+                        </div>
+                        <div class="col-sm-5">
+                            <p class="text-muted mb-0">@ViewBag.QuantityQuestions/15</p>
+                        </div>
+                        <div class="col-sm-4">
+                            @* <a asp-action="Create" asp-controller="QuestionAdmin" asp-route-roomId="@Model.Id" class="btn btn-success">Create Question</a> *@
+                            <a asp-action="Index" asp-controller="QuestionAdmin" asp-route-roomId="@Model.Id" class="btn btn-sm btn-outline-info"><i class="fas fa-archive"></i> <span class="btn-header">Manage Your Question</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header">
-                        Questions
-                        <a asp-action="Create" asp-controller="QuestionAdmin" asp-route-roomId="@Model.Id" class="btn btn-success">Create Question</a>
+                        History
                     </div>
                     <div class="card-body">
                         <p class="card-title"></p>
@@ -44,46 +109,29 @@
                             <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>Content</th>
-                                    <th>CorrectAnswer</th>
-                                    <th>Wrong_1</th>
-                                    <th>Wrong_2</th>
-                                    <th>Wrong_3</th>
-                                    <th>Difficulty</th>
-                                    <th>Topic</th>
+                                    <th>User</th>
+                                    <th>Room Code</th>
+                                    <th>Played At</th>
+                                    <th>Score</th>
+                                    <th>Reaward</th>
+                                    <th>Duration</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach (var item in ViewBag.Questions)
+                                @foreach (var item in ViewBag.Historys)
                                 {
                                     <tr>
                                         <td>@item.Id</td>
-                                        <td>@item.Content</td>
-                                        <td>@item.CorrectAnswer</td>
-                                        <td>@item.Wrong_1</td>
-                                        <td>@item.Wrong_2</td>
-                                        <td>@item.Wrong_3</td>
+                                        <td>@item.User.Name</td>
+                                        <td>@item.Room.RoomCode</td>
+                                        <td>@item.PlayedAt</td>
+                                        <td>@item.Score</td>
+                                        <td>@item.Reward</td>
+                                        <td>@item.Duration</td>
                                         <td>
-                                            @if (item.Difficulty == 1)
-                                            {
-                                                <span class="text text-success">Easy</span>
-                                            }
-                                            else if (item.Difficulty == 2)
-                                            {
-                                                <span class="text text-warning">Medium</span>
-                                            }
-                                            else
-                                            {
-                                                <span class="text text-danger">Difficulty</span>
-                                            }
-                                        </td>
-                                        <td>
-                                            @item.Topic.Name
-                                        </td>
-                                        <td>
-                                            <a asp-action="Edit" class="btn btn-outline-info btn-rounded" asp-controller="QuestionAdmin" asp-route-roomId="@Model.Id" asp-route-Id="@item.Id"><i class="fas fa-pen"></i></a>
-                                            <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-outline-danger btn-rounded confirmDeletion" asp-controller="QuestionAdmin" asp-route-roomId="@Model.Id" asp-route-Id="@item.Id"><i class="fas fa-trash"></i></a>
+                                            @* <a asp-action="Edit" class="btn btn-warning btn-sm" asp-controller="QuestionAdmin" asp-route-Id="@item.Id">Edit</a>
+                                        <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-danger btn-sm confirmDeletion" asp-controller="QuestionAdmin" asp-route-Id="@item.Id">Delete</a> *@
                                         </td>
                                     </tr>
                                 }
@@ -93,86 +141,47 @@
                     </div>
                 </div>
             </div>
-        }
-        
-        <div class="col-md-12 col-lg-12">
-            <div class="card">
-                <div class="card-header">
-                    History
-                </div>
-                <div class="card-body">
-                    <p class="card-title"></p>
-                    <table class="table table-hover" id="dataTables-example" width="100%">
-                        <thead>
-                            <tr>
-                                <th>ID</th>
-                                <th>User</th>
-                                <th>Room Code</th>
-                                <th>Played At</th>
-                                <th>Score</th>
-                                <th>Duration</th>
-                                <th>Action</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @foreach (var item in ViewBag.Historys)
-                            {
+            <div class="col-md-12 col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        Leader board
+                    </div>
+                    <div class="card-body">
+                        <p class="card-title"></p>
+                        <table class="table table-hover" id="dataTables-example" width="100%">
+                            <thead>
                                 <tr>
-                                    <td>@item.Id</td>
-                                    <td>@item.User.Name</td>
-                                    <td>@item.Room.RoomCode</td>
-                                    <td>@item.PlayedAt</td>
-                                    <td>@item.Score</td>
-                                    <td>@item.Duration</td>
-                                    <td>
-                                        @* <a asp-action="Edit" class="btn btn-warning btn-sm" asp-controller="QuestionAdmin" asp-route-Id="@item.Id">Edit</a>
-                                        <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-danger btn-sm confirmDeletion" asp-controller="QuestionAdmin" asp-route-Id="@item.Id">Delete</a> *@
-                                    </td>
+                                    <th>Rank</th>
+                                    <th>Player Name</th>
+                                    <th>High Score</th>
+                                    <th>High Reward</th>
+                                    <th>Best Duration</th>
                                 </tr>
-                            }
-
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12 col-lg-12">
-            <div class="card">
-                <div class="card-header">
-                    Leader board
-                </div>
-                <div class="card-body">
-                    <p class="card-title"></p>
-                    <table class="table table-hover" id="dataTables-example" width="100%">
-                        <thead>
-                            <tr>
-                                <th>Rank</th>
-                                <th>Player Name</th>
-                                <th>High Score</th>
-                                <th>Best Duration</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @if (ViewBag.Leaderboard != null)
-                            {
-                                int rank = 1;
-                                foreach (var player in ViewBag.Leaderboard)
+                            </thead>
+                            <tbody>
+                                @if (ViewBag.Leaderboard != null)
                                 {
-                                    <tr>
-                                        <td>@rank</td>
-                                        <td>@player.UserName</td>
-                                        <td>@player.MaxScore</td>
-                                        <td>@player.BestDuration.ToString("hh\\:mm\\:ss")</td>
-                                    </tr>
-                                    rank++;
+                                    int rank = 1;
+                                    foreach (var player in ViewBag.Leaderboard)
+                                    {
+                                        <tr>
+                                            <td>@rank</td>
+                                            <td>@player.UserName</td>
+                                            <td>@player.MaxScore</td>
+                                            <td>@player.MaxReward</td>
+                                            <td>@player.BestDuration.ToString("hh\\:mm\\:ss")</td>
+                                        </tr>
+                                        rank++;
+                                    }
                                 }
-                            }
-                            
 
-                        </tbody>
-                    </table>
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
 </div>

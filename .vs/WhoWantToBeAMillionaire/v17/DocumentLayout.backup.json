@@ -3,76 +3,80 @@
   "WorkspaceRootPath": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\views\\useradmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\views\\useradmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\migrations\\20250102093315_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\migrations\\20250102093315_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\views\\accountadmin\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\views\\accountadmin\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\views\\accountadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\views\\accountadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\models\\questionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\models\\questionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\views\\useradmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\views\\useradmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\models\\statisticalmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\models\\statisticalmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\controllers\\useradmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\controllers\\useradmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\hubs\\onlinecounthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\hubs\\onlinecounthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\controllers\\roomadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\controllers\\roomadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\controllers\\topicadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\controllers\\topicadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\views\\useradmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\views\\useradmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\views\\roomadmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\views\\roomadmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\views\\questionadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\views\\questionadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\views\\topicadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\views\\topicadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\views\\roomadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\views\\roomadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\views\\game\\endgame.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\views\\game\\endgame.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\views\\game\\startgame.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\views\\game\\startgame.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\wwwroot\\assets\\js\\dashboard-charts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\wwwroot\\assets\\js\\dashboard-charts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\data\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\data\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\data\\userroleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\data\\userroleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\migrations\\20250102033333_statistical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\migrations\\20250102033333_statistical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\wwwroot\\css\\endgame.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\wwwroot\\css\\endgame.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\migrations\\20250101105351_token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|solutionrelative:whowanttobeamillionaire\\migrations\\20250101105351_token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3692FF98-3C33-49AE-84A2-91117FFBD32A}|WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire.csproj|d:\\mvc\\altp\\whowanttobeamillionaire\\whowanttobeamillionaire\\migrations\\20241219123539_updatereward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,237 +90,236 @@
       "DocumentGroups": [
         {
           "DockedHeight": 189,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Controllers\\GameController.cs",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Controllers\\GameController.cs",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\Controllers\\GameController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAiwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:26:37.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OnlineCountHub.cs",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Hubs\\OnlineCountHub.cs",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Hubs\\OnlineCountHub.cs",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Hubs\\OnlineCountHub.cs",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\Hubs\\OnlineCountHub.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:11:11.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\UserAdmin\\Edit.cshtml",
               "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\UserAdmin\\Edit.cshtml",
               "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\UserAdmin\\Edit.cshtml",
               "RelativeToolTip": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\UserAdmin\\Edit.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-24T07:10:01.462Z",
+              "WhenOpened": "2025-01-02T08:44:32.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "QuestionModel.cs",
-              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Models\\QuestionModel.cs",
-              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Models\\QuestionModel.cs",
-              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Models\\QuestionModel.cs",
-              "RelativeToolTip": "WhoWantToBeAMillionaire\\Models\\QuestionModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T10:57:40.724Z",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\RoomAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\RoomAdmin\\Index.cshtml",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\RoomAdmin\\Index.cshtml",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\RoomAdmin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T08:28:43.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Profile.cshtml",
-              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\AccountAdmin\\Profile.cshtml",
-              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\AccountAdmin\\Profile.cshtml",
-              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\AccountAdmin\\Profile.cshtml",
-              "RelativeToolTip": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\AccountAdmin\\Profile.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\TopicAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\TopicAdmin\\Index.cshtml",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\TopicAdmin\\Index.cshtml",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\TopicAdmin\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T10:42:40.455Z",
+              "WhenOpened": "2025-01-02T08:27:19.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EndGame.cshtml",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Views\\Game\\EndGame.cshtml",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Views\\Game\\EndGame.cshtml",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Views\\Game\\EndGame.cshtml",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\Views\\Game\\EndGame.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T08:22:00.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\AccountAdmin\\Index.cshtml",
-              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\AccountAdmin\\Index.cshtml",
-              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\AccountAdmin\\Index.cshtml",
-              "RelativeToolTip": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\AccountAdmin\\Index.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAFgAAAAdAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAH0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T10:42:37.73Z",
+              "WhenOpened": "2025-01-01T15:53:35.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\UserAdmin\\Index.cshtml",
-              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\UserAdmin\\Index.cshtml",
-              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\UserAdmin\\Index.cshtml",
-              "RelativeToolTip": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\UserAdmin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T10:41:45.496Z"
+              "DocumentIndex": 1,
+              "Title": "StatisticalModel.cs",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Models\\StatisticalModel.cs",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Models\\StatisticalModel.cs",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Models\\StatisticalModel.cs",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\Models\\StatisticalModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T06:11:31.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Program.cs",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Program.cs",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Program.cs",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:13:34.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-02T09:14:26.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:15:47.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAmwFYAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T09:57:23.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T09:54:23.062Z"
+              "WhenOpened": "2025-01-02T06:35:58.644Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "TopicAdminController.cs",
-              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Controllers\\TopicAdminController.cs",
-              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Areas\\Admin\\Controllers\\TopicAdminController.cs",
-              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Controllers\\TopicAdminController.cs",
-              "RelativeToolTip": "WhoWantToBeAMillionaire\\Areas\\Admin\\Controllers\\TopicAdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T09:50:44.785Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\QuestionAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\QuestionAdmin\\Index.cshtml",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\QuestionAdmin\\Index.cshtml",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\QuestionAdmin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T08:29:27.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserAdminController.cs",
-              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Controllers\\UserAdminController.cs",
-              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Areas\\Admin\\Controllers\\UserAdminController.cs",
-              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Controllers\\UserAdminController.cs",
-              "RelativeToolTip": "WhoWantToBeAMillionaire\\Areas\\Admin\\Controllers\\UserAdminController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T09:50:30.898Z"
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\RoomAdmin\\Details.cshtml",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\RoomAdmin\\Details.cshtml",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\RoomAdmin\\Details.cshtml",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\RoomAdmin\\Details.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAF0AAACqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T08:32:40.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
+              "Title": "dashboard-charts.js",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\dashboard-charts.js",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\dashboard-charts.js",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\dashboard-charts.js",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\wwwroot\\assets\\js\\dashboard-charts.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-02T06:05:01.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Areas\\Admin\\Controllers\\AdminController.cs",
               "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Controllers\\AdminController.cs",
               "RelativeToolTip": "WhoWantToBeAMillionaire\\Areas\\Admin\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T09:49:30.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GameController.cs",
-              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Controllers\\GameController.cs",
-              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Controllers\\GameController.cs",
-              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Controllers\\GameController.cs",
-              "RelativeToolTip": "WhoWantToBeAMillionaire\\Controllers\\GameController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T01:31:39.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Data\\DataContext.cs",
-              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Data\\DataContext.cs",
-              "RelativeToolTip": "WhoWantToBeAMillionaire\\Data\\DataContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T01:28:04.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SessionExtensions.cs",
-              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Data\\SessionExtensions.cs",
-              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Data\\SessionExtensions.cs",
-              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Data\\SessionExtensions.cs",
-              "RelativeToolTip": "WhoWantToBeAMillionaire\\Data\\SessionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T01:27:56.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RoomAdminController.cs",
-              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Controllers\\RoomAdminController.cs",
-              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Areas\\Admin\\Controllers\\RoomAdminController.cs",
-              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Controllers\\RoomAdminController.cs",
-              "RelativeToolTip": "WhoWantToBeAMillionaire\\Areas\\Admin\\Controllers\\RoomAdminController.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAowHoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T14:16:00.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\RoomAdmin\\Index.cshtml",
-              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\RoomAdmin\\Index.cshtml",
-              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\RoomAdmin\\Index.cshtml",
-              "RelativeToolTip": "WhoWantToBeAMillionaire\\Areas\\Admin\\Views\\RoomAdmin\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T01:53:11.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserRoleInitializer.cs",
-              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Data\\UserRoleInitializer.cs",
-              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Data\\UserRoleInitializer.cs",
-              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Data\\UserRoleInitializer.cs",
-              "RelativeToolTip": "WhoWantToBeAMillionaire\\Data\\UserRoleInitializer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T01:27:49.637Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "StartGame.cshtml",
-              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Views\\Game\\StartGame.cshtml",
-              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Views\\Game\\StartGame.cshtml",
-              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Views\\Game\\StartGame.cshtml",
-              "RelativeToolTip": "WhoWantToBeAMillionaire\\Views\\Game\\StartGame.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T01:21:57.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "endgame.css",
-              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\endgame.css",
-              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\wwwroot\\css\\endgame.css",
-              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\wwwroot\\css\\endgame.css",
-              "RelativeToolTip": "WhoWantToBeAMillionaire\\wwwroot\\css\\endgame.css",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-23T01:17:50.429Z"
+              "WhenOpened": "2025-01-02T05:57:35.898Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
           "DockedHeight": 103,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250102093315_Update.cs",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Migrations\\20250102093315_Update.cs",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Migrations\\20250102093315_Update.cs",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Migrations\\20250102093315_Update.cs",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\Migrations\\20250102093315_Update.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:33:16.09Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -327,8 +330,37 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250102033333_Statistical.cs",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Migrations\\20250102033333_Statistical.cs",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Migrations\\20250102033333_Statistical.cs",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Migrations\\20250102033333_Statistical.cs",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\Migrations\\20250102033333_Statistical.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T03:33:33.912Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "20250101105351_Token.cs",
+              "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Migrations\\20250101105351_Token.cs",
+              "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Migrations\\20250101105351_Token.cs",
+              "ToolTip": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Migrations\\20250101105351_Token.cs",
+              "RelativeToolTip": "WhoWantToBeAMillionaire\\Migrations\\20250101105351_Token.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T10:53:52.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "20241219123539_UpdateReward.cs",
               "DocumentMoniker": "D:\\MVC\\ALTP\\WhoWantToBeAMillionaire\\WhoWantToBeAMillionaire\\Migrations\\20241219123539_UpdateReward.cs",
               "RelativeDocumentMoniker": "WhoWantToBeAMillionaire\\Migrations\\20241219123539_UpdateReward.cs",
@@ -336,8 +368,7 @@
               "RelativeToolTip": "WhoWantToBeAMillionaire\\Migrations\\20241219123539_UpdateReward.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T12:35:39.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T12:35:39.522Z"
             }
           ]
         }

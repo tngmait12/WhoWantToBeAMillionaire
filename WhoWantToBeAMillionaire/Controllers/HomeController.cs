@@ -22,11 +22,28 @@ namespace WhoWantToBeAMillionaire.Controllers
         {
             return View();
         }
+        [Route("/AccessDenied")]
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
+        [Route("/404")]
+        public IActionResult PageNotfound()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public IActionResult Error(int statuscode)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            if (statuscode == 404)
+            {
+                return View("PageNotfound");
+            }
+            else
+            {
+                return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            }
         }
     }
 }

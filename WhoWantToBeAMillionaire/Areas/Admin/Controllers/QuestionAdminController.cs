@@ -17,9 +17,13 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
         {
             _dataContext = context;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? roomId)
         {
-            return View(await _dataContext.Questions.OrderByDescending(p => p.Id).Include(p=>p.Topic).ToListAsync());
+            if (roomId.HasValue)
+            {
+                ViewBag.RoomId = roomId.Value;
+            }
+            return View(await _dataContext.Questions.OrderByDescending(p => p.Id).Include(p=>p.Topic).Where(p=>p.RoomId==roomId).ToListAsync());
         }
         public IActionResult Create(int? roomId)
         {
@@ -45,7 +49,7 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
                 _dataContext.Add(question);
                 await _dataContext.SaveChangesAsync();
                 TempData["success"] = "Add Question Success!";
-                return RedirectToAction("Details", "RoomAdmin", new { id = roomId });
+                return RedirectToAction("Index", "QuestionAdmin", new { roomid = roomId });
             }
             else
             {
@@ -98,7 +102,7 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
                 _dataContext.Update(existed_question);
                 await _dataContext.SaveChangesAsync();
                 TempData["success"] = "Update Question Success!";
-                return RedirectToAction("Details", "RoomAdmin", new { id = roomId });
+                return RedirectToAction("Index", "QuestionAdmin", new { roomid = roomId });
                 
             }
             else
@@ -131,7 +135,7 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
             _dataContext.Questions.Remove(question);
             await _dataContext.SaveChangesAsync();
             TempData["success"] = "Delete Question Success";
-            return RedirectToAction("Details", "RoomAdmin", new { id = roomId });
+            return RedirectToAction("Index", "QuestionAdmin", new { roomid = roomId });
         }
     }
 }
