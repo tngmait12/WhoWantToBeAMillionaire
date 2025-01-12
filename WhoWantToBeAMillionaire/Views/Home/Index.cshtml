@@ -8,7 +8,10 @@
     <a class="play button" asp-action="StartGame" asp-controller="Game">Play</a>
     @if (User.Identity?.IsAuthenticated ?? false)
     {
-        <a class="play button" asp-area="admin" asp-action="Logout" asp-controller="AccountAdmin"><span>Hi, @User.Identity.Name! Logout</span></a>
+        <a class="play button" asp-area="admin" asp-action="Logout" style="padding:5%;" asp-controller="AccountAdmin">
+            <span style="overflow: hidden;
+    text-overflow: ellipsis;">Hi, @User.Identity.Name</span><span>!Logout</span>
+        </a>
         <a class="play button" asp-area="admin" asp-action="Index" asp-controller="RoomAdmin">Your Room</a>
     }
     else

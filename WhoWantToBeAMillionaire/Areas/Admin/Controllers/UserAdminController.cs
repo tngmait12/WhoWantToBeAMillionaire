@@ -148,6 +148,16 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
             {
                 return NotFound();
             }
+
+            var roomUser = await _dataContext.Rooms.Where(p=>p.HostPlayerId == id).ToListAsync();
+            foreach(var room in roomUser)
+            {
+                var questionRoom = await  _dataContext.Questions.Where(p => p.RoomId == room.Id).ToListAsync();
+                _dataContext.Questions.RemoveRange(questionRoom);
+            }
+            
+            _dataContext.Rooms.RemoveRange(roomUser);
+
             var deleteResult = await _userManager.DeleteAsync(user);
             if (!deleteResult.Succeeded)
             {

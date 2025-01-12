@@ -1,5 +1,7 @@
 ﻿@model IEnumerable<QuestionModel>
-
+@{
+    int stt = 1;
+}
 
 @* <a asp-action="Details" asp-controller="RoomAdmin" asp-route-Id="@ViewBag.RoomId" class="btn btn-secondary"><i class="fas fa-arrow-circle-left"></i></a> *@
 <a asp-action="Details" asp-controller="RoomAdmin" asp-route-Id="@ViewBag.RoomId" class="btn btn-sm btn-outline-info float-left mr-1"><i class="fas fa-angle-left"></i> <span class="btn-header">Return</span></a>
@@ -17,7 +19,7 @@
                     <table class="table table-hover" id="dataTables-example" width="100%">
                         <thead>
                             <tr>
-                                <th>ID</th>
+                                <th>STT</th>
                                 <th>Content</th>
                                 <th>CorrectAnswer</th>
                                 <th>Wrong_1</th>
@@ -31,8 +33,9 @@
                         <tbody>
                             @foreach (var item in Model)
                             {
+                                
                                 <tr>
-                                    <td>@item.Id</td>
+                                    <td>@stt</td>
                                     <td>@item.Content</td>
                                     <td>@item.CorrectAnswer</td>
                                     <td>@item.Wrong_1</td>
@@ -60,6 +63,7 @@
                                         <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-outline-danger btn-rounded confirmDeletion" asp-controller="QuestionAdmin" asp-route-roomId="@ViewBag.RoomId" asp-route-Id="@item.Id"><i class="fas fa-trash"></i></a>
                                     </td>
                                 </tr>
+                                stt++;
                             }
 
                         </tbody>

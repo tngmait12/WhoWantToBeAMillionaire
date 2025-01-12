@@ -1,5 +1,7 @@
 ﻿@model RoomModel
-
+@{
+    int stt = 1;
+}
 
 <div class="d-flex">
     @* <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-circle-left"></i></a> *@
@@ -108,7 +110,7 @@
                         <table class="table table-hover" id="dataTables-example" width="100%">
                             <thead>
                                 <tr>
-                                    <th>ID</th>
+                                    <th>STT</th>
                                     <th>User</th>
                                     <th>Room Code</th>
                                     <th>Played At</th>
@@ -122,7 +124,7 @@
                                 @foreach (var item in ViewBag.Historys)
                                 {
                                     <tr>
-                                        <td>@item.Id</td>
+                                        <td>@stt</td>
                                         <td>@item.User.Name</td>
                                         <td>@item.Room.RoomCode</td>
                                         <td>@item.PlayedAt</td>
@@ -134,6 +136,7 @@
                                         <a onclick="return confirm('Are u sure to delete?')" asp-action="Delete" class="btn btn-danger btn-sm confirmDeletion" asp-controller="QuestionAdmin" asp-route-Id="@item.Id">Delete</a> *@
                                         </td>
                                     </tr>
+                                    stt++;
                                 }
 
                             </tbody>

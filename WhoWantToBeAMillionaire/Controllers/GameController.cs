@@ -207,7 +207,7 @@ namespace WhoWantToBeAMillionaire.Controllers
             }
             else
             {
-                if (currentIndex > 5)
+                if (currentIndex >= 5)
                 {
                     if (currentIndex > 10)
                         // Nếu trên mức 10, tính thưởng dựa trên câu cuối cùng trả lời đúng

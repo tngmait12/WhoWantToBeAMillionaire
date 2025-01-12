@@ -46,6 +46,7 @@ namespace WhoWantToBeAMillionaire.Areas.Admin.Controllers
                     question.RoomId = roomId.Value;
                 }
 
+
                 _dataContext.Add(question);
                 await _dataContext.SaveChangesAsync();
                 TempData["success"] = "Add Question Success!";
